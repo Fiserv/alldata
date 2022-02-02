@@ -3,32 +3,32 @@
 This chapter lists each User Management API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## createUser
-![createUser](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/01.png)
+![createUser](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/01.png)
 
 [createUser API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/createUser)
 
 ## deleteUser
-![deleteUser](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/02.png)
+![deleteUser](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/02.png)
 
 [deleteUser API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/deleteUser)
 
 ## getUserProfile
-![getUserProfile](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/03.png)
+![getUserProfile](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/03.png)
 
 [getUserProfile API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/getUserProfile)
 
 ## updateUserProfile
-![updateUserProfile](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/04.png)
+![updateUserProfile](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/04.png)
 
 [updateUserProfile API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/updateUserProfile)
 
 ## updateUserPassword
-![updateUserPassword](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/05.png)
+![updateUserPassword](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/05.png)
 
 [updateUserPassword API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/updateUserPassword)
 
 ## signon
-![signon](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/06.png)
+![signon](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/06.png)
 
 [signon API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/signon)
 
@@ -37,12 +37,12 @@ This chapter lists each User Management API in a table with a resource URL, desc
 This chapter lists each External FI Seed Data API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## getFinancialInstInfo
-![getFinancialInstInfo](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/07.png)
+![getFinancialInstInfo](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/07.png)
 
 [getFinancialInstInfo API docs](../api/?type=post&path=/WealthManagementWeb/ws/SeedDataInq/getFinancialInstInfo)
 
 ## searchFinancialInst
-![searchFinancialInst](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/08.png)
+![searchFinancialInst](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/08.png)
 
 [searchFinancialInst API docs](../api/?type=post&path=/WealthManagementWeb/ws/SeedDataInq/searchFinancialInst)
 
@@ -51,7 +51,7 @@ This chapter lists each External FI Seed Data API in a table with a resource URL
 This chapter presents the External FI Messages API in a table with a resource URL, descriptive information, and a link to its API Explorer documentation.
 
 ## getFIMessageInfo
-![getFIMessageInfo](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/09.png)
+![getFIMessageInfo](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/09.png)
 
 [getFIMessageInfo API docs](../api/?type=post&path=/WealthManagementWeb/ws/FIMessaegesInq/getFIMessageInfo)
 
@@ -60,57 +60,57 @@ This chapter presents the External FI Messages API in a table with a resource UR
 This chapter lists each Account Management API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## initiateAddAccounts
-![initiateAddAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/10.png)
+![initiateAddAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/10.png)
 
 [initiateAddAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/initiateAddAccounts)
 
 ## getAddAccountStatus
-![getAddAccountStatus](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/11.png)
+![getAddAccountStatus](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/11.png)
 
 [getAddAccountStatus API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getAddAccountStatus)
 
 ## getNewAccounts
-![getNewAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/12.png)
+![getNewAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/12.png)
 
 [getNewAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getNewAccounts)
 
 ## createAccounts
-![createAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/13.png)
+![createAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/13.png)
 
 [createAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/createAccounts)
 
 ## deleteAccounts
-![deleteAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/14.png)
+![deleteAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/14.png)
 
 [deleteAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/deleteAccounts)
 
 ## updateAccountCredentials
-![updateAccountCredentials](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/15.png)
+![updateAccountCredentials](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/15.png)
 
 [updateAccountCredentials API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/updateAccountCredentials)
 
 ## maintainAccount
-![maintainAccount](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/16.png)
+![maintainAccount](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/16.png)
 
 [maintainAccount API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/maintainAccount)
 
 ## addOfflineAccount
-![addOfflineAccount](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/17.png)
+![addOfflineAccount](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/17.png)
 
 [addOfflineAccount API docs](../api/?type=post&path=/WealthManagementWeb/ws/ClientMgmt/addOfflineAccount)
 
 ## updateOfflineAccount
-![updateOfflineAccount](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/18.png)
+![updateOfflineAccount](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/18.png)
 
 [updateOfflineAccount API docs](../api/?type=post&path=/WealthManagementWeb/ws/ClientMgmt/updateOfflineAccount)
 
 ## addUpdateHostAccounts
-![addUpdateHostAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/19.png)
+![addUpdateHostAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/19.png)
 
 [addUpdateHostAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/addUpdateHostAccounts)
 
 ## HostAccountsStatus
-![hostAccountsStatus](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/20.png)
+![hostAccountsStatus](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/20.png)
 
 [hostAccountsStatus API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/hostAccountsStatus)
 
@@ -119,18 +119,18 @@ This chapter lists each Account Management API in a table with a resource URL, d
 This chapter lists each Account Harvesting API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## updateAccounts
-![updateAccounts](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/21.png)
+![updateAccounts](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/21.png)
 
 [updateAccounts API docs](../api/?type=post&path=/WealthManagementWeb/ws/HarvestAccountData/updateAccounts)
 
 ## getHarvestStatus
-![getHarvestStatus](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/22.png)
+![getHarvestStatus](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/22.png)
 
 [getHarvestStatus API docs](../api/?type=post&path=/WealthManagementWeb/ws/HarvestAccountData/getHarvestStatus)
 
 
 ## getAccountUpdateSummary
-![getAccountUpdateSummary](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/23.png)
+![getAccountUpdateSummary](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/23.png)
 
 [getAccountUpdateSummary API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getAccountUpdateSummary)
 
@@ -139,52 +139,52 @@ This chapter lists each Account Harvesting API in a table with a resource URL, d
 This chapter lists each Account Data Pull API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## getAccountsSummary
-![getAccountsSummary](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/24.PNG)
+![getAccountsSummary](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/24.PNG)
 
 [getAccountsSummary API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getAccountsSummary)
 
 ## getAccountDetails
-![getAccountDetails](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/25.PNG)
+![getAccountDetails](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/25.PNG)
 
 [getAccountDetails API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getAccountDetails)
 
 ## getInvestmentTrans
-![getInvestmentTrans](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/26.PNG)
+![getInvestmentTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/26.PNG)
 
 [getInvestmentTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getInvestmentTrans)
 
 ## getCreditCardTrans
-![getCreditCardTrans](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/27.PNG)
+![getCreditCardTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/27.PNG)
 
 [getCreditCardTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getCreditCardTrans)
 
 ## getBankingTrans
-![getBankingTrans](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/28.PNG)
+![getBankingTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/28.PNG)
 
 [getBankingTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getBankingTrans)
 
 ## getOtherAccountTrans
-![getBankingTrans](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/29.PNG)
+![getBankingTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/29.PNG)
 
 [getBankingTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getOtherAccountTrans)
 
 ## getTransactions
-![getTransactions](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/30.PNG)
+![getTransactions](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/30.PNG)
 
 [getTransactions API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getTransactions)
 
 ## getDeletedTrans
-![getDeletedTrans](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/31.PNG)
+![getDeletedTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/31.PNG)
 
 [getDeletedTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getDeletedTrans)
 
 ## getInvestmentPos
-![getInvestmentPos](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/32.PNG)
+![getInvestmentPos](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/32.PNG)
 
 [getInvestmentPos API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getInvestmentPos)
 
 ## getEmployerStockOptions
-![getEmployerStockOptions](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/33.PNG)
+![getEmployerStockOptions](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/33.PNG)
 
 [getEmployerStockOptions API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getEmployerStockOptions)
 
@@ -195,17 +195,17 @@ Transaction categorization is an optional feature that can be turned on for part
 This chapter lists each transaction categorization API in a table with a resource URL, descriptive information, and a link to API Explorer documentation. See the AllData Transaction Categorization – API Specification document for more details.
 
 ## getTxnCategoriesInfo
-![getTxnCategoriesInfo](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/34.PNG)
+![getTxnCategoriesInfo](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/34.PNG)
 
 [getTxnCategoriesInfo API docs](../api/?type=post&path=/WealthManagementWeb/ws/SeedDataInq/getTxnCategoriesInfo)
 
 ## categorizeTransaction
-![categorizeTransaction](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/35.PNG)
+![categorizeTransaction](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/35.PNG)
 
 [categorizeTransaction API docs](../api/?type=post&path=/WealthManagementWeb/ws/TxnMgmt/categorizeTransaction)
 
 ## deleteSubCategory
-![deleteSubCategory](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/36.PNG)
+![deleteSubCategory](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/36.PNG)
 
 [deleteSubCategory API docs](../api/?type=post&path=/WealthManagementWeb/ws/TxnMgmt/deleteSubcategory)
 
@@ -214,22 +214,22 @@ This chapter lists each transaction categorization API in a table with a resourc
 This chapter lists each Budget-related API in a table with a resource URL, descriptive information, and a link to API Explorer documentation. Budgets are used in PFM use cases.
 
 ## createBudget
-![createBudget](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/37.PNG)
+![createBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/37.PNG)
 
 [createBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/createBudget)
 
 ## deleteBudget
-![createBudget](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/38.PNG)
+![createBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/38.PNG)
 
 [createBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/deleteBudget)
 
 ## editBudget
-![editBudget](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/39.PNG)
+![editBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/39.PNG)
 
 [editBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/editBudget)
 
 ## findBudget
-![findBudget](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/40.PNG)
+![findBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/40.PNG)
 
 [findBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/findBudget)
 
@@ -238,22 +238,22 @@ This chapter lists each Budget-related API in a table with a resource URL, descr
 This chapter lists each Goal-related API in a table with a resource URL, descriptive information, and a link to API Explorer documentation. Goals are used in PFM use cases.
 
 ## createGoal
-![createGoal](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/41.PNG)
+![createGoal](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/41.PNG)
 
 [createGoal API docs](../api/?type=post&path=/WealthManagementWeb/ws/GoalMgmt/createGoal)
 
 ## editGoal
-![editGoal](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/42.PNG)
+![editGoal](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/42.PNG)
 
 [editGoal API docs](../api/?type=post&path=/WealthManagementWeb/ws/GoalMgmt/editGoal)
 
 ## deleteGoal
-![deleteGoal](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/43.PNG)
+![deleteGoal](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/43.PNG)
 
 [deleteGoal API docs](../api/?type=post&path=/WealthManagementWeb/ws/GoalMgmt/deleteGoal)
 
 ## findGoal
-![findGoal](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/44.PNG)
+![findGoal](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/44.PNG)
 
 [findGoal API docs](../api/?type=post&path=/WealthManagementWeb/ws/GoalMgmt/findGoal)
 
@@ -262,12 +262,12 @@ This chapter lists each Goal-related API in a table with a resource URL, descrip
 This chapter lists each Bank Statement Download Services-related API in a table with a resource URL, descriptive information, and a link to API Explorer documentation. AllData can download bank statements for a select list of FIs. By default, AllData can download up to three historical statements once customer consent is received. See the PDF Statement Download Service document for more details.
 
 ## bankStatementConsent
-![bankStatementConsent](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/45.PNG)
+![bankStatementConsent](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/45.PNG)
 
 [bankStatementConsent API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/bankStatementConsent)
 
 ## getBankStmtDetails
-![getBankStmtDetails](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/46.PNG)
+![getBankStmtDetails](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/46.PNG)
 
 [getBankStmtDetails API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getBankStmtDetail)
 
