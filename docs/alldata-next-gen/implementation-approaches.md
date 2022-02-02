@@ -1,7 +1,7 @@
 # AllData® Next-Gen Widgets Integration Guide
-<sup>November 2021</sup>
+November 2021
 
-<br>
+
 
 ## Implementation Approaches
 
@@ -23,13 +23,13 @@ The deep linking approach requires either one of the following parameters in bot
 
 In deep linking the following response codes are applicable to different scenarios, such as when the mandatory parameter is sent incorrectly, or missed when launching the widget.
 
-| Response code | Reason                                                                                                                                                                                              |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 3000          | Session expired                                                                                                                                                                                     |
-| 3001          | Invalid financial institution ID **fi_id**                                                                                                                                                              |
-| 3002          | Invalid login account ID **login_acct_id**                                                                                                                                                              |
-| 3003          | When the add flow is successful without returning any account, the user can re-initiate the add flow for the same FI or a different FI. If this response code persists, report the issue to Fiserv. |
-| 3005          | Invalid **partner_application_id** required for OAuth FIs                                                                                                                                               |
+| Response code | Reason |
+|---|---|
+| 3000 | Session expired |
+| 3001 | Invalid financial institution ID **fi_id** |
+| 3002 | Invalid login account ID **login_acct_id** |
+| 3003 | When the add flow is successful without returning any account, the user can re-initiate the add flow for the same FI or a different FI. If this response code persists, report the issue to Fiserv. |
+| 3005 | Invalid **partner_application_id** required for OAuth FIs |
 
 Example screen shots of the deep linking workflow follow.
 
@@ -207,9 +207,9 @@ In the Privacy &amp; Security section of the Setting screen. Make sure the optio
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/next-gen-widgets-integration-guide/next-gen-widgets-integration-guide-85.png"/>
 
-<br>
-<br>
-<hr>
+
+
+---
 
 © 2020-2021 Fiserv, Inc. or its affiliates. All rights reserved. This work is confidential, and its use is strictly limited. Use is permitted only in accordance with the terms of the agreement under which it was furnished. Any other use, duplication, or dissemination without the prior written consent of Fiserv, Inc. or its affiliates is strictly prohibited. The information contained herein is subject to change without notice. Except as specified by the agreement under which the materials are furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from the use of this information. No warranties, either express or implied, are granted or extended by this document.
 
@@ -219,8 +219,8 @@ Fiserv is a registered trademark of Fiserv, Inc.
 
 Other brands and their products are trademarks or registered trademarks of their respective holders and should be noted as such.
 
-<br>
-<br>
+
+
 
 This document has been created by Fiserv and is classified **Fiserv Confidential**. This document is restricted to the received party and not to be forwarded or transferred without the approval of Fiserv.
 
