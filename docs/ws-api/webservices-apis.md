@@ -5,41 +5,8 @@
 This chapter lists each User Management API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## createUser
-<table>
-    <tbody>
-        <tr>
-            <td><b>Web Service Name</b></td>
-            <td>createUser</td>
-        </tr>
-        <tr>
-            <td><b>Resource URL</b></td>
-            <td>&lt;FiservWSUrl&gt;/UserMgmt/createUser</td>
-        </tr>
-        <tr>
-            <td><b>Description</b></td>
-            <td>
-                This API is used to add/register the user with the AllData system.
-                <li>Minimum information required to register a user is username and password.</li>
-                <li>Username must be unique within Home and cannot be changed.</li>
-                <li>Username can be a maximum of 32 characters in length.</li>
-                <li>Username can be alphanumeric but does not allow special characters except underscore.</li>
-                <li>These reserved words are forbidden in usernames: admin, Fiserv, administrator, user</li>
-                <li>Password must be at least 8 characters and no more than 64 characters long.</li>
-                <li>Password is case-sensitive.</li>
-                <li>Password should not contain any spaces.</li>
-                <li>Password should not contain non-printable characters such as space or tab.</li>
-                <li>Returns numeric CEUserID if user is successfully created (useful for debugging issues)</li><br>
-                <b>Note:</b> Users with &quot;Admin&quot; role cannot be added using this API; the AllData Professional Services team creates admin users during implementation.
-            </td>
-        </tr>
-        <tr>
-            <td><b>API Explorer</b></td>
-            <td>
-                <a href="../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/createUser">createUser API docs</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+![createUser](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-02.png)
+[createUser API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/createUser)
 
 ## deleteUser
 <table>
