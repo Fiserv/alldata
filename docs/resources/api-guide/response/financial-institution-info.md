@@ -1,37 +1,20 @@
 ## Financial Institution Info
 
+| Element / property | Description |
+| --- | --- |
+| Status | The status of the request. |
+| RqUID | Unique Request Identifier. The Client Site sends this element with the request. |
+| FIInfoDataList | List of FI along with their requisite information.<br>This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
+| FIIdList | List of FI id’s.<br>This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
 
-<table>
-    <thead>
-        <th>Element / property</th>
-        <th>Description</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Status</td>
-            <td>The status of the request.</td>
-        </tr>
-        <tr>
-            <td>RqUID</td>
-            <td> Unique Request Identifier. The Client Site sends this element with the request.</td>
-        </tr>
-        <tr>
-            <td>FIInfoDataList</td>
-            <td> List of FI along with their requisite information.<br>This aggregate will be present, only if the
-                request was carried out successfully and this option was desired in the
-                request. </td>
-        </tr>
-        <tr>
-            <td>FIIdList</td>
-            <td> List of FI id’s.<br>This aggregate will be present, only if the request was carried out successfully
-                and this option was desired in the request.</td>
-        </tr>
-        <tr>
-            <td>Status</td>
-            <td>The status of the FIInfoRs <br><br>For Sevirity: Info<br> StatusCode - StatusDesc: <br><br> 0 -
-                Success<br><br>For Sevirity: Error<br> StatusCode - StatusDesc: <br><br>100 - General Error<br>4060 - No
-                data available<br>4070 - Invalid data in request<br>4260 - Invalid Date<br>9001 - Support for this ABA
-                routing number coming soon.<br>9002 - ABA number is not supported.<br></td>
-        </tr>
-    </tbody>
-</table>
+#### Possible Status Code
+
+| StatusCode | Severity | StatusDesc |
+| --- | --- | --- |
+| 0 | Info | Success | 
+| 100 | Error | General Error | 
+| 4060 | Error | No data available | 
+| 4070 | Error | Invalid data in request | 
+| 4260 | Error | Invalid Date | 
+| 9001 | Error | Support for this ABA routing number coming soon. | 
+| 9002 | Error | ABA number is not supported. |
