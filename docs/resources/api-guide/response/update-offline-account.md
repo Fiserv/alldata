@@ -1,19 +1,23 @@
 ## Update Offline Account
 
+| Element / property | Description |
+| --- | --- |
+| Status | The status of the request. |
+| RqUID | Unique Request Identifier. The Client Site sends this element with the request. |
 
-|Element/property|Description|
-|--- |--- |
-|RqUID|A Unique Request Identifier.|
-|Status|The status of the request.|
-|Status Code: 4480|Invalid AcctId.|
-|Status Code: 4490|Invalid Advisor Access Tag.|
-|Status Code: 5013|Invalid AcctName.|
-|Status Code: 5011|AdvAccess value specified in the request is invalid.|
-|Status Code: 4510|Invalid Account Type Id.|
-|Status Code: 4270|Invalid Amount.|
-|Status Code: 2740|Invalid currency code.|
-|Status Code: 4530|Invalid Balance Type.|
-|Status Code: 4260|Invalid Date.|
-|Status Code: 4370|Invalid combinations for Account attributes, which are Instrument, Ownership and RetirementStatus.|
-|Status Code: 100|General error.|
-|Status Code: 0|Success.|
+#### Possible Status Code
+
+| StatusCode | Severity | StatusDesc |
+| --- | --- | --- |
+|4480| Error |Invalid AcctId.|
+|4490| Error |Invalid Advisor Access Tag.|
+|5013| Error |Invalid AcctName.|
+|5011| Error |AdvAccess value specified in the request is invalid.|
+|4510| Error |Invalid Account Type Id.|
+|4270| Error |Invalid Amount.|
+|2740| Error |Invalid currency code.|
+|4530| Error |Invalid Balance Type.|
+|4260| Error |Invalid Date.|
+|4370| Error |Invalid combinations for Account attributes, which are Instrument, Ownership and Retirement Status.|
+|100| Error |General error.|
+|0 | Info |Success.|
