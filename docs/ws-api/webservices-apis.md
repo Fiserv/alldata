@@ -164,9 +164,9 @@ This chapter lists each Account Data Pull API in a table with a resource URL, de
 [getBankingTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getBankingTrans)
 
 ## getOtherAccountTrans
-![getBankingTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/29.PNG)
+![getOtherAccountTrans](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/29.PNG)
 
-[getBankingTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getOtherAccountTrans)
+[getOtherAccountTrans API docs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getOtherAccountTrans)
 
 ## getTransactions
 ![getTransactions](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/30.PNG)
@@ -219,9 +219,9 @@ This chapter lists each Budget-related API in a table with a resource URL, descr
 [createBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/createBudget)
 
 ## deleteBudget
-![createBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/38.PNG)
+![deleteBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/38.PNG)
 
-[createBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/deleteBudget)
+[deleteBudget API docs](../api/?type=post&path=/WealthManagementWeb/ws/BudgetMgmt/deleteBudget)
 
 ## editBudget
 ![editBudget](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/ws-api/39.PNG)
