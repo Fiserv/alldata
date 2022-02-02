@@ -1,7 +1,7 @@
 # AllData® Next-Gen Widgets Integration Guide
-<sup>November 2021</sup>
+November 2021
 
-<br>
+
 
 ## Appendix A
 
@@ -360,32 +360,32 @@ We are actively working on this issue. When this issue has been resolved, your a
 
 The following table lists the possible label configurations in the widgets. Partners wishing to customize widget labels can change the default values as desired.
 
-| #  | Page                          | Object type  | Name                            | Default value                                                                                                                               |
-|----|-------------------------------|--------------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Initial screen                | Label        | Widget title                    | Add Accounts                                                                                                                                |
-| 2  | Initial screen                | Label        | Search for your FI              | Search for your financial institution:                                                                                                      |
-| 3  | Initial screen                | Label        | Select Popular Institutions     | Or choose from popular financial institutions where you have an account                                                                     |
-| 4  | Initial screen                | Label        | Note label for suspended FI     | Note: Institutions with (!) sign are currently not available                                                                                |
-| 5  | Initial screen                | Label        | If FI not listed                | Please check the name and try again                                                                                                         |
-| 6  | Initial screen                | Label        | Offline account message         | If you have an asset or liability that does not have online access (real estate, auto, jewelry, etc.), click here to add an offline account |
-| 7  | Initial screen                | Button label | Next button                     | Next                                                                                                                                        |
-| 8  | Login Credentials screen      | Label        | Widget title                    | Add Accounts                                                                                                                                |
-| 9  | Initial screen                | Button label | Next button                     | Next                                                                                                                                        |
-| 10 | Login Credentials screen      | Label        | Widget title                    | Add Accounts                                                                                                                                |
-| 11 | Login Credentials screen      | Label        | Enter your credentials          | Enter your credentials for this institution                                                                                                 |
-| 12 | Login Credentials screen      | Label        | Login credentials error message | All fields are required. Please check your entries and try again.                                                                           |
-| 13 | Login Credentials screen      | Label        | Error message 301               | The login credentials for this institution’s website may be incorrect.                                                                      |
-| 14 | Login Credentials screen      | Label        | Connecting to FI site           | Connecting the institution and securely accessing your account…                                                                             |
-| 15 | Account Classification screen | Label        | Account Selection               | Select the accounts from this institution that you want to connect.                                                                         |
-| 16 | Account Classification        | Button label | Next button                     | Next                                                                                                                                        |
-| 17 | Account Confirmation screen   | Label        | Widget title                    | Add Accounts                                                                                                                                |
-| 18 | Account Confirmation screen   | Label        | Added so far                    | List of all accounts added for this institution.                                                                                            |
-| 19 | Account Confirmation screen   | Label        | Continue adding more accounts   | To continue adding more accounts, click Add More Accounts.                                                                                  |
-| 20 | Account Confirmation screen   | Button label | Add More Accounts button        | Add More Accounts                                                                                                                           |
+| # | Page | Object type | Name | Default value |
+|---|---|---|---|---|
+| 1 | Initial screen | Label | Widget title | Add Accounts |
+| 2 | Initial screen | Label | Search for your FI | Search for your financial institution: |
+| 3 | Initial screen | Label | Select Popular Institutions | Or choose from popular financial institutions where you have an account |
+| 4 | Initial screen | Label | Note label for suspended FI | Note: Institutions with (!) sign are currently not available |
+| 5 | Initial screen | Label | If FI not listed | Please check the name and try again |
+| 6 | Initial screen | Label | Offline account message | If you have an asset or liability that does not have online access (real estate, auto, jewelry, etc.), click here to add an offline account |
+| 7 | Initial screen | Button label | Next button | Next |
+| 8 | Login Credentials screen | Label | Widget title | Add Accounts |
+| 9 | Initial screen | Button label | Next button | Next |
+| 10 | Login Credentials screen | Label | Widget title | Add Accounts |
+| 11 | Login Credentials screen | Label | Enter your credentials | Enter your credentials for this institution |
+| 12 | Login Credentials screen | Label | Login credentials error message | All fields are required. Please check your entries and try again. |
+| 13 | Login Credentials screen | Label | Error message 301 | The login credentials for this institution’s website may be incorrect. |
+| 14 | Login Credentials screen | Label | Connecting to FI site | Connecting the institution and securely accessing your account… |
+| 15 | Account Classification screen | Label | Account Selection | Select the accounts from this institution that you want to connect. |
+| 16 | Account Classification | Button label | Next button | Next |
+| 17 | Account Confirmation screen | Label | Widget title | Add Accounts |
+| 18 | Account Confirmation screen | Label | Added so far | List of all accounts added for this institution. |
+| 19 | Account Confirmation screen | Label | Continue adding more accounts | To continue adding more accounts, click Add More Accounts. |
+| 20 | Account Confirmation screen | Button label | Add More Accounts button | Add More Accounts |
 
-<br>
-<br>
-<hr>
+
+
+---
 
 © 2020-2021 Fiserv, Inc. or its affiliates. All rights reserved. This work is confidential, and its use is strictly limited. Use is permitted only in accordance with the terms of the agreement under which it was furnished. Any other use, duplication, or dissemination without the prior written consent of Fiserv, Inc. or its affiliates is strictly prohibited. The information contained herein is subject to change without notice. Except as specified by the agreement under which the materials are furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from the use of this information. No warranties, either express or implied, are granted or extended by this document.
 
@@ -395,8 +395,8 @@ Fiserv is a registered trademark of Fiserv, Inc.
 
 Other brands and their products are trademarks or registered trademarks of their respective holders and should be noted as such.
 
-<br>
-<br>
+
+
 
 This document has been created by Fiserv and is classified **Fiserv Confidential**. This document is restricted to the received party and not to be forwarded or transferred without the approval of Fiserv.
 
