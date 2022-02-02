@@ -5,7 +5,8 @@
 This chapter lists each User Management API in a table with a resource URL, descriptive information, and a link to API Explorer documentation.
 
 ## createUser
-![createUser](https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-02.png)
+![createUser](https://raw.githubusercontent.com/Fiserv/alldata/md_fix/assets/images/ws-api/01.png)
+
 [createUser API docs](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/createUser)
 
 ## deleteUser
