@@ -47,7 +47,7 @@ The following table lists all valid response status codes for the status aggrega
 |4336|Error|OAuth configuration is required|There is an error in OAuth configuration.|If this error persists, please contact us with the CEUserID and timestamp.|
 |4350|Error|Update in progress.|An update is already in progress. A new update (update or add) request cannot be submitted until the existing update is completed.|Allow the running update to complete before invoking update or add.|
 |4360|Error|Incomplete Data for Request Completion.|The data provided for Request completion is not enough.Typically, this means insufficient data was provided for &quot;add new accounts,&quot; &quot;add more accounts,&quot; or &quot;account maintenance&quot; operations, and so on.||
-|4370|Error|Invalid account classification attributes.|The account attributes combination required for account classification is invalid. <li>Instrument</li> <li>AccountOwnership</li> <li>RetirementStatus</li>|Please contact us with CEUserID and timestamp.|
+|4370|Error|Invalid account classification attributes.|The account attributes combination required for account classification is invalid : Instrument, AccountOwnership, RetirementStatus|Please contact us with CEUserID and timestamp.|
 |4390|Error|Invalid combination of FILoginAcctId and HarvestAddFetch(s)|Data contained in HarvestAddFetchAcctList does not match the FILoginAcctId. Especially created for the HarvestCreateAcctsRq.|Confirm the FILoginAcctId sent in the request is correct and consistent through the harvest add flow.|
 |4410|Error|Invalid FIId|The FIId provided is not supported or does not exist in the database or the number provided is null or non-numerical.||
 |4420|Error|Count of Accounts is high for this LoginAcctId|The number of accounts eligible for data pull submitted in AdvFILoginAcctInqRq is greater than the configured value.||
@@ -103,7 +103,7 @@ The following table lists and describes error codes returned as partof harvestin
 
 |Error code|Error|Message|Description|Partner resolution action|
 |---|---|---|---|---|
-|100|Internal software error|Internal software error. Please try updating again in a few minutes.|Fiserv tried harvesting information from an institution but could not harvest the information successfully despite getting response from the institution.|Temporary issue: Partner should send HarvestAddRq/HarvestRq again. If it still fails, then it may be a harvesting error. Partner should report the issue to Fiserv after several unsuccessful retries. <br/><br/>These errors could be due to many reasons, such as FI server is busy or FI site is down. Retries usually resolve the problem.|
+|100|Internal software error|Internal software error. Please try updating again in a few minutes.|Fiserv tried harvesting information from an institution but could not harvest the information successfully despite getting response from the institution.|Temporary issue: Partner should send HarvestAddRq/HarvestRq again. If it still fails, then it may be a harvesting error. Partner should report the issue to Fiserv after several unsuccessful retries. These errors could be due to many reasons, such as FI server is busy or FI site is down. Retries usually resolve the problem.|
 |103|Nonexistent URL or network failure.|Network failure. Please try updating again in a few minutes.|This is typically caused when there is a change in the hostname of the URL that is being accessed, but sometimes occurs due to temporary issues.|Temporary issue: Partner should send HarvestAddRq/HarvestRq again. If it still fails, then it may be a harvesting error. Partner should report the issue to Fiserv after several unsuccessful retries.|
 |104|Time out error|We cannot establish a connection to your financial institution website at this time. Please try updating again in a few minutes.|Fiserv tried to connect to the institution where your account exists and was unable to reach the host institution due to network traffic. This is NOT a session timeout. When we fail to make a connection with the FI site after a few tries, it is classified as 104 error.|Temporary issue: Partner should send HarvestAddRq/HarvestRq again. If it still fails, then it may be a harvesting error. Partner should report the issue to Fiserv after several unsuccessful retries.|
 |105|Target server error or server down|We are receiving a message that the institution&#39;s website is temporarily unavailable. We will update the account when the website becomes available|Fiserv tried to connect to the institution where your account exists, and host institution is returning server error.|Temporary Issue - The partner needs to send HarvestAddRq/HarvesRq again. If it still fails, then it may be a harvesting error. Partner should report the issue to Fiserv after several unsuccessful retries.|
@@ -146,7 +146,7 @@ Details of Fiserv image-retrieving URL:
 
 **UAT URL:**
 
-&lt;img src=&quot;<span>http</span>s://aggqa.alldata.Fiserv.com/downloadMFAimage?imageId=&lt;ImageID&gt;&quot;/&gt;
+&lt;img src=&quot;`https://aggqa.alldata.Fiserv.com/downloadMFAimage?imageId=`&lt;ImageID&gt;&quot;/&gt;
 
 Method Type: Get
 
