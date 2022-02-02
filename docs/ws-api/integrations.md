@@ -46,18 +46,18 @@ In this model, the AllData PFM UI is used for account administration, and partne
 
 The following table lists the different integration types and the API sets they typically use.
 
-| API set | AllData API integration | UI portal integration | UI widget / API integration |
+|API set|AllData API integration|UI portal integration|UI widget / API integration|
 |----|----|----|----|
-| User management            | ✔ | ✔ | ✔ |
-| External FI seed data      | ✔ | | |
-| Host account management    | ✔ | ✔ | ✔ |
-| Account management         | ✔ | | |
-| Account harvesting         | ✔ | | |
-| Account data pull API      | ✔ | | ✔ |
-| Advisor management         | ✔ | | |
-| Client management          | ✔ | | |
-| Home setup                 | ✔ | | |
-| Transaction categorization | ✔ | | |
+|User management|✔|✔|✔|
+|External FI seed data|✔|||
+|Host account management|✔|✔|✔|
+|Account management|✔|||
+|Account harvesting|✔|||
+|Account data pull API|✔||✔|
+|Advisor management|✔|||
+|Client management|✔|||
+|Home setup|✔|||
+|Transaction categorization|✔|||
 
 
 # Full API Web Service Integration
