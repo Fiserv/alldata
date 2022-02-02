@@ -495,7 +495,7 @@ The following table provides the possible functionalities configuration which pa
 |IncludeClassifiedAccounts|Includes the all the added accounts (True). Displays only the accounts with classification errors (False) on the Account Classification page|True, False|True|
 |addAccount.flow.display. process.step.graphic|Includes the Add flow process steps in top right corner of the widget|True, False|True|
 |EnableFIRequest|Displays “Request a new institutions support” button in case the search results do not return any FI|True, False|False|
-|invocation_mode|Enables or disables the widget’s “close” (×) button: (1) Pop-up mode: Enables close button, (2) Embedded mode: Disables close button, (3) 	Native app integration: Button is disabled by default|embedded, popup||
+|invocation_mode|Enables or disables the widget’s “close” (×) button: (1) Pop-up mode: Enables close button, (2) Embedded mode: Disables close button, (3) Native app integration: Button is disabled by default|embedded, popup||
 
 
 ### Widget Invocation
