@@ -1,7 +1,7 @@
 # AllData® Next-Gen Widgets Integration Guide
-<sup>November 2021</sup>
+November 2021
 
-<br>
+
 
 ## Executive Summary
 
@@ -34,7 +34,7 @@ The scope of this document includes following AllData widgets:
 - Alert Resolution
 - Account Management
 
-<br>
+
 
 ## Integration Approaches
 
@@ -109,11 +109,11 @@ Optional parameters to pass to the widget&#39;s URL through POST parameters are:
 
 **Signon Request/Response**
 
-| Web service name  |  Update status check |
+| Web service name | Update status check |
 |---|---|
-| Resource URL  | &lt;FiservWSUrl&gt;/UserMgmt/signon  |
-| Description  |  This API will authenticate the user and generate a session token. |
-  | API Explorer Link  | [signon](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/signon)  |
+| Resource URL | &lt;FiservWSUrl&gt;/UserMgmt/signon  |
+| Description | This API will authenticate the user and generate a session token. |
+| API Explorer Link | [signon](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/signon) |
 
 ##### Example URL to invoke Add Accounts widget:
 
@@ -140,17 +140,15 @@ The AllData session times out after 15 minutes of user inactivity. A partner wan
 Widget invocation may return response codes in certain situations. The following table lists the possible codes and their causes.
 
 
-| Response code  |  Reason |
+| Response code | Reason |
 |---|---|
-| 3000  | Session expired  |
-| 3002  | Invalid login account ID **login_acct_id** |
-| 3003  | When the add flow is successful without returning any account, the user can re-initiate the add flow for the same FI or a different FI. If this response code persists, report the issue to Fiserv.  |
-| 3005  | Invalid **partner_application_id** required for OAuth FIs  |
+| 3000 | Session expired |
+| 3002 | Invalid login account ID **login_acct_id** |
+| 3003 | When the add flow is successful without returning any account, the user can re-initiate the add flow for the same FI or a different FI. If this response code persists, report the issue to Fiserv. |
+| 3005 | Invalid **partner_application_id** required for OAuth FIs |
 
 
-<br>
-<br>
-<hr>
+---
 
 © 2020-2021 Fiserv, Inc. or its affiliates. All rights reserved. This work is confidential, and its use is strictly limited. Use is permitted only in accordance with the terms of the agreement under which it was furnished. Any other use, duplication, or dissemination without the prior written consent of Fiserv, Inc. or its affiliates is strictly prohibited. The information contained herein is subject to change without notice. Except as specified by the agreement under which the materials are furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from the use of this information. No warranties, either express or implied, are granted or extended by this document.
 
@@ -160,8 +158,8 @@ Fiserv is a registered trademark of Fiserv, Inc.
 
 Other brands and their products are trademarks or registered trademarks of their respective holders and should be noted as such.
 
-<br>
-<br>
+
+
 
 This document has been created by Fiserv and is classified **Fiserv Confidential**. This document is restricted to the received party and not to be forwarded or transferred without the approval of Fiserv.
 

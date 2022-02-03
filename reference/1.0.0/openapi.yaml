@@ -27,7 +27,7 @@ paths:
             schema: 
               $ref: '#/components/schemas/FILoginAcctInfoListInqRqHeader'
             examples:
-              getAccountDetails: {summary: Request Account Details, $ref: '#/components/examples/getAccountDetailsRequest'}
+              getAccountDetails: {$ref: '#/components/examples/getAccountDetailsRequest'}
         required: true
       responses:
         "200":
@@ -37,7 +37,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FILoginAcctInfoListInqRsHeader'
               examples:
-                getAccountDetails: {summary: Response Account Details, $ref: '#/components/examples/getAccountDetailsResponse'}
+                getAccountDetails: {$ref: '#/components/examples/getAccountDetailsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -68,7 +68,7 @@ paths:
             schema:
               $ref: '#/components/schemas/AccountUpdateSummaryRqHeader'
             examples:
-              getAccountUpdateSummary: {summary: Request Account Update Summary, $ref: '#/components/examples/getAccountUpdateSummaryRequest'}
+              getAccountUpdateSummary: {$ref: '#/components/examples/getAccountUpdateSummaryRequest'}
         required: true
       responses:
         "200":
@@ -78,7 +78,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/AccountUpdateSummaryRsHeader'
               examples:
-                getAccountUpdateSummary: {summary: Response Account Update Summary, $ref: '#/components/examples/getAccountUpdateSummaryResponse'}
+                getAccountUpdateSummary: {$ref: '#/components/examples/getAccountUpdateSummaryResponse'}
         "400":
           description: Bad Request
         "401":
@@ -108,7 +108,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FIAcctSummaryInqRqHeader'
             examples:
-              getAccountsSummary: {summary: Request Accounts Summary, $ref: '#/components/examples/getAccountsSummaryRequest'}
+              getAccountsSummary: {$ref: '#/components/examples/getAccountsSummaryRequest'}
         required: true
       responses:
         "200":
@@ -118,7 +118,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FIAcctSummaryInqRsHeader'
               examples:
-                getAccountsSummary: {summary: Response Accounts Summary, $ref: '#/components/examples/getAccountsSummaryResponse'}
+                getAccountsSummary: {$ref: '#/components/examples/getAccountsSummaryResponse'}
         "400":
           description: Bad Request
         "401":
@@ -146,7 +146,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BankStatementRqHeader'
             examples:
-              getBankStmtDetails: {summary: Request Bank Statement Details, $ref: '#/components/examples/getBankStmtDetailsRequest'}
+              getBankStmtDetails: {$ref: '#/components/examples/getBankStmtDetailsRequest'}
         required: true
       responses:
         "200":
@@ -156,7 +156,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BankStatementRsHeader'
               examples:
-                getBankStmtDetails: {summary: Response Bank Statement Details, $ref: '#/components/examples/getBankStmtDetailsResponse'}
+                getBankStmtDetails: {$ref: '#/components/examples/getBankStmtDetailsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -192,7 +192,7 @@ paths:
             schema:
               $ref: '#/components/schemas/DepAcctTrnInqRqHeader'
             examples:
-              getBankingTrans: {summary: Request Banking Transactions, $ref: '#/components/examples/getBankingTransRequest'}
+              getBankingTrans: {$ref: '#/components/examples/getBankingTransRequest'}
         required: true
       responses:
         "200":
@@ -202,7 +202,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/DepAcctTrnInqRsHeader'
               examples:
-                getBankingTrans: {summary: Response Banking Transactions, $ref: '#/components/examples/getBankingTransResponse'}
+                getBankingTrans: {$ref: '#/components/examples/getBankingTransResponse'}
         "400":
           description: Bad Request
         "401":
@@ -236,7 +236,7 @@ paths:
             schema:
               $ref: '#/components/schemas/CCAcctTrnInqRqHeader'
             examples:
-              getCreditCardTrans: {summary: Request Credit Card Transactions, $ref: '#/components/examples/getCreditCardTransRequest'}
+              getCreditCardTrans: {$ref: '#/components/examples/getCreditCardTransRequest'}
         required: true
       responses:
         "200":
@@ -246,7 +246,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/CCAcctTrnInqRsHeader'
               examples:
-                getCreditCardTrans: {summary: Response Credit Card Transactions, $ref: '#/components/examples/getCreditCardTransResponse'}
+                getCreditCardTrans: {$ref: '#/components/examples/getCreditCardTransResponse'}
         "400":
           description: Bad Request
         "401":
@@ -285,7 +285,7 @@ paths:
             schema:
               $ref: '#/components/schemas/DeletedTrnInqRqHeader'
             examples:
-              getDeletedTrans: {summary: Request Deleted Transactions, $ref: '#/components/examples/getDeletedTransRequest'}
+              getDeletedTrans: {$ref: '#/components/examples/getDeletedTransRequest'}
         required: true
       responses:
         "200":
@@ -295,7 +295,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/DeletedTrnInqRsHeader'
               examples:
-                getDeletedTrans: {summary: Response Deleted Transactions, $ref: '#/components/examples/getDeletedTransResponse'}
+                getDeletedTrans: {$ref: '#/components/examples/getDeletedTransResponse'}
         "400":
           description: Bad Request
         "401":
@@ -326,7 +326,7 @@ paths:
             schema:
               $ref: '#/components/schemas/EmployerStockOptionRqHeader'
             examples:
-              getEmployerStockOptions: {summary: Request Employer Stock Options, $ref: '#/components/examples/getEmployerStockOptionsRequest'}
+              getEmployerStockOptions: {$ref: '#/components/examples/getEmployerStockOptionsRequest'}
         required: true
       responses:
         "200":
@@ -336,7 +336,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/EmployerStockOptionRsHeader'
               examples:
-                getEmployerStockOptions: {summary: Response Employer Stock Options, $ref: '#/components/examples/getEmployerStockOptionsResponse'}
+                getEmployerStockOptions: {$ref: '#/components/examples/getEmployerStockOptionsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -367,7 +367,7 @@ paths:
             schema:
               $ref: '#/components/schemas/InvAcctPosInqRqHeader'
             examples:
-              getInvestmentPos: {summary: Request Investment Position, $ref: '#/components/examples/getInvestmentPosRequest'}
+              getInvestmentPos: {$ref: '#/components/examples/getInvestmentPosRequest'}
         required: true
       responses:
         "200":
@@ -377,7 +377,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/InvAcctPosInqRsHeader'
               examples:
-                getInvestmentPos: {summary: Response Investment Position, $ref: '#/components/examples/getInvestmentPosResponse'}
+                getInvestmentPos: {$ref: '#/components/examples/getInvestmentPosResponse'}
         "400":
           description: Bad Request
         "401":
@@ -409,7 +409,7 @@ paths:
             schema:
               $ref: '#/components/schemas/InvAcctTrnInqRqHeader'
             examples:
-              getInvestmentTrans: {summary: Request Investment Transactions, $ref: '#/components/examples/getInvestmentTransRequest'}
+              getInvestmentTrans: {$ref: '#/components/examples/getInvestmentTransRequest'}
         required: true
       responses:
         "200":
@@ -419,7 +419,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/InvAcctTrnInqRsHeader'
               examples:
-                getInvestmentTrans: {summary: Response Investment Transactions, $ref: '#/components/examples/getInvestmentTransResponse'}
+                getInvestmentTrans: {$ref: '#/components/examples/getInvestmentTransResponse'}
         "400":
           description: Bad Request
         "401":
@@ -452,7 +452,7 @@ paths:
             schema:
               $ref: '#/components/schemas/OtherAcctTrnInqRqHeader'
             examples:
-              getOtherAccountTrans: {summary: Request getOtherAccountTrans, $ref: '#/components/examples/getOtherAccountTransRequest'}
+              getOtherAccountTrans: {$ref: '#/components/examples/getOtherAccountTransRequest'}
         required: true
       responses:
         "200":
@@ -462,7 +462,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/OtherAcctTrnInqRsHeader'
               examples: 
-                getOtherAccountTrans: {summary: Response getOtherAccountTrans, $ref: '#/components/examples/getOtherAccountTransResponse'}
+                getOtherAccountTrans: {$ref: '#/components/examples/getOtherAccountTransResponse'}
         "400":
           description: Bad Request
         "401":
@@ -490,7 +490,7 @@ paths:
             schema:
               $ref: '#/components/schemas/TaxDocumentInqRqHeader'
             examples: 
-              getTaxDocDetails: {summary: Request TaxDocDetails, $ref: '#/components/examples/getTaxDocDetailsRequest'}          
+              getTaxDocDetails: {$ref: '#/components/examples/getTaxDocDetailsRequest'}          
         required: true
       responses:
         "200":
@@ -500,7 +500,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/TaxDocumentInqRsHeader'
               examples:
-                getTaxDocDetails: {summary: Response TaxDocDetails, $ref: '#/components/examples/getTaxDocDetailsResponse'}
+                getTaxDocDetails: {$ref: '#/components/examples/getTaxDocDetailsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -542,7 +542,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FindTrnsInqRqHeader'
             examples: 
-              getTransactions: {summary: Request getTransactions, $ref: '#/components/examples/getTransactionsRequest'}
+              getTransactions: {$ref: '#/components/examples/getTransactionsRequest'}
         required: true
       responses:
         "200":
@@ -552,7 +552,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FindTrnsInqRsHeader'
               examples: 
-                getTransactions: {summary: Response getTransactions, $ref: '#/components/examples/getTransactionsResponse'}
+                getTransactions: {$ref: '#/components/examples/getTransactionsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -576,7 +576,7 @@ paths:
             schema:
               $ref: '#/components/schemas/PingRqHeader'
             examples: 
-              ping: {summary: Request Ping, $ref: '#/components/examples/pingRequest'}
+              ping: {$ref: '#/components/examples/pingRequest'}
         required: true
       responses:
         "200":
@@ -586,7 +586,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/PingRsHeader'
               examples:
-                ping: {summary: Response Ping, $ref: '#/components/examples/pingResponse'}
+                ping: {$ref: '#/components/examples/pingResponse'}
         "400":
           description: Bad Request
         "401":
@@ -618,7 +618,7 @@ paths:
             schema:
               $ref: '#/components/schemas/AddHostAcctsRqHeader'
             examples:
-              addHostAccounts: {summary: Request Add Host Account, $ref: '#/components/examples/addHostAccountsRequest'}          
+              addHostAccounts: {$ref: '#/components/examples/addHostAccountsRequest'}          
         required: true
       responses:
         "200":
@@ -628,7 +628,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/AddHostAcctsRsHeader'
               examples:
-                addHostAccounts: {summary: Response Add Host Account, $ref: '#/components/examples/addHostAccountsResponse'}
+                addHostAccounts: {$ref: '#/components/examples/addHostAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -664,7 +664,7 @@ paths:
             schema:
               $ref: '#/components/schemas/addUpdateHostAccountsRqHeader'
             examples:
-              addUpdateHostAccounts: {summary: Request Add Update Host Account, $ref: '#/components/examples/addUpdateHostAccountsRequest'}
+              addUpdateHostAccounts: {$ref: '#/components/examples/addUpdateHostAccountsRequest'}
         required: true
       responses:
         "200":
@@ -674,7 +674,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/addUpdateHostAccountsRsHeader'
               examples:
-                addUpdateHostAccounts: {summary: Response Add Update Host Account, $ref: '#/components/examples/addUpdateHostAccountsResponse'}
+                addUpdateHostAccounts: {$ref: '#/components/examples/addUpdateHostAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -703,7 +703,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BankStatementConsentRqHeader'
             examples:
-              bankStatementConsent: {summary: Request Bank Statement Consent, $ref: '#/components/examples/bankStatementConsentRequest'}
+              bankStatementConsent: {$ref: '#/components/examples/bankStatementConsentRequest'}
         required: true
       responses:
         "200":
@@ -713,7 +713,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BankStatementConsentRsHeader'
               examples:
-                bankStatementConsent: {summary: Response Bank Statement Consent, $ref: '#/components/examples/bankStatementConsentResponse'}
+                bankStatementConsent: {$ref: '#/components/examples/bankStatementConsentResponse'}
         "400":
           description: Bad Request
         "401":
@@ -747,7 +747,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestAddCreateAcctsRqHeader'
             examples:
-              createAccounts: {summary: Request Create Accounts, $ref: '#/components/examples/createAccountsRequest'}
+              createAccounts: {$ref: '#/components/examples/createAccountsRequest'}
         required: true
       responses:
         "200":
@@ -757,7 +757,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestAddCreateAcctsRsHeader'
               examples:
-                createAccounts: {summary: Response Create Accounts, $ref: '#/components/examples/createAccountsResponse'}
+                createAccounts: {$ref: '#/components/examples/createAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -790,7 +790,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FIDeleteRqHeader'
             examples:
-              deleteAccounts: {summary: Request Delete Accounts, $ref: '#/components/examples/deleteAccountsRequest'}
+              deleteAccounts: {$ref: '#/components/examples/deleteAccountsRequest'}
         required: true
       responses:
         "200":
@@ -800,7 +800,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FIDeleteRsHeader'
               examples:
-                deleteAccounts: {summary: Response Delete Accounts, $ref: '#/components/examples/deleteAccountsResponse'}
+                deleteAccounts: {$ref: '#/components/examples/deleteAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -887,7 +887,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestAddStsInqRqHeader'
             examples:
-              getAddAccountStatus: {summary: Request Add Account Status, $ref: '#/components/examples/getAddAccountStatusRequest'}
+              getAddAccountStatus: {$ref: '#/components/examples/getAddAccountStatusRequest'}
         required: true
       responses:
         "200":
@@ -897,7 +897,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestAddStsInqRsHeader'
               examples:
-                getAddAccountStatus: {summary: Response Add Account Status, $ref: '#/components/examples/getAddAccountStatusResponse'}
+                getAddAccountStatus: {$ref: '#/components/examples/getAddAccountStatusResponse'}
         "400":
           description: Bad Request
         "401":
@@ -935,7 +935,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestAddFetchRqHeader'
             examples:
-              getNewAccounts: {summary: Request Get New Accounts, $ref: '#/components/examples/getNewAccountsRequest'}
+              getNewAccounts: {$ref: '#/components/examples/getNewAccountsRequest'}
         required: true
       responses:
         "200":
@@ -945,7 +945,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestAddFetchRsHeader'
               examples:
-                getNewAccounts: {summary: Response Get New Accounts, $ref: '#/components/examples/getNewAccountsResponse'}
+                getNewAccounts: {$ref: '#/components/examples/getNewAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -973,7 +973,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HostAcctStsInqRqHeader'
             examples:
-              hostAccountsStatus: {summary: Request Host Account Status, $ref: '#/components/examples/hostAccountsStatusRequest'}
+              hostAccountsStatus: {$ref: '#/components/examples/hostAccountsStatusRequest'}
         required: true
       responses:
         "200":
@@ -983,7 +983,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HostAcctStsInqRsHeader'
               examples:
-                hostAccountsStatus: {summary: Response Host Account Status, $ref: '#/components/examples/hostAccountsStatusResponse'}
+                hostAccountsStatus: {$ref: '#/components/examples/hostAccountsStatusResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1026,7 +1026,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestAddRqHeader'
             examples:
-              initiateAddAccounts: {summary: Request Initiate Add Account, $ref: '#/components/examples/initiateAddAccountRequest'}
+              initiateAddAccounts: {$ref: '#/components/examples/initiateAddAccountRequest'}
         required: true
       responses:
         "200":
@@ -1036,7 +1036,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestAddRsHeader'
               examples:
-                initiateAddAccounts: {summary: Response Initiate Add Account, $ref: '#/components/examples/initiateAddAccountResponse'}
+                initiateAddAccounts: {$ref: '#/components/examples/initiateAddAccountResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1068,7 +1068,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserAcctModRqHeader'
             examples:
-              maintainAccount: {summary: Request Maintain Account, $ref: '#/components/examples/maintainAccountRequest'}
+              maintainAccount: {$ref: '#/components/examples/maintainAccountRequest'}
         required: true
       responses:
         "200":
@@ -1078,7 +1078,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserAcctModRsHeader'
               examples:
-                maintainAccount: {summary: Response Maintain Account, $ref: '#/components/examples/maintainAccountResponse'}
+                maintainAccount: {$ref: '#/components/examples/maintainAccountResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1106,7 +1106,7 @@ paths:
             schema:
               $ref: '#/components/schemas/TaxStatementConsentRqHeader'
             examples:
-              taxStatementConsent: {summary: Request Tax Statement Consent, $ref: '#/components/examples/taxStatementConsentRequest'}
+              taxStatementConsent: {$ref: '#/components/examples/taxStatementConsentRequest'}
         required: true
       responses:
         "200":
@@ -1116,7 +1116,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/TaxStatementConsentRsHeader'
               examples:
-                taxStatementConsent: {summary: Response Tax Statement Consent, $ref: '#/components/examples/taxStatementConsentResponse'}
+                taxStatementConsent: {$ref: '#/components/examples/taxStatementConsentResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1149,7 +1149,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserOFILoginCredentialsModRqHeader'
             examples:
-              updateAccountCredentials: {summary: Request Update Account Credentials, $ref: '#/components/examples/updateAccountCredentialsRequest'}
+              updateAccountCredentials: {$ref: '#/components/examples/updateAccountCredentialsRequest'}
         required: true
       responses:
         "200":
@@ -1159,7 +1159,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserOFILoginCredentialsModRsHeader'
               examples:
-                updateAccountCredentials: {summary: Response Update Account Credentials, $ref: '#/components/examples/updateAccountCredentialsResponse'}
+                updateAccountCredentials: {$ref: '#/components/examples/updateAccountCredentialsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1197,7 +1197,7 @@ paths:
             schema:
               $ref: '#/components/schemas/ModHostAcctsRqHeader'
             examples:
-              updateHostAccounts: {summary: Request Update Host Account, $ref: '#/components/examples/updateHostAccountsRequest'}
+              updateHostAccounts: {$ref: '#/components/examples/updateHostAccountsRequest'}
         required: true
       responses:
         "200":
@@ -1207,7 +1207,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/ModHostAcctsRsHeader'
               examples:
-                updateHostAccounts: {summary: Response Update Host Account, $ref: '#/components/examples/updateHostAccountsResponse'}
+                updateHostAccounts: {$ref: '#/components/examples/updateHostAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1244,7 +1244,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UpdateTxnCategoryRqHeader'
             examples:
-              categorizeTransactionPfm: {summary: Request Categorize Transaction, $ref: '#/components/examples/pfmcategorizeTransactionRequest'}
+              categorizeTransactionPfm: {$ref: '#/components/examples/pfmcategorizeTransactionRequest'}
         required: true
       responses:
         "200":
@@ -1254,7 +1254,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UpdateTxnCategoryRsHeader'
               examples:
-                categorizeTransactionPfm: {summary: Response Categorize Transaction, $ref: '#/components/examples/pfmcategorizeTransactionResponse'}
+                categorizeTransactionPfm: {$ref: '#/components/examples/pfmcategorizeTransactionResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1282,7 +1282,7 @@ paths:
             schema:
               $ref: '#/components/schemas/DeleteSubCategoryRqHeader'
             examples:
-              deleteSubCategory: {summary: Request Delete Subcategory, $ref: '#/components/examples/deleteSubCategoryRequest'}
+              deleteSubCategory: {$ref: '#/components/examples/deleteSubCategoryRequest'}
         required: true
       responses:
         "200":
@@ -1292,7 +1292,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/DeleteSubCategoryRsHeader'
               examples:
-                deleteSubCategory: {summary: Response Delete Subcategory, $ref: '#/components/examples/deleteSubCategoryResponse'}
+                deleteSubCategory: {$ref: '#/components/examples/deleteSubCategoryResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1329,7 +1329,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UpdateTxnCategoryRqHeader'
             examples:
-              categorizeTransaction: {summary: Request CategorizeTransaction, $ref: '#/components/examples/categorizeTransactionRequest'}
+              categorizeTransaction: {$ref: '#/components/examples/categorizeTransactionRequest'}
         required: true
       responses:
         "200":
@@ -1339,7 +1339,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UpdateTxnCategoryRsHeader'
               examples:
-                categorizeTransaction: {summary: Response CategorizeTransaction, $ref: '#/components/examples/categorizeTransactionResponse'}
+                categorizeTransaction: {$ref: '#/components/examples/categorizeTransactionResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1372,7 +1372,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BudgetAddRqHeader'
             examples:
-              createBudget: {summary: Request Create Budget, $ref: '#/components/examples/createBudgetRequest'}        
+              createBudget: {$ref: '#/components/examples/createBudgetRequest'}        
         required: true
       responses:
         "200":
@@ -1382,7 +1382,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BudgetAddRsHeader'
               examples:
-                createBudget: {summary: Response Create Budget, $ref: '#/components/examples/createBudgetResponse'}        
+                createBudget: {$ref: '#/components/examples/createBudgetResponse'}        
         "400":
           description: Bad Request
         "401":
@@ -1412,7 +1412,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BudgetDeleteRqHeader'
             examples:
-              deleteBudget: {summary: Request Delete Budget, $ref: '#/components/examples/deleteBudgetRequest'}                 
+              deleteBudget: {$ref: '#/components/examples/deleteBudgetRequest'}                 
         required: true
       responses:
         "200":
@@ -1422,7 +1422,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BudgetDeleteRsHeader'
               examples:
-                deleteBudget: {summary: Response Delete Budget, $ref: '#/components/examples/deleteBudgetResponse'}                     
+                deleteBudget: {$ref: '#/components/examples/deleteBudgetResponse'}                     
         "400":
           description: Bad Request
         "401":
@@ -1455,7 +1455,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BudgetEditRqHeader'
             examples:
-              editBudget: {summary: Request Edit Budget, $ref: '#/components/examples/editBudgetRequest'}              
+              editBudget: {$ref: '#/components/examples/editBudgetRequest'}              
         required: true
       responses:
         "200":
@@ -1465,7 +1465,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BudgetEditRsHeader'
               examples:
-                editBudget: {summary: Response Edit Budget, $ref: '#/components/examples/editBudgetResponse'}                 
+                editBudget: {$ref: '#/components/examples/editBudgetResponse'}                 
         "400":
           description: Bad Request
         "401":
@@ -1494,7 +1494,7 @@ paths:
             schema:
               $ref: '#/components/schemas/BudgetFindRqHeader'
             examples:
-              findBudget: {summary: Request Find Budget, $ref: '#/components/examples/findBudgetRequest'}              
+              findBudget: {$ref: '#/components/examples/findBudgetRequest'}              
         required: true
       responses:
         "200":
@@ -1504,7 +1504,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/BudgetFindRsHeader'
               examples:
-                findBudget: {summary: Response Find Budget, $ref: '#/components/examples/findBudgetResponse'}
+                findBudget: {$ref: '#/components/examples/findBudgetResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1537,8 +1537,8 @@ paths:
             schema:
               $ref: '#/components/schemas/AddOfflineAcctRqHeader'
             examples:
-              AdvisorHome: {summary: Request Add Offline Account Advisor Home, $ref: '#/components/examples/addOfflineAccountAdvisorRequest'}
-              RetailHome: {summary: Request Add Offline Account Retail Home, $ref: '#/components/examples/addOfflineAccountRetailRequest'}
+              AdvisorHome: {$ref: '#/components/examples/addOfflineAccountAdvisorRequest'}
+              RetailHome: {$ref: '#/components/examples/addOfflineAccountRetailRequest'}
         required: true
       responses:
         "200":
@@ -1548,8 +1548,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/AddOfflineAcctRsHeader'
               examples:
-                AdvisorHome: {summary: Response Add Offline Account Advisor Home, $ref: '#/components/examples/addOfflineAccountAdvisorResponse'}
-                RetailHome: {summary: Response Add Offline Account Retail Home, $ref: '#/components/examples/addOfflineAccountRetailResponse'}
+                AdvisorHome: {$ref: '#/components/examples/addOfflineAccountAdvisorResponse'}
+                RetailHome: {$ref: '#/components/examples/addOfflineAccountRetailResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1583,7 +1583,7 @@ paths:
             schema:
               $ref: '#/components/schemas/OfflineAcctModRqHeader'
             examples:
-              updateOfflineAccount: {summary: Request Update Offline Account, $ref: '#/components/examples/updateOfflineAccountRequest'}
+              updateOfflineAccount: {$ref: '#/components/examples/updateOfflineAccountRequest'}
         required: true
       responses:
         "200":
@@ -1593,7 +1593,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/OfflineAcctModRsHeader'
               examples:
-                updateOfflineAccount: {summary: Response Update Offline Account, $ref: '#/components/examples/updateOfflineAccountResponse'}            
+                updateOfflineAccount: {$ref: '#/components/examples/updateOfflineAccountResponse'}            
         "400":
           description: Bad Request
         "401":
@@ -1621,7 +1621,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FIMessagesInfoRqHeader'
             examples:
-              getFIMessageInfo: {summary: Request FI Message Info, $ref: '#/components/examples/getFIMessageInfoRequest'}
+              getFIMessageInfo: {$ref: '#/components/examples/getFIMessageInfoRequest'}
         required: true
       responses:
         "200":
@@ -1631,7 +1631,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FIMessagesInfoRsHeader'
               examples:
-                getFIMessageInfo: {summary: Response FI Message Info, $ref: '#/components/examples/getFIMessageInfoResponse'}
+                getFIMessageInfo: {$ref: '#/components/examples/getFIMessageInfoResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1668,7 +1668,7 @@ paths:
             schema:
               $ref: '#/components/schemas/GoalAddRqHeader'
             examples:
-              createGoal: {summary: Request Create Goal, $ref: '#/components/examples/createGoalRequest'}
+              createGoal: {$ref: '#/components/examples/createGoalRequest'}
         required: true
       responses:
         "200":
@@ -1678,7 +1678,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GoalAddRsHeader'
               examples:
-                createGoal: {summary: Response Create Goal, $ref: '#/components/examples/createGoalResponse'}                
+                createGoal: {$ref: '#/components/examples/createGoalResponse'}                
         "400":
           description: Bad Request
         "401":
@@ -1707,7 +1707,7 @@ paths:
             schema:
               $ref: '#/components/schemas/GoalDeleteRqHeader'
             examples:
-              deleteGoal: {summary: Request Delete Goal, $ref: '#/components/examples/deleteGoalRequest'}              
+              deleteGoal: {$ref: '#/components/examples/deleteGoalRequest'}              
         required: true
       responses:
         "200":
@@ -1717,7 +1717,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GoalDeleteRsHeader'
               examples:
-                deleteGoal: {summary: Response Delete Goal, $ref: '#/components/examples/deleteGoalResponse'}
+                deleteGoal: {$ref: '#/components/examples/deleteGoalResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1754,7 +1754,7 @@ paths:
             schema:
               $ref: '#/components/schemas/GoalEditRqHeader'
             examples:
-              editGoal: {summary: Request Edit Goal, $ref: '#/components/examples/editGoalRequest'}              
+              editGoal: {$ref: '#/components/examples/editGoalRequest'}              
         required: true
       responses:
         "200":
@@ -1764,7 +1764,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GoalEditRsHeader'
               examples:
-                editGoal: {summary: Response Edit Goal, $ref: '#/components/examples/editGoalResponse'}
+                editGoal: {$ref: '#/components/examples/editGoalResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1792,7 +1792,7 @@ paths:
             schema:
               $ref: '#/components/schemas/GoalFindRqHeader'
             examples:
-              findGoal: {summary: Request Find Goal, $ref: '#/components/examples/findGoalRequest'}              
+              findGoal: {$ref: '#/components/examples/findGoalRequest'}              
         required: true
       responses:
         "200":
@@ -1802,7 +1802,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GoalFindRsHeader'
               examples:
-                findGoal: {summary: Response Find Goal, $ref: '#/components/examples/findGoalResponse'}                  
+                findGoal: {$ref: '#/components/examples/findGoalResponse'}                  
         "400":
           description: Bad Request
         "401":
@@ -1844,7 +1844,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestStsInqRqHeader'
             examples:
-              getHarvestStatus: {summary: Request Harvest Status, $ref: '#/components/examples/getHarvestStatusRequest'}
+              getHarvestStatus: {$ref: '#/components/examples/getHarvestStatusRequest'}
         required: true
       responses:
         "200":
@@ -1854,7 +1854,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestStsInqRsHeader'
               examples:
-                getHarvestStatus: {summary: Response Harvest Status, $ref: '#/components/examples/getHarvestStatusResponse'}
+                getHarvestStatus: {$ref: '#/components/examples/getHarvestStatusResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1892,7 +1892,7 @@ paths:
             schema:
               $ref: '#/components/schemas/HarvestRqHeader'
             examples:
-              updateAccounts: {summary: Request Update Accounts, $ref: '#/components/examples/updateAccountsRequest'}            
+              updateAccounts: {$ref: '#/components/examples/updateAccountsRequest'}            
         required: true
       responses:
         "200":
@@ -1902,7 +1902,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/HarvestRsHeader'
               examples:
-                updateAccounts: {summary: Response Update Accounts, $ref: '#/components/examples/updateAccountsResponse'}
+                updateAccounts: {$ref: '#/components/examples/updateAccountsResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1941,7 +1941,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FIInfoRqHeader'
             examples:
-              getFinancialInstInfo: {summary: Request Financial Institution Info, $ref: '#/components/examples/getFinancialInstInfoRequest'}
+              getFinancialInstInfo: {$ref: '#/components/examples/getFinancialInstInfoRequest'}
         required: true
       responses:
         "200":
@@ -1951,7 +1951,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FIInfoRsHeader'
               examples:
-                getFinancialInstInfo: {summary: Response Financial Institution Info, $ref: '#/components/examples/getFinancialInstInfoResponse'}
+                getFinancialInstInfo: {$ref: '#/components/examples/getFinancialInstInfoResponse'}
         "400":
           description: Bad Request
         "401":
@@ -1991,7 +1991,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FISearchRqHeader'
             examples:
-              searchFinancialInst: {summary: Request Search Financial Institution, $ref: '#/components/examples/searchFinancialInstRequest'}
+              searchFinancialInst: {$ref: '#/components/examples/searchFinancialInstRequest'}
         required: true
       responses:
         "200":
@@ -2001,7 +2001,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FISearchRsHeader'
               examples:
-                searchFinancialInst: {summary: Response Search Financial Institution, $ref: '#/components/examples/searchFinancialInstResponse'}
+                searchFinancialInst: {$ref: '#/components/examples/searchFinancialInstResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2029,7 +2029,7 @@ paths:
             schema:
               $ref: '#/components/schemas/TxnCategoriesInfoRqHeader'
             examples:
-              getTxnCategoriesInfo: {summary: Request Transactions Categories Info, $ref: '#/components/examples/getTxnCategoriesInfoRequest'}
+              getTxnCategoriesInfo: {$ref: '#/components/examples/getTxnCategoriesInfoRequest'}
             
         required: true
       responses:
@@ -2040,7 +2040,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/TxnCategoriesInfoRsHeader'
               examples:
-                getTxnCategoriesInfo: {summary: Response Transactions Categories Info, $ref: '#/components/examples/getTxnCategoriesInfoResponse'}
+                getTxnCategoriesInfo: {$ref: '#/components/examples/getTxnCategoriesInfoResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2081,7 +2081,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserAddRqHeader'
             examples:
-              createUser: {summary: Request Create User, $ref: '#/components/examples/createUserRequest'}
+              createUser: {$ref: '#/components/examples/createUserRequest'}
         required: true
       responses:
         "200":
@@ -2091,7 +2091,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserAddRsHeader'
               examples:
-                createUser: {summary: Response Create User, $ref: '#/components/examples/createUserResponse'}
+                createUser: {$ref: '#/components/examples/createUserResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2122,7 +2122,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserDelRqHeader'
             examples:
-              deleteUser: {summary: Request Delete User, $ref: '#/components/examples/deleteUserRequest'}
+              deleteUser: {$ref: '#/components/examples/deleteUserRequest'}
         required: true
       responses:
         "200":
@@ -2132,7 +2132,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserDelRsHeader'
               examples:
-                deleteUser: {summary: Response Delete User, $ref: '#/components/examples/deleteUserResponse'}
+                deleteUser: {$ref: '#/components/examples/deleteUserResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2160,7 +2160,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserProfileInqRqHeader'
             examples:
-              getUserProfile: {summary: Request User Profile, $ref: '#/components/examples/getUserProfileRequest'}
+              getUserProfile: {$ref: '#/components/examples/getUserProfileRequest'}
         required: true
       responses:
         "200":
@@ -2170,7 +2170,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserProfileInqRsHeader'
               examples:
-                getUserProfile: {summary: Response User Profile, $ref: '#/components/examples/getUserProfileResponse'}
+                getUserProfile: {$ref: '#/components/examples/getUserProfileResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2199,7 +2199,7 @@ paths:
             schema:
               $ref: '#/components/schemas/SignonRqHeader'
             examples:
-              signon: {summary: Request Sign On, $ref: '#/components/examples/signonRequest'}
+              signon: {$ref: '#/components/examples/signonRequest'}
         required: true
       responses:
         "200":
@@ -2209,7 +2209,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/SignonRsHeader'
               examples:
-                signon: {summary: Response Sign On, $ref: '#/components/examples/signonResponse'}
+                signon: {$ref: '#/components/examples/signonResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2239,7 +2239,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserPasswordModRqHeader'
             examples:
-              updateUserPassword: {summary: Request Update Password, $ref: '#/components/examples/updateUserPasswordRequest'}
+              updateUserPassword: {$ref: '#/components/examples/updateUserPasswordRequest'}
         required: true
       responses:
         "200":
@@ -2249,7 +2249,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserPasswordModRsHeader'
               examples:
-                updateUserPassword: {summary: Response Update Password, $ref: '#/components/examples/updateUserPasswordResponse'}    
+                updateUserPassword: {$ref: '#/components/examples/updateUserPasswordResponse'}    
         "400":
           description: Bad Request
         "401":
@@ -2278,7 +2278,7 @@ paths:
             schema:
               $ref: '#/components/schemas/UserProfileModRqHeader'
             examples:
-              updateUserProfile: {summary: Request Update Profile, $ref: '#/components/examples/updateUserProfileRequest'}
+              updateUserProfile: {$ref: '#/components/examples/updateUserProfileRequest'}
         required: true
       responses:
         "200":
@@ -2288,7 +2288,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/UserProfileModRsHeader'
               examples:
-                updateUserProfile: {summary: Response Update Profile, $ref: '#/components/examples/updateUserProfileResponse'}
+                updateUserProfile: {$ref: '#/components/examples/updateUserProfileResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2318,7 +2318,7 @@ paths:
             schema:
               $ref: '#/components/schemas/RTVInfoRqHeader'
             examples:
-              RTVInfo: {summary: Request RTV Info, $ref: '#/components/examples/RTVInfoRequest'}
+              RTVInfo: {$ref: '#/components/examples/RTVInfoRequest'}
         required: true
       responses:
         "200":
@@ -2328,7 +2328,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/RTVInfoRsHeader'
               examples:
-                RTVInfo: {summary: Response RTV Info, $ref: '#/components/examples/RTVInfoResponse'}
+                RTVInfo: {$ref: '#/components/examples/RTVInfoResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2359,7 +2359,7 @@ paths:
             schema:
               $ref: '#/components/schemas/AckRTVResultRqHeader'
             examples:
-              AckRTVResult: {summary: Request AckRTV Result, $ref: '#/components/examples/AckRTVResultRequest'}
+              AckRTVResult: {$ref: '#/components/examples/AckRTVResultRequest'}
         required: true
       responses:
         "200":
@@ -2369,7 +2369,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/AckRTVResultRsHeader'
               examples:
-                AckRTVResult: {summary: Response AckRTV Result, $ref: '#/components/examples/AckRTVResultResponse'}
+                AckRTVResult: {$ref: '#/components/examples/AckRTVResultResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2399,7 +2399,7 @@ paths:
             schema:
               $ref: '#/components/schemas/AdvanceRTVEnableFIRqHeader'
             examples:
-              AdvanceRTVEnableFI: {summary: Request Advance RTV Enable FI, $ref: '#/components/examples/AdvanceRTVEnableFIRequest'}
+              AdvanceRTVEnableFI: {$ref: '#/components/examples/AdvanceRTVEnableFIRequest'}
         required: true
       responses:
         "200":
@@ -2409,7 +2409,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/AdvanceRTVEnableFIRsHeader'
               examples:
-                AdvanceRTVEnableFI: {summary: Response Advance RTV Enable FI, $ref: '#/components/examples/AdvanceRTVEnableFIResponse'}
+                AdvanceRTVEnableFI: {$ref: '#/components/examples/AdvanceRTVEnableFIResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2440,7 +2440,7 @@ paths:
             schema:
               $ref: '#/components/schemas/RTVTokenRqHeader'
             examples:
-              RTVToken: {summary: Request RTV Token, $ref: '#/components/examples/RTVTokenRequest'}
+              RTVToken: {$ref: '#/components/examples/RTVTokenRequest'}
         required: true
       responses:
         "200":
@@ -2450,7 +2450,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/RTVTokenRsHeader'
               examples:
-                RTVToken: {summary: Response RTV Token, $ref: '#/components/examples/RTVTokenResponse'}
+                RTVToken: {$ref: '#/components/examples/RTVTokenResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2484,7 +2484,7 @@ paths:
             schema:
               $ref: '#/components/schemas/FISearchRqHeaderType'
             examples:
-              searchFI: {summary: Request Search FI, $ref: '#/components/examples/searchFIRequest'}
+              searchFI: {$ref: '#/components/examples/searchFIRequest'}
         required: true
       responses:
         "200":
@@ -2494,7 +2494,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/FISearchRsHeaderType'
               examples:
-                searchFI: {summary: Response Search FI, $ref: '#/components/examples/searchFIResponse'}
+                searchFI: {$ref: '#/components/examples/searchFIResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2525,7 +2525,7 @@ paths:
             schema:
               $ref: '#/components/schemas/AcctVerificationRqHeader'
             examples:
-              verifyAccount: {summary: Request Verify Account, $ref: '#/components/examples/verifyAccountRequest'}
+              verifyAccount: {$ref: '#/components/examples/verifyAccountRequest'}
         required: true
       responses:
         "200":
@@ -2535,7 +2535,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/AcctVerificationRsHeader'
               examples:
-                verifyAccount: {summary: Response Verify Account, $ref: '#/components/examples/verifyAccountResponse'}
+                verifyAccount: {$ref: '#/components/examples/verifyAccountResponse'}
         "400":
           description: Bad Request
         "401":
@@ -2587,7 +2587,7 @@ components:
       - CurCode
       type: object
       properties:
-        Amt: {type: number, format: double, example: '100' }
+        Amt: {type: number, format: double, example: 100 }
         CurCode: {type: string, example: 'USD' }
     AssetClassType:
       required:
@@ -2620,7 +2620,7 @@ components:
       - question
       type: object
       properties:
-        questionId: {type: integer, format: int32, example: '1'}
+        questionId: {type: integer, format: int32, example: 1}
         question: {type: string, example : 'What is your city of birth'}
         answer: {type: string, example : 'Sydney'}
     CoverageElementsType:
@@ -2731,7 +2731,7 @@ components:
         UserContactInfo: {$ref: '#/components/schemas/UserContactInfoType' }
         IncludeInDisplay: {type: string, enum: [Yes, No] }
         LastUpdateStatusCode: {type: string }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         UpdateErrorCode: {type: string }
         LastUpdateStatusMsg: {type: string }
         LastUpdateStatusFIMsg: {type: string }
@@ -2807,7 +2807,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FILoginAcctInfoListInqRs: {$ref: '#/components/schemas/FILoginAcctInfoListInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FILoginAcctInfoListInqRsHeader
@@ -2835,13 +2835,13 @@ components:
       - FIUserLoginAcctInfo
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FILoginAcctCreator: {type: string, enum: [UserCreated, PartnerSupplied, Offline] }
         UpdateErrorCode: {type: string }
         LastUpdateStatusMsg: {type: string }
         LastUpdateStatusFIMsg: {type: string }
         TaxDocumentID: {type: string, example: 'Ywasd182987qsFERvx987rqwLjkNipa71aswf26adfRT=' }
-        ParentError: {type: boolean, example: 'true' }
+        ParentError: {type: boolean, example: true }
         FIInfo: {$ref: '#/components/schemas/FIInfoType' }
         FIUserLoginAcctInfo: {$ref: '#/components/schemas/FIUserLoginAcctInfoType' }
         FIAcctSummary:
@@ -2887,7 +2887,7 @@ components:
       - FetchKey
       type: object
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         FetchKeyId: {type: integer, format: int64 }
         FetchKey:
           type: array
@@ -2905,10 +2905,10 @@ components:
         ExercisePrice: {$ref: '#/components/schemas/TransactionAmtType' }
         FirstVestDt: {type: string, description: "First Vesting Date of Grant", format: date-time, example: '2020-08-31T00:00:00Z' }
         ExpirationDt: {type: string, description: "Expiration Date of Grant", format: date-time, example: '2020-08-31T00:00:00Z' }
-        SharesGranted: {type: number, description: "Number of shares in the Grant", format: double, example: '94700.0' }
+        SharesGranted: {type: number, description: "Number of shares in the Grant", format: double, example: 94700.0 }
         NxtVestDt: {type: string, format: date-time, example: '2020-08-31T00:00:00Z' }
-        VestPeriods: {type: integer, description: "Total number of vesting periods", format: int32, example: '3' }
-        VestPeriodsPerYr: {type: integer, description: "Number of vesting periods per year", format: int32, example: '1' }
+        VestPeriods: {type: integer, description: "Total number of vesting periods", format: int32, example: 3 }
+        VestPeriodsPerYr: {type: integer, description: "Number of vesting periods per year", format: int32, example: 1 }
         SharesVested: {type: number, description: "Number of shares vested or excercisable", format: double }
         SharesSold: {type: number, format: double }
         SharesAvail: {type: number, format: double }
@@ -2988,7 +2988,7 @@ components:
       - CurCode
       type: object
       properties:
-        Amt: {type: number, format: double, example: '100' }
+        Amt: {type: number, format: double, example: 100 }
         CurCode: { type: string, enum: [HKD,HNL,HTG,HUF,IDR,IEP,ILS,INR,IQD,IRR,ISK,ITL,JMD,JOD,JPY,DEM,DJF,DKK,DOP,ECD,ECS,EUR,EEK,EGP,SVC,ETB,FIM,FJD,FKP,FRF,GBP,GHC,GIP,GMD,GNF,GRD,GTQ,GWP,GYD,BGL,BHD,BIF,BMD,BOB,BRL,BSD,BTN,BWP,BYB,BZD,CAD,KHR,KMF,KYD,XAF,XPF,CLP,CNY,COP,CRC,HRK,CZK,CUP,CVE,CYP,LSL,LTL,LUF,LVL,LYD,MAD,MDL,MGF,MKD,MMK,MNT,MOP,MRO,MTL,MUR,MVR,MWK,KES,KRW,KWD,KZT,LAK,LBP,LRD,MXP,MYR,MZM,NGN,NIO,ANG,NLG,NOK,NPR,NZD,OMR,PEN,PGK,PHP,PKR,PLN,PTE,PYG,AED,RUR,RWF,SAR,SBD,SCR,ESP,SDD,SEK,SGD,SIT,SKK,SLL,SRG,STD,ZAR,LKR,SYP,SZL,CHF,TWD,THB,TJR,TMM,TND,TOP,TRL,TTD,TZS,UGX,USD,UYP,UZS,VEB,VND,VUV,WST,YDR,YER,ZMK,ZRN,ZWD,AFA,DZD,ALL,AMD,AOR,ARS,ATS,AUD,AWG,AZM,BAD,BBD,BDT,BEF]}
     MFAQuestionType:
       required:
@@ -3078,7 +3078,7 @@ components:
       description: "Position and value of the security"
       properties:
         UnitPrice: {$ref: '#/components/schemas/TransactionAmtType' }
-        Units: {type: number, description: "Number of securities.", format: double, example: '5' }
+        Units: {type: number, description: "Number of securities.", format: double, example: 5 }
         MarketValue: {$ref: '#/components/schemas/TransactionAmtType' }
         CostBasis: {$ref: '#/components/schemas/TransactionAmtType' }
     SignonRsType:
@@ -3088,7 +3088,7 @@ components:
       description: "This aggregate provides the status of the user authentication."
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        CEUserID: {type: integer, format: int64, example: '3752308', description: "The CashEdge internal identifier for the added user."}
+        CEUserID: {type: integer, format: int64, example: 3752308, description: "The CashEdge internal identifier for the added user."}
         SessInfo: {type: string, example: '6e4d6b34476938575a4357654d6f6c79546f366870673d3d'}
         Roles: {$ref: '#/components/schemas/RolesType' }
         ResetPasswordRequired: {type: string, example: 'No' }
@@ -3122,7 +3122,7 @@ components:
       - CurCode
       type: object
       properties:
-        Amt: {type: number, format: double, example: '100' }
+        Amt: {type: number, format: double, example: 100 }
         CurCode: {type: string, example: 'USD' }
     URLType:
       required:
@@ -3150,7 +3150,7 @@ components:
       - Duration
       type: object
       properties:
-        Amt: {type: number, format: double, example: '100' }
+        Amt: {type: number, format: double, example: 100 }
         CurCode: {type: string, enum: [HKD,HNL,HTG,HUF,IDR,IEP,ILS,INR,IQD,IRR,ISK,ITL,JMD,JOD,JPY,DEM,DJF,DKK,DOP,ECD,ECS,EUR,EEK,EGP,SVC,ETB,FIM,FJD,FKP,FRF,GBP,GHC,GIP,GMD,GNF,GRD,GTQ,GWP,GYD,BGL,BHD,BIF,BMD,BOB,BRL,BSD,BTN,BWP,BYB,BZD,CAD,KHR,KMF,KYD,XAF,XPF,CLP,CNY,COP,CRC,HRK,CZK,CUP,CVE,CYP,LSL,LTL,LUF,LVL,LYD,MAD,MDL,MGF,MKD,MMK,MNT,MOP,MRO,MTL,MUR,MVR,MWK,KES,KRW,KWD,KZT,LAK,LBP,LRD,MXP,MYR,MZM,NGN,NIO,ANG,NLG,NOK,NPR,NZD,OMR,PEN,PGK,PHP,PKR,PLN,PTE,PYG,AED,RUR,RWF,SAR,SBD,SCR,ESP,SDD,SEK,SGD,SIT,SKK,SLL,SRG,STD,ZAR,LKR,SYP,SZL,CHF,TWD,THB,TJR,TMM,TND,TOP,TRL,TTD,TZS,UGX,USD,UYP,UZS,VEB,VND,VUV,WST,YDR,YER,ZMK,ZRN,ZWD,AFA,DZD,ALL,AMD,AOR,ARS,ATS,AUD,AWG,AZM,BAD,BBD,BDT,BEF]}
         Duration: {type: string }
     AdminInfoType:
@@ -3160,7 +3160,7 @@ components:
       type: object
       properties:
         UserID: {type: string, example: 'Newport_client7777'}
-        HomeID: {type: integer, format: int64, example: '50040001'}
+        HomeID: {type: integer, format: int64, example: 50040001}
         UserPassword: {$ref: '#/components/schemas/UserPasswordSignOnType' }
     ContactInfoType:
       type: object
@@ -3187,7 +3187,7 @@ components:
         RqUID: {type: string, description: "Unique Request Identifier. The Client Site sends this element with the request.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FILoginAcctInfoListInqRq: {$ref: '#/components/schemas/FILoginAcctInfoListInqRqType' }
-        partnerID: {type: integer, example: '5012000'}
+        partnerID: {type: integer, example: 5012000}
         version: {type: string, example: 'version1'}
       xml:
         name: FILoginAcctInfoListInqRqHeader
@@ -3206,7 +3206,7 @@ components:
       type: object
       description: "List of FI Login Accounts for which data is to be returned."
       properties:
-        HomeID: {type: integer, format: int64, example: '50040001' }
+        HomeID: {type: integer, format: int64, example: 50040001 }
         UserID: {type: string, example: 'Newport_client7235afc'}
         FILoginAcctId:
           type: array
@@ -3283,7 +3283,7 @@ components:
       properties:
         IdType: {type: string, enum: [CEUserID, CEInviteClientID, CEUserLoginName, CEAdvisorLoginName, CEAdvisorID], example: 'CEUserID'}
         IdValue: {type: string, example : '1610763'}
-        HomeID: {type: integer, format: int64, example : '50040001'}
+        HomeID: {type: integer, format: int64, example : 50040001}
     UserInfoType:
       required:
       - Role
@@ -3293,7 +3293,7 @@ components:
       description: "To identify the user to perform action."
       properties:
         UserID: {type: string, example: 'Newport_client7235afc'}
-        HomeID: {type: integer, format: int64, example: '50040001'}
+        HomeID: {type: integer, format: int64, example: 50040001}
         UserPassword: {$ref: '#/components/schemas/UserPasswordSignOnType' }
         AlldataToken: {type: string }
         Role: {type: string, enum: [User, Admin, Advisor, CSR], example: 'User'}
@@ -3317,7 +3317,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AccountUpdateSummaryRs: {$ref: '#/components/schemas/AccountUpdateSummaryRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AccountUpdateSummaryRsHeader
@@ -3342,7 +3342,7 @@ components:
       - LastUpdateStatusCode
       type: object
       properties:
-        AcctId: {type: integer, description: Account identifier, format: int64, example: '5586481' }
+        AcctId: {type: integer, description: Account identifier, format: int64, example: 5586481 }
         AcctNickName: {type: string, description: Account nickname for AcctID, example: 'Banking' }
         ErrorCode: {type: string }
         LastUpdateAttempt: {type: string, format: date-time, example: '2021-10-31T12:00:00Z' }
@@ -3360,7 +3360,7 @@ components:
       - FIId
       type: object
       properties:
-        FILoginAcctId: {type: integer, description: FI Login identifier, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: FI Login identifier, format: int32, example: 5586467 }
         FIId: {type: string, description: FI identifier, example: '505003' }
         ErrorCode: {type: string }
         LastUpdateAttempt: {type: string, description: Time of last account details update, format: date-time, example: '2021-10-31T12:00:00Z' }
@@ -3375,7 +3375,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         AccountUpdateSummaryRq: {$ref: '#/components/schemas/AccountUpdateSummaryRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AccountUpdateSummaryRqHeader
@@ -3395,7 +3395,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FIAcctSummaryInqRs: {$ref: '#/components/schemas/FIAcctSummaryInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIAcctSummaryInqRsHeader
@@ -3416,7 +3416,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FIAcctSummaryInqRq: {$ref: '#/components/schemas/FIAcctSummaryInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIAcctSummaryInqRqHeader
@@ -3429,7 +3429,7 @@ components:
       - AvailableBankStatements
       type: object
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         AvailableBankStatements: {type: string, example: '9-2020' }
     BankStatementInqRsType:
       required:
@@ -3450,7 +3450,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BankStatementInqRs: {$ref: '#/components/schemas/BankStatementInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BankStatementRsHeader
@@ -3460,7 +3460,7 @@ components:
       - FIConsent
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIConsent: {type: string, example: 'enabled' }
         AcctBankStmtDetail:
           type: array
@@ -3490,7 +3490,7 @@ components:
       properties:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BankStatementRqHeader
@@ -3501,14 +3501,14 @@ components:
       - TrnType
       type: object
       properties:
-        TrnID: {type: integer, format: int64, example: '10495243' }
+        TrnID: {type: integer, format: int64, example: 10495243 }
         FITrnID: {type: integer, format: int32 }
         TrnType: {type: string, enum: [Cash,Credit,Debit,Deposit,Fee], example: 'Credit' }
         PostedDt: {type: string, format: date-time, example: '2020-08-26T00:00:00Z' }
         OrigDt: {type: string, format: date-time, example: '2020-09-22T00:00:00Z' }
         CurAmt: {$ref: '#/components/schemas/AmountType' }
         Memo: {type: string, example: 'ABC SUPPLY 638 10210 HIGHWAY 78 LADSON SCUS' }
-        CheckNumber: {type: integer, format: int32, example: '5467' }
+        CheckNumber: {type: integer, format: int32, example: 5467 }
         CreatedOnDt: {type: string, format: date-time, example: '2020-08-26T12:00:00Z' }
         Category: {type: string, example: 'NA' }
         SubCategory: {type: string, example: 'NA' }
@@ -3525,7 +3525,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         DepAcctTrnInqRs: {$ref: '#/components/schemas/DepAcctTrnInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DepAcctTrnInqRsHeader
@@ -3543,7 +3543,7 @@ components:
       type: object
       description: Deposit account transactions. This element will be present only if the request could be carried out succesfully.
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId: {$ref: '#/components/schemas/FIAcctIdType' }
         SelectionCriterion: {$ref: '#/components/schemas/SelectionCriterionType' }
         BankAcctTrnRec:
@@ -3589,7 +3589,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         DepAcctTrnInqRq: {$ref: '#/components/schemas/DepAcctTrnInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DepAcctTrnInqRqHeader
@@ -3610,7 +3610,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         CCAcctTrnInqRs: {$ref: '#/components/schemas/CCAcctTrnInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: CCAcctTrnInqRsHeader
@@ -3628,7 +3628,7 @@ components:
       type: object
       description: Credit card transactions
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId: {$ref: '#/components/schemas/FIAcctIdType' }
         SelectionCriterion: {$ref: '#/components/schemas/SelectionCriterionType' }
         BankAcctTrnRec:
@@ -3644,7 +3644,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         CCAcctTrnInqRq: {$ref: '#/components/schemas/CCAcctTrnInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: CCAcctTrnInqRqHeader
@@ -3661,18 +3661,18 @@ components:
       - BankAcctTrnRec
       type: object
       properties:
-        CEUserID: {type: integer, format: int64, example: '3211375' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        CEUserID: {type: integer, format: int64, example: 3211375 }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         BankAcctTrnRec: {$ref: '#/components/schemas/BankAcctTrnRecType' }
     CCAcctTrnInfoType:
       required:
       - BankAcctTrnRec
       type: object
       properties:
-        CEUserID: {type: integer, format: int64, example: '2017217' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        CEUserID: {type: integer, format: int64, example: 2017217 }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         BankAcctTrnRec: {$ref: '#/components/schemas/BankAcctTrnRecType' }
     DeletedTrnInqRsHeader:
       required:
@@ -3683,7 +3683,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         DeletedTrnInqRs: {$ref: '#/components/schemas/DeletedTrnInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DeletedTrnInqRsHeader
@@ -3717,7 +3717,7 @@ components:
       - TrnDate
       type: object
       properties:
-        TrnID: {type: integer, format: int64, example: '13897448' }
+        TrnID: {type: integer, format: int64, example: 13897448 }
         FITrnID: {type: integer, format: int32 }
         TxnCode: {type: string }
         TrnDate: {type: string, format: date-time, example: '2020-09-22T00:00:00Z' }
@@ -3726,26 +3726,26 @@ components:
         Commission: {$ref: '#/components/schemas/TransactionAmtType' }
         Desc: {type: string, example: 'Fidelity Advisor 529 Mid Cap Portfolio - Class c(1166)-SYSTEMATIC CONTRIBUTION' }
         SecInfo: {$ref: '#/components/schemas/SecInfoType' }
-        Units: {type: number, format: double, example: '5' }
+        Units: {type: number, format: double, example: 5 }
         UnitPrice: {$ref: '#/components/schemas/TransactionAmtType' }
-        CheckNumber: {type: integer, format: int32, example: '5467' }
+        CheckNumber: {type: integer, format: int32, example: 5467 }
     InvstAcctTrnInfoType:
       required:
       - InvAcctTrnRec
       type: object
       properties:
-        CEUserID: {type: integer, format: int64, example: '2017217' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        CEUserID: {type: integer, format: int64, example: 2017217 }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         InvAcctTrnRec: {$ref: '#/components/schemas/InvAcctTrnRecType' }
     OtherAcctTrnInfoType:
       required:
       - OtherAcctTrnRec
       type: object
       properties:
-        CEUserID: {type: integer, format: int64, example: '2017217' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        CEUserID: {type: integer, format: int64, example: 2017217 }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         OtherAcctTrnRec: {$ref: '#/components/schemas/OtherAcctTrnRecType' }
     OtherAcctTrnRecType:
       required:
@@ -3755,7 +3755,7 @@ components:
       type: object
       description: Other account type transaction record.
       properties:
-        TrnID: {type: integer, description: Unique transaction ID assigned by CashEdge, format: int64, example: '10495243' }
+        TrnID: {type: integer, description: Unique transaction ID assigned by CashEdge, format: int64, example: 10495243 }
         FITrnID: {type: integer, description: Unique transaction ID assigned by the financial institution from where this transaction was fetched if available from the FI, format: int32 }
         TrnType: {type: string, enum: [Cash,Credit,Debit,Deposit,Fee], example: 'Credit' }
         PostedDt: {type: string, format: date-time, example: '2020-09-22T00:00:00Z' }
@@ -3786,7 +3786,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         DeletedTrnInqRq: {$ref: '#/components/schemas/DeletedTrnInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DeletedTrnInqRqHeader
@@ -3797,7 +3797,7 @@ components:
       properties:
         SelRangeDt: {$ref: '#/components/schemas/SelectRangeDtType' }
         AcctGroup: {type: string, description: To mention specific Account group. If not mentioned includes all account groups., enum: [Cash,Credit,Investment,OtherBill], example: 'Credit' }
-        StartRowNum: {type: integer, format: int32, example: '1' }
+        StartRowNum: {type: integer, format: int32, example: 1 }
     EmployerStockOptionRsHeader:
       required:
       - Status
@@ -3807,7 +3807,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         EmployerStockOptionRs: {$ref: '#/components/schemas/EmployerStockOptionRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: EmployerStockOptionRsHeader
@@ -3828,7 +3828,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         EmployerStockOptionRq: {$ref: '#/components/schemas/EmployerStockOptionRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: EmployerStockOptionRqHeader
@@ -3843,7 +3843,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -3868,7 +3868,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         InvAcctPosInqRq: {$ref: '#/components/schemas/InvAcctPosInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: InvAcctPosInqRqHeader
@@ -3887,7 +3887,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         InvAcctTrnInqRs: {$ref: '#/components/schemas/InvAcctTrnInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: InvAcctTrnInqRsHeader
@@ -3906,7 +3906,7 @@ components:
       type: object
       description: Investment account transactions. This aggregate will be present only if the request was carried out successfully.
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId: {$ref: '#/components/schemas/FIAcctIdType' }
         SelectionCriterion: {$ref: '#/components/schemas/SelectionCriterionType' }
         InvAcctTrnRec:
@@ -3922,7 +3922,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         InvAcctTrnInqRq: {$ref: '#/components/schemas/InvAcctTrnInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: InvAcctTrnInqRqHeader
@@ -3943,7 +3943,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         OtherAcctTrnInqRs: {$ref: '#/components/schemas/OtherAcctTrnInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: OtherAcctTrnInqRsHeader
@@ -3978,7 +3978,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         OtherAcctTrnInqRq: {$ref: '#/components/schemas/OtherAcctTrnInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: OtherAcctTrnInqRqHeader
@@ -3994,7 +3994,7 @@ components:
       type: object
       description: Provides TaxDocumentID for account level tax document details
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         TaxDocumentID: {type: string, example: 'Ywasd182987qsFERvx987rqwLjkNipa71aswf26adfRT=' }
     FILoginAcctTaxDocDetailType:
       required:
@@ -4002,7 +4002,7 @@ components:
       type: object
       description: Provides TaxDocumentID for FI level tax document details
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         TaxDocumentID: {type: string, example: 'Ywasd182987qsFERvx987rqwLjkNipa71aswf26adfRT=' }
         FIConsent: {type: string, example: 'enabled' }
         AcctTaxDocDetail:
@@ -4027,7 +4027,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         TaxDocumentInqRs: {$ref: '#/components/schemas/TaxDocumentInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: TaxDocumentInqRsHeader
@@ -4057,7 +4057,7 @@ components:
       properties:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: TaxDocumentInqRqHeader
@@ -4092,7 +4092,7 @@ components:
       type: object
       description: Transactions corresponding to the search criterion in all accounts accross all specified FI Login Accounts.
       properties:
-        FILoginAcctId: {type: integer, description: Identifies the FI Login account, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: Identifies the FI Login account, format: int32, example: 5586467 }
         FIInfo: {$ref: '#/components/schemas/FIInfoType' }
         FIAcctTrns:
           type: array
@@ -4107,7 +4107,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FindTrnsInqRs: {$ref: '#/components/schemas/FindTrnsInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FindTrnsInqRsHeader
@@ -4144,7 +4144,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FindTrnsInqRq: {$ref: '#/components/schemas/FindTrnsInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FindTrnsInqRqHeader
@@ -4176,14 +4176,14 @@ components:
       properties:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: PingRqHeader
     AddFILoginHostAcctRsType:
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         fihostAcctIds:
           type: array
           items: {$ref: '#/components/schemas/FIHostAcctIdsType' }
@@ -4198,7 +4198,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AddHostAcctsRs: {$ref: '#/components/schemas/AddHostAcctsRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AddHostAcctsRsHeader
@@ -4226,7 +4226,7 @@ components:
       - InvAcctSecIds
       type: object
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         FIAcctNumber: {$ref: '#/components/schemas/FIAcctNumberType' }
         InvAcctSecIds:
           type: array
@@ -4236,7 +4236,7 @@ components:
       - FISecID
       type: object
       properties:
-        SecID: {type: integer, format: int32, example: '3847761' }
+        SecID: {type: integer, format: int32, example: 3847761 }
         FISecID: {type: string, example: '20349' }
     AddFILoginHostAcctRqType:
       required:
@@ -4260,7 +4260,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         AddHostAcctsRq: {$ref: '#/components/schemas/AddHostAcctsRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AddHostAcctsRqHeader
@@ -4285,7 +4285,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         AddUpdateHostAccountsRq: {$ref: '#/components/schemas/AddUpdateFILoginHostAcctRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: addUpdateHostAccountsRqHeader
@@ -4319,7 +4319,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AddUpdateHostAccountsRs: {$ref: '#/components/schemas/addUpdateHostAccountsRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: addUpdateHostAccountsRsHeader
@@ -4336,8 +4336,8 @@ components:
     addUpdateFILoginHostAcctRsType:
       type: object
       properties:
-        HostAcctStatusID: {type: integer, description: The identification which is used to access the status of the accounts process., format: int32, example: '7000' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        HostAcctStatusID: {type: integer, description: The identification which is used to access the status of the accounts process., format: int32, example: 7000 }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         fihostAcctIds:
           type: array
           items: {$ref: '#/components/schemas/FIHostAcctIdsType' }
@@ -4451,7 +4451,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BankStatementConsentRs: {$ref: '#/components/schemas/BankStatementConsentRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BankStatementConsentRsHeader
@@ -4473,7 +4473,7 @@ components:
       - Status
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         Status: {$ref: '#/components/schemas/StatusType' }
     FIConsentRsType:
       required:
@@ -4500,7 +4500,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         BankStatementConsentRq: {$ref: '#/components/schemas/BankStatementConsentRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BankStatementConsentRqHeader
@@ -4514,7 +4514,7 @@ components:
       - DownloadBankStatement
       type: object
       properties:
-        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: 5586467 }
         DownloadBankStatement: {type: string, enum: [Disable,Enable], example: 'Enable' }
     FIConsentListType:
       required:
@@ -4551,7 +4551,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
@@ -4565,7 +4565,7 @@ components:
       type: object
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: 5586467 }
         FIUserLoginAcctInfo: {$ref: '#/components/schemas/FIUserLoginAcctInfoType' }
         FIAcctIdentifierList: {$ref: '#/components/schemas/FIAcctIdentifierListType' }
     HarvestAddFetchAcctType:
@@ -4624,7 +4624,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -4637,7 +4637,7 @@ components:
       - HarvestAddID
       type: object
       properties:
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
         HarvestAddFetchAcctList: {$ref: '#/components/schemas/HarvestAddFetchAcctListType' }
     HarvestAddFetchAcctListType:
@@ -4659,7 +4659,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FIDeleteRs: {$ref: '#/components/schemas/FIDeleteRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIDeleteRsHeader
@@ -4679,14 +4679,14 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FIDeleteRq: {$ref: '#/components/schemas/FIDeleteRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIDeleteRqHeader
     FIDeleteRqType:
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId: {$ref: '#/components/schemas/FIAcctIdType' }
     DocumentDeleteRsHeader:
       required:
@@ -4697,7 +4697,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         DocumentDeleteRs: {$ref: '#/components/schemas/DocumentDeleteRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DocumentDeleteRsHeader
@@ -4718,14 +4718,14 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         DocumentDeleteRq: {$ref: '#/components/schemas/DocumentDeleteRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DocumentDeleteRqHeader
     DocumentDeleteRqType:
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId: {$ref: '#/components/schemas/FIAcctIdType' }
     AnswerChoicesType:
       required:
@@ -4793,7 +4793,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         HarvestAddStsInqRs: {$ref: '#/components/schemas/HarvestAddStsInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestAddStsInqRsHeader
@@ -4815,7 +4815,7 @@ components:
       - HarvestRqStatusType
       type: object
       properties:
-        FILoginAcctId: {type: integer, description: FI Login identifier. This element will be present only of the request that was carried out successfully., format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: FI Login identifier. This element will be present only of the request that was carried out successfully., format: int32, example: 5586467 }
         HarvestRqStatusType: {type: string, enum: [Initiated,InProgress,Completed,TimeOut,Failure,In Progress ...]}
         HarvestAcctSts:
           type: array
@@ -4826,7 +4826,7 @@ components:
       - HarvestRqStatus
       type: object
       properties:
-        HarvestID: {type: integer, description: The identification assigned to the harvest request. This element will be present only of the request that was carried out successfully., format: int32, example: '18792974' }
+        HarvestID: {type: integer, description: The identification assigned to the harvest request. This element will be present only of the request that was carried out successfully., format: int32, example: 18792974 }
         OAuthRqID: {type: string }
         HarvestRqStatus: {type: string, example: 'Completed' }
         HarvestFISts:
@@ -4857,7 +4857,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HarvestAddStsInqRq: {$ref: '#/components/schemas/HarvestAddStsInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestAddStsInqRqHeader
@@ -4867,7 +4867,7 @@ components:
       - HarvestAddID
       type: object
       properties:
-        RunId: {type: integer, format: int32, example: '18792974'}
+        RunId: {type: integer, format: int32, example: 18792974}
         OAuthRqID: {type: string }
         HarvestAddID: {type: string, example : '34626776314179795a306e6e65337468546233735a413d3d'}
     HarvestAddFetchRsHeader:
@@ -4879,7 +4879,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         HarvestAddFetchRs: {$ref: '#/components/schemas/HarvestAddFetchRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestAddFetchRsHeader
@@ -4900,7 +4900,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HarvestAddFetchRq: {$ref: '#/components/schemas/HarvestAddFetchRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestAddFetchRqHeader
@@ -4909,7 +4909,7 @@ components:
       - HarvestAddID
       type: object
       properties:
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
     HostAcctStsInqRsHeader:
       required:
@@ -4920,7 +4920,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         HostAcctStsInqRs: {$ref: '#/components/schemas/HostAcctStsInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HostAcctStsInqRsHeader
@@ -4942,7 +4942,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HostAcctStsInqRq: {$ref: '#/components/schemas/HostAcctStsInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HostAcctStsInqRqHeader
@@ -4957,7 +4957,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: Unique Request Identifier. Client Site sends this element with the request., example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -4973,9 +4973,9 @@ components:
       type: object
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
-        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, description: FI Login Identifier. This element will be present only of the request that was carried out successfully., format: int32, example: 5586467 }
         FIUserLoginAcctInfo:
           type: array
           items: {$ref: '#/components/schemas/FIUserLoginAcctInfoType' }
@@ -5012,10 +5012,10 @@ components:
       type: object
       description: Aggregate structure used for adding more accounts to an already existing set of accounts or for Account Maintenance (Re classification).
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FILoginParamList: {$ref: '#/components/schemas/FILoginParamListType' }
         FIMFAAnswers: {$ref: '#/components/schemas/FIMFAAnswersType' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
         PartnerAppID: {type: string }
     AddNewAcctsType:
@@ -5062,7 +5062,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HarvestAddRq: {$ref: '#/components/schemas/HarvestAddReqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestAddRqHeader
@@ -5081,7 +5081,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
@@ -5119,7 +5119,7 @@ components:
       - UserAcctModRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -5148,7 +5148,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         TaxStatementConsentRs: {$ref: '#/components/schemas/TaxStatementConsentRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: TaxStatementConsentRsHeader
@@ -5171,7 +5171,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         TaxStatementConsentRq: {$ref: '#/components/schemas/TaxStatementConsentRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: TaxStatementConsentRqHeader
@@ -5192,7 +5192,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
@@ -5213,7 +5213,7 @@ components:
       - UserOFILoginCredentialsModRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -5223,7 +5223,7 @@ components:
     UserOFILoginCredentialsModRqType:
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         TrustMode: {type: string, enum: [High,Medium,Low,Offline], example: 'High' }
         FILoginParamList: {$ref: '#/components/schemas/FILoginParamListType' }
     ModHostAcctsRsHeader:
@@ -5234,7 +5234,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: ModHostAcctsRsHeader
@@ -5243,7 +5243,7 @@ components:
       - FIHostAcctSummary
       type: object
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481' }
+        AcctId: {type: integer, format: int64, example: 5586481 }
         FIAcctNumber: {$ref: '#/components/schemas/FIAcctNumberType' }
         FIHostAcctSummary: {$ref: '#/components/schemas/FIHostAcctSummaryType' }
     ModHostAcctsRqHeader:
@@ -5255,7 +5255,7 @@ components:
       properties:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         ModHostAcctsRq: {$ref: '#/components/schemas/ModHostAcctsRqType' }
       xml:
@@ -5297,7 +5297,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         UpdateTxnCategoryRs: {$ref: '#/components/schemas/UpdateTxnCategoryRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: UpdateTxnCategoryRsHeader
@@ -5361,7 +5361,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         UpdateTxnCategoryRq: {$ref: '#/components/schemas/UpdateTxnCategoryRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: UpdateTxnCategoryRqHeader
@@ -5385,7 +5385,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         DeleteSubCategoryRs: {$ref: '#/components/schemas/DeleteSubCategoryRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DeleteSubCategoryRsHeader
@@ -5405,7 +5405,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         DeleteSubCategoryRq: {$ref: '#/components/schemas/DeleteSubCategoryRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: DeleteSubCategoryRqHeader
@@ -5440,7 +5440,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BudgetAddRs: {$ref: '#/components/schemas/BudgetAddRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetAddRsHeader
@@ -5463,7 +5463,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         BudgetAddRq: {$ref: '#/components/schemas/BudgetAddRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetAddRqHeader
@@ -5484,7 +5484,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BudgetDeleteRs: {$ref: '#/components/schemas/BudgetDeleteRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetDeleteRsHeader
@@ -5504,7 +5504,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         BudgetDeleteRq: {$ref: '#/components/schemas/BudgetDeleteRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetDeleteRqHeader
@@ -5524,7 +5524,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BudgetEditRs: {$ref: '#/components/schemas/BudgetEditRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetEditRsHeader
@@ -5547,7 +5547,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         BudgetEditRq: {$ref: '#/components/schemas/BudgetEditRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetEditRqHeader
@@ -5569,7 +5569,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         BudgetFindRs: {$ref: '#/components/schemas/BudgetFindRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetFindRsHeader
@@ -5616,7 +5616,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         BudgetFindRq: {$ref: '#/components/schemas/BudgetFindRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: BudgetFindRqHeader
@@ -5629,7 +5629,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -5642,7 +5642,7 @@ components:
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
         AcctName: {type: string, example: "Test_Offline2", description: "Name of the added offline account." }
-        AcctId: {type: integer, format: int64, example: '5586481', description: "ID of the added offline account." }
+        AcctId: {type: integer, format: int64, example: 5586481, description: "ID of the added offline account." }
     AddOfflineAcctRqHeader:
       required:
       - AddOfflineAcctRq
@@ -5650,7 +5650,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -5686,7 +5686,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -5707,7 +5707,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -5726,7 +5726,7 @@ components:
       type: object
       description: "Account info to modify the account."
       properties:
-        AcctId: {type: integer, format: int64, example: '5586481', description: "Account id to the modify offline account." }
+        AcctId: {type: integer, format: int64, example: 5586481, description: "Account id to the modify offline account." }
         AdvisorAccess: {type: string, enum: [None,Summary,Full Account], example: "Full Account", description: "Advisor permission to view the account information." }
         AcctName: {type: string, example: "Test_Offline2", description: "Name of the account to be added." }
         AcctBal:
@@ -5772,7 +5772,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FIMessagesRs: {$ref: '#/components/schemas/FIMessagesRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIMessagesInfoRsHeader
@@ -5792,7 +5792,7 @@ components:
       properties:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIMessagesInfoRqHeader
@@ -5807,7 +5807,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         GoalAddRs: {$ref: '#/components/schemas/GoalAddRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalAddRsHeader
@@ -5843,7 +5843,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         GoalAddRq: {$ref: '#/components/schemas/GoalAddRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalAddRqHeader
@@ -5876,7 +5876,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         GoalDeleteRs: {$ref: '#/components/schemas/GoalDelRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalDeleteRsHeader
@@ -5896,7 +5896,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         GoalDeleteRq: {$ref: '#/components/schemas/GoalDelRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalDeleteRqHeader
@@ -5911,7 +5911,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         GoalEditRs: {$ref: '#/components/schemas/GoalEditRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalEditRsHeader
@@ -5933,7 +5933,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         GoalEditRq: {$ref: '#/components/schemas/GoalEditRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalEditRqHeader
@@ -5963,7 +5963,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         GoalFindRs: {$ref: '#/components/schemas/GoalFindRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalFindRsHeader
@@ -5991,7 +5991,7 @@ components:
       - TargetDate
       type: object
       properties:
-        GoalId: {type: string, example: 6174014, description: "The identification assigned to the Goal request. This element will be present only of the request that was carried out successfully." }
+        GoalId: {type: string, example: '6174014', description: "The identification assigned to the Goal request. This element will be present only of the request that was carried out successfully." }
         GoalName: {type: string, example: 'Buy a car', description: "Enter information for what you'd like to save up for, like a new house, education savings, etc."}
         GoalStatus: {type: string, example: 'Off Schedule', description: "Status of goal requested."}
         TargetAmt: {type: number, format: double, example: 100, description: "It is the amount that need to save."}
@@ -6008,7 +6008,7 @@ components:
         RqUID: {type: string, description: "A Unique Request Identifier.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         GoalFindRq: {$ref: '#/components/schemas/GoalFindRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: GoalFindRqHeader
@@ -6027,7 +6027,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         HarvestStsInqRs: {$ref: '#/components/schemas/HarvestStsInqRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestStsInqRsHeader
@@ -6051,7 +6051,7 @@ components:
         RqUID: {type: string, description: 'Unique Request Identifier. The Client Site sends this element with the request.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HarvestStsInqRq: {$ref: '#/components/schemas/HarvestStsInqRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestStsInqRqHeader
@@ -6061,7 +6061,7 @@ components:
       type: object
       properties:
         HarvestAddID: {type: string, description: Harvest request identification, example: '5874503776495949506166733353685735524c7065673d3d' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         IncludeDetail: {type: string, description: 'Request for details about the harvest status. Possible values [FIStatus, AcctStatus]' }
     HarvestRsHeader:
       required:
@@ -6072,7 +6072,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         HarvestRs: {$ref: '#/components/schemas/HarvestRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestRsHeader
@@ -6082,14 +6082,14 @@ components:
       type: object
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
     FIAcctListType:
       required:
       - FIAcctId
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIAcctId:
           type: array
           items: {$ref: '#/components/schemas/FIAcctIdType' }
@@ -6117,7 +6117,7 @@ components:
     HarvestFILoginAcctType:
       type: object
       properties:
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         ExtendedTrnsDays: {type: integer, format: int32 }
         FILoginParamList: {$ref: '#/components/schemas/FILoginParamListType' }
         FIMFAAnswers: {$ref: '#/components/schemas/FIMFAAnswersType' }
@@ -6133,7 +6133,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         HarvestRq: {$ref: '#/components/schemas/HarvestRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: HarvestRqHeader
@@ -6144,7 +6144,7 @@ components:
         HarvestFILoginAcctList: {$ref: '#/components/schemas/HarvestFILoginAcctListType' }
         FIAcctList: {$ref: '#/components/schemas/FIAcctListType' }
         FIIdList: {$ref: '#/components/schemas/FIIdListType' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         HarvestAddID: {type: string, example: '5874503776495949506166733353685735524c7065673d3d' }
         BalanceVerification: {type: string, enum: [Yes,No], example: 'Yes' }
     FIInfoDataListType:
@@ -6178,7 +6178,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FIInfoRs: {$ref: '#/components/schemas/FIInfoRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIInfoRsHeader
@@ -6247,7 +6247,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FIInfoRq: {$ref: '#/components/schemas/FIInfoRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FIInfoRqHeader
@@ -6298,7 +6298,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FISearchRs: {$ref: '#/components/schemas/FISearchInstRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FISearchRsHeader
@@ -6320,7 +6320,7 @@ components:
         RqUID: {type: string, description: Unique Request Identifier. The Client Site sends this element with the request., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FISearchRq: {$ref: '#/components/schemas/FISearchInstRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FISearchRqHeader
@@ -6377,7 +6377,7 @@ components:
       properties:
         RqUID: {type: string, description: A Unique Request Identifier., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: TxnCategoriesInfoRqHeader
@@ -6386,7 +6386,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -6402,7 +6402,7 @@ components:
       type: object
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        CEUserID: {type: integer, format: int64, example: '2017217' }
+        CEUserID: {type: integer, format: int64, example: 2017217 }
     AdvCEUserIDListType:
       type: object
       properties:
@@ -6440,7 +6440,7 @@ components:
       properties:
         isAlreadyAssigned: {type: boolean }
         InstallID: {type: string }
-        HomeID: {type: integer, format: int64, example: '50040001' }
+        HomeID: {type: integer, format: int64, example: 50040001 }
         PartnerID: {type: integer, format: int64 }
         HomeName: {type: string }
         HomeType: {type: string }
@@ -6462,7 +6462,7 @@ components:
       type: object
       properties:
         UserID: {type: string, example: 'Newport_client7235afc'}
-        HomeID: {type: integer, format: int64, example: '50040001' }
+        HomeID: {type: integer, format: int64, example: 50040001 }
         UserPassword: {$ref: '#/components/schemas/UserPasswordType' }
         RoleDetail: {type: string }
         PartnerID: {type: integer, format: int64 }
@@ -6473,7 +6473,7 @@ components:
       - UserAddRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6498,10 +6498,10 @@ components:
       - UserID
       type: object
       properties:
-        HomeID: {type: integer, format: int64, example: '50040001' }
+        HomeID: {type: integer, format: int64, example: 50040001 }
         UserID: {type: string, example: 'Newport_client7235afc'}
         AppID: {type: string, example: 'ADD1' }
-        CEUserID: {type: integer, format: int64, example: '2017217' }
+        CEUserID: {type: integer, format: int64, example: 2017217 }
         PersonInfo: {$ref: '#/components/schemas/PersonInfoType' }
         EntitlementInfo: {$ref: '#/components/schemas/EntitlementInfoType' }
         AdvCEUserIDList: {$ref: '#/components/schemas/AdvCEUserIDListType' }
@@ -6528,7 +6528,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
@@ -6549,7 +6549,7 @@ components:
       - UserDelRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6561,14 +6561,14 @@ components:
       - UserID
       type: object
       properties:
-        HomeID: {type: integer, description: 'The user-base to which the user identified by UserID element belongs to.', format: int64, example: '50040001' }
+        HomeID: {type: integer, description: 'The user-base to which the user identified by UserID element belongs to.', format: int64, example: 50040001 }
         UserID: {type: string, description: 'This is the login ID of the customer into the Server site.', example: 'Newport_client7235afc'}
     UserProfileInqRsHeader:
       required:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
@@ -6589,7 +6589,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6610,7 +6610,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -6624,7 +6624,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'The Unique Request Identifier sent by the Server Site.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6636,7 +6636,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         Status: {$ref: '#/components/schemas/StatusType' }
@@ -6657,7 +6657,7 @@ components:
       - UserPasswordModRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6675,7 +6675,7 @@ components:
       - Status
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         Status: {$ref: '#/components/schemas/StatusType' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
@@ -6696,7 +6696,7 @@ components:
       - UserProfileModRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'A Unique Request Identifier.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6763,7 +6763,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         RTVInfoRs: {$ref: '#/components/schemas/RTVInfoRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: RTVInfoRsHeader
@@ -6782,7 +6782,7 @@ components:
       - RTVStatus
       type: object
       properties:
-        RunId: {type: integer, format: int32, example: '18816631' }
+        RunId: {type: integer, format: int32, example: 18816631 }
         Date: {type: string, format: date-time, example: '2021-11-09T00:00:00Z' }
         RTVStatus: {type: string }
         ErrorCode: {type: string }
@@ -6799,7 +6799,7 @@ components:
       properties:
         RqUID: {type: string, description: 'The Unique Request Identifier sent by the Server Site.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: RTVInfoRqHeader
@@ -6813,7 +6813,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AckRTVResultRs: {$ref: '#/components/schemas/AckRTVResultRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AckRTVResultRsHeader
@@ -6831,7 +6831,7 @@ components:
       - SignonRq
       type: object
       properties:
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
         RqUID: {type: string, description: 'The Unique Request Identifier sent by the Server Site.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
@@ -6853,7 +6853,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AdvanceRTVEnableFIRs: {$ref: '#/components/schemas/AdvanceRTVEnableFIRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AdvanceRTVEnableFIRsHeader
@@ -6907,7 +6907,7 @@ components:
         RqUID: {type: string, description: The Unique Request Identifier sent by the Server Site., example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         AdvanceRTVEnableFIRq: {$ref: '#/components/schemas/AdvanceRTVEnableFIRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AdvanceRTVEnableFIRqHeader
@@ -6925,7 +6925,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         RTVTokenRs: {$ref: '#/components/schemas/RTVTokenRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: RTVTokenRsHeader
@@ -6951,7 +6951,7 @@ components:
         RqUID: {type: string, description: 'The Unique Request Identifier sent by the Server Site.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         RTVTokenRq: {$ref: '#/components/schemas/RTVTokenRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: RTVTokenRqHeader
@@ -6965,7 +6965,7 @@ components:
         FirstName: {type: string, example: 'Tom' }
         LastName: {type: string, example: 'Bruce' }
         AcctNumber: {type: string, example: '32553990146' }
-        RTVHomeID: {type: integer, format: int64, example: '50040001' }
+        RTVHomeID: {type: integer, format: int64, example: 50040001 }
         MonitoringCode: {type: string, example: '1000' }
         AddAccountRetryAttempts: {type: integer, format: int32, example: 1 }
     FISearchRsHeaderType:
@@ -6979,7 +6979,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         FISearchRs: {$ref: '#/components/schemas/FISearchRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FISearchRsHeader
@@ -7031,7 +7031,7 @@ components:
         RqUID: {type: string, description: 'The Unique Request Identifier sent by the Server Site.', example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         FISearchRq: {$ref: '#/components/schemas/FISearchRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: FISearchRqHeader
@@ -7054,7 +7054,7 @@ components:
         Status: {$ref: '#/components/schemas/StatusType' }
         SignonRs: {$ref: '#/components/schemas/SignonRsType' }
         AcctVerificationRs: {$ref: '#/components/schemas/AcctVerificationRsType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AcctVerificationRsHeader
@@ -7064,9 +7064,9 @@ components:
       type: object
       properties:
         Status: {$ref: '#/components/schemas/StatusType' }
-        RunId: {type: integer, description: 'Harvest request identification.', format: int32, example: '18816631' }
+        RunId: {type: integer, description: 'Harvest request identification.', format: int32, example: 18816631 }
         OAuthInfo: {$ref: '#/components/schemas/OAuthInfoType' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
         FIVerifyInfo: {$ref: '#/components/schemas/FIVerifyInfoType' }
         AcctOwner: {type: string, example: "James H Hardy-Martin Iii" }
         FIAcctList: {$ref: '#/components/schemas/FIActListType' }
@@ -7082,7 +7082,7 @@ components:
         RqUID: {type: string, description: "The Unique Request Identifier sent by the Server Site.", example: 'RqUID0'}
         SignonRq: {$ref: '#/components/schemas/SignonRqType' }
         AcctVerificationRq: {$ref: '#/components/schemas/AcctVerificationRqType' }
-        partnerID: {type: integer, example: '50040000' }
+        partnerID: {type: integer, example: 50040000 }
         version: {type: string, example: 'version1' }
       xml:
         name: AcctVerificationRqHeader
@@ -7090,10 +7090,10 @@ components:
       type: object
       properties:
         FIVerifyInfo: {$ref: '#/components/schemas/FIVerifyInfoType' }
-        SensitiveInfoEncrypted: {type: boolean, example: 'false' }
-        RunId: {type: integer, format: int32, example: '18816631' }
+        SensitiveInfoEncrypted: {type: boolean, example: false }
+        RunId: {type: integer, format: int32, example: 18816631 }
         OAuthRqID: {type: string, example: '35109' }
-        FILoginAcctId: {type: integer, format: int32, example: '5586467' }
+        FILoginAcctId: {type: integer, format: int32, example: 5586467 }
 
   examples:
     getAccountDetailsRequest:
@@ -7925,6 +7925,7 @@ components:
             FIAcctsStmtDetail:
             - FILoginAcctId: 5584789
               FIConsent: NA
+              AcctBankStmtDetail: []
             - FILoginAcctId: 5584806
               FIConsent: enabled
               AcctBankStmtDetail:
@@ -7936,6 +7937,7 @@ components:
                 AvailableBankStatements: 8-2020,9-2020,10-2020,11-2020,12-2020,1-2021,2-2021,3-2021,4-2021,5-2021
             - FILoginAcctId: 5586370
               FIConsent: NA
+              AcctBankStmtDetail: []
         partnerID: 8885504
         version: version1
 
@@ -8123,7 +8125,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8133,7 +8135,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8143,7 +8145,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 25921
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8155,7 +8157,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8165,7 +8167,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8175,7 +8177,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 2817
               FIMessage:
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Retirement
@@ -8185,7 +8187,7 @@ components:
                   Rowe Price Retirement Plan Services website. To add back your Non-Retirement
                   Plan accounts, please search for 'T. Rowe Price' and try adding the accounts.<br></br></div>"
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Retirement
                   Plan Services Customers,</strong><br></br>If you have Non-Retirement Plan(s)
                   as part of your T. Rowe Price Retirement Plan Services account, you may
@@ -8194,7 +8196,7 @@ components:
                   Plan accounts, please search for 'T. Rowe Price' and try adding the accounts.<br></br></div>"
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Retirement
                   Plan Services Customers,</strong><br></br>If you have Non-Retirement Plan(s)
                   as part of your T. Rowe Price Retirement Plan Services account, you may
@@ -8203,7 +8205,7 @@ components:
                   Plan accounts, please search for 'T. Rowe Price' and try adding the accounts.<br></br></div>"
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 705
               FIMessage:
               - Message: <div>USAA currently offers different secure login options -  Computer
@@ -8214,7 +8216,7 @@ components:
                   USAA online banking site under "My Profile & Preferences -> Security" before
                   attempting to add an account.</div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-09-22-00:00
+                StartDate: '2020-09-22T00:00:00Z'
               - Message: <div>USAA currently offers different secure login options -  Computer
                   Recognition (MFA Security question & Answer), CyberCode text (OTP) and Cybercode
                   Token (Security Token) for its users. We currently support only the Computer
@@ -8224,7 +8226,7 @@ components:
                   attempting to add an account.</div>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-09-22-00:00
+                StartDate: '2020-09-22T00:00:00Z'
               - Message: <div>USAA currently offers different secure login options -  Computer
                   Recognition (MFA Security question & Answer), CyberCode text (OTP) and Cybercode
                   Token (Security Token) for its users. We currently support only the Computer
@@ -8234,7 +8236,7 @@ components:
                   attempting to add an account.</div>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-09-22-00:00
+                StartDate: '2020-09-22T00:00:00Z'
               - Message: <div>USAA currently offers different secure login options -  Computer
                   Recognition (MFA Security question & Answer), CyberCode text (OTP) and Cybercode
                   Token (Security Token) for its users. We currently support only the Computer
@@ -8244,14 +8246,14 @@ components:
                   attempting to add an account.</div>
                 UpdateErrorCode: 303
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-09-22-00:00
+                StartDate: '2020-09-22T00:00:00Z'
             - FIID: 65
               FIMessage:
               - Message: |-
                   <div>In order for us to connect your accounts to this application, you consent to share data with us and this application by providing your login credentials here; note that this site is not affiliated with Capital One. These credentials will be used to obtain information from Capital One which may include account information including account and routing numbers, account balances, and transactional detail, as well as personal information including owner names, email addresses and phone numbers. Account information may be refreshed on a nightly basis to obtain updated information. Account information will only be used to support this application.
                   Your credentials and associated account information will be retained until you delete the account from this application or revoke the consent you are providing today. You may revoke consent by deleting the accounts within the application or by contacting your application provider.</div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2021-10-26-00:00
+                StartDate: '2021-10-26T00:00:00Z'
             - FIID: 25922
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8263,7 +8265,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8273,7 +8275,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8283,7 +8285,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 25923
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8295,7 +8297,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8305,7 +8307,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8315,7 +8317,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 713
               FIMessage:
               - Message: '<div><p>  UBS now requires you to enroll for Account Aggregation
@@ -8326,7 +8328,7 @@ components:
                   Services. </li><li>  Click the Enroll button next to "Fiserv - AllData by
                   Fiserv". </li></ul></div>'
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<p> UBS now requires you to enroll for the Account Aggregation Services
                   before adding accounts. If you haven''t already enrolled, please follow
                   the steps below: </p> <ol start="1"><li>  Log into UBS Online Services at
@@ -8337,7 +8339,7 @@ components:
                   Name and Password and try adding the accounts. </li></ol>'
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<p> UBS now requires you to enroll for the Account Aggregation Services
                   before adding accounts. If you haven''t already enrolled, please follow
                   the steps below: </p> <ol start="1"><li>  Log into UBS Online Services at
@@ -8348,7 +8350,7 @@ components:
                   Name and Password and try adding the accounts. </li></ol>'
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 41
               FIMessage:
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Customers,</strong><br></br>If
@@ -8357,7 +8359,7 @@ components:
                   Rowe Price website. To add back your retirement accounts, please search
                   for 'T. Rowe Price - Retirement Plan Services' and try adding the accounts.<br></br></div>"
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Customers,</strong><br></br>If
                   you have retirement plans as part of your T. Rowe Price account, you may
                   not see them because of a recent update we made to our connection with T.
@@ -8365,7 +8367,7 @@ components:
                   for 'T. Rowe Price - Retirement Plan Services' and try adding the accounts.<br></br></div>"
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: "<div width=750 border=0 cellspacing=4><strong>T. Rowe Price Customers,</strong><br></br>If
                   you have retirement plans as part of your T. Rowe Price account, you may
                   not see them because of a recent update we made to our connection with T.
@@ -8373,7 +8375,7 @@ components:
                   for 'T. Rowe Price - Retirement Plan Services' and try adding the accounts.<br></br></div>"
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 18442
               FIMessage:
               - Message: '<div>Key Bank now requires you to set up data sharing permission
@@ -8387,7 +8389,7 @@ components:
                   see url: <a href="https://www.key.com/personal/online-banking/third-party-access.jsp"
                   target="_blank">https://www.key.com/personal/online-banking/third-party-access.jsp</a></div>'
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<div>Key Bank now requires you to set up data sharing permission
                   for third party access before you connect to KeyBank accounts to use account
                   aggregation services. If you haven''t already done, please follow the steps
@@ -8400,7 +8402,7 @@ components:
                   target="_blank">https://www.key.com/personal/online-banking/third-party-access.jsp</a></div>'
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<div>Key Bank now requires you to set up data sharing permission
                   for third party access before you connect to KeyBank accounts to use account
                   aggregation services. If you haven''t already done, please follow the steps
@@ -8413,14 +8415,14 @@ components:
                   target="_blank">https://www.key.com/personal/online-banking/third-party-access.jsp</a></div>'
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 50096
               FIMessage:
               - Message: |-
                   <div>In order for us to connect your accounts to this application, you consent to share data with us and this application by providing your login credentials here; note that this site is not affiliated with Capital One. These credentials will be used to obtain information from Capital One which may include account information including account and routing numbers, account balances, and transactional detail, as well as personal information including owner names, email addresses and phone numbers. Account information may be refreshed on a nightly basis to obtain updated information. Account information will only be used to support this application.
                   Your credentials and associated account information will be retained until you delete the account from this application or revoke the consent you are providing today. You may revoke consent by deleting the accounts within the application or by contacting your application provider.</div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2021-10-26-00:00
+                StartDate: '2021-10-26T00:00:00Z'
             - FIID: 25907
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8432,7 +8434,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8442,7 +8444,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8452,7 +8454,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 17843
               FIMessage:
               - Message: '<div>Huntington Bank now requires you to allow access to account
@@ -8464,7 +8466,7 @@ components:
                   the ''Terms and Conditions''</li><li>Select the ''On'' Option</li><li>Click
                   ''Save''</li></ol></div>'
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<div>Huntington Bank now requires you to allow access to account
                   aggregators before you connect to Huntington Bank accounts to use account
                   aggregation services. If you haven''t already done, please follow the steps
@@ -8475,7 +8477,7 @@ components:
                   ''Save''</li></ol></div>'
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: '<div>Huntington Bank now requires you to allow access to account
                   aggregators before you connect to Huntington Bank accounts to use account
                   aggregation services. If you haven''t already done, please follow the steps
@@ -8486,7 +8488,7 @@ components:
                   ''Save''</li></ol></div>'
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 1620
               FIMessage:
               - Message: <p> Interactive Brokers uses service credentials to support financial
@@ -8497,7 +8499,7 @@ components:
                   Brokers.</li><li>  Return to this application </li><li>  Select 'Interactive
                   Brokers'  </li><li>  Enter your Token </li><li>  Enter your Query ID </li></ol>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p> Interactive Brokers uses service credentials to support financial
                   management tools such as this. If you haven't already, activate a third-party
                   token at the Interactive Brokers website. To Create Secure Access Code,
@@ -8507,7 +8509,7 @@ components:
                   Brokers'  </li><li>  Enter your Token </li><li>  Enter your Query ID </li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p> Interactive Brokers uses service credentials to support financial
                   management tools such as this. If you haven't already, activate a third-party
                   token at the Interactive Brokers website. To Create Secure Access Code,
@@ -8517,7 +8519,7 @@ components:
                   Brokers'  </li><li>  Enter your Token </li><li>  Enter your Query ID </li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 4020
               FIMessage:
               - Message: <p> Equitable now requires 'Secure Access Code' along with login
@@ -8527,7 +8529,7 @@ components:
                   'Generate my code' button & Accept Terms and Conditions to get the Secure
                   Access Code </li><li>  Enter User ID and 'Secure Access Code' </li></ol>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p> Equitable now requires 'Secure Access Code' along with login
                   credentials to support financial management tools such as this. To Create
                   Secure Access Code, </p> <ol start="1"><li>Login to equitable.com  </li><li>  Select
@@ -8536,7 +8538,7 @@ components:
                   Access Code </li><li>  Enter User ID and 'Secure Access Code' </li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p> Equitable now requires 'Secure Access Code' along with login
                   credentials to support financial management tools such as this. To Create
                   Secure Access Code, </p> <ol start="1"><li>Login to equitable.com  </li><li>  Select
@@ -8545,7 +8547,7 @@ components:
                   Access Code </li><li>  Enter User ID and 'Secure Access Code' </li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 25917
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8557,7 +8559,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8567,7 +8569,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8577,14 +8579,14 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 17501
               FIMessage:
               - Message: |-
                   <div>In order for us to connect your accounts to this application, you consent to share data with us and this application by providing your login credentials here; note that this site is not affiliated with Capital One. These credentials will be used to obtain information from Capital One which may include account information including account and routing numbers, account balances, and transactional detail, as well as personal information including owner names, email addresses and phone numbers. Account information may be refreshed on a nightly basis to obtain updated information. Account information will only be used to support this application.
                   Your credentials and associated account information will be retained until you delete the account from this application or revoke the consent you are providing today. You may revoke consent by deleting the accounts within the application or by contacting your application provider.</div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2021-10-26-00:00
+                StartDate: '2021-10-26T00:00:00Z'
             - FIID: 25918
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8596,7 +8598,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8606,7 +8608,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8616,7 +8618,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
             - FIID: 25919
               FIMessage:
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
@@ -8628,7 +8630,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 301
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <p>The Aggregator site login credentials entered is wrong. To verify
                   the login credentials, please follow the below mentioned steps.</p><ol start="1"><li>Login
                   to your account at [plan website]</li><li>Select "Profile & Documents" >
@@ -8638,7 +8640,7 @@ components:
                   Password in our dashboard and retry the attempt.</li></ol>
                 UpdateErrorCode: 300
                 MessageType: API-ERRORRESOLUTION
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
               - Message: <div>Your Financial Institution has created aggregator read only
                   account for the service providers like us to aggregate the account information.
                   Please follow the below mentioned steps to enable and create aggregator
@@ -8648,7 +8650,7 @@ components:
                   Access", select "Edit" > Create new Password.</li><li>Enter the Aggregator
                   UserName and Password in our dashboard and try adding the accounts.</li></ul></div>
                 MessageType: API-ADDACCOUNTS
-                StartDate: 2020-06-07-00:00
+                StartDate: '2020-06-07T00:00:00Z'
         partnerID: 8885504
         version: 1.4.6
 
@@ -8924,7 +8926,7 @@ components:
               CategoryId: 7
               SubCategoryId: 0
               Frequency: Month
-              Description:
+              Description: ''
               AddedOn: '2019-07-11T05:37:37-07:00'
               ModifiedOn: '2021-12-01T00:00:59-08:00'
             - BudgetId: 5760017
@@ -8935,7 +8937,7 @@ components:
               CategoryId: 11
               SubCategoryId: 0
               Frequency: Month
-              Description:
+              Description: ''
               AddedOn: '2019-07-11T05:37:37-07:00'
               ModifiedOn: '2021-12-01T00:00:59-08:00'
             - BudgetId: 5760016
@@ -8946,7 +8948,7 @@ components:
               CategoryId: 12
               SubCategoryId: 0
               Frequency: Month
-              Description:
+              Description: ''
               AddedOn: '2019-07-11T05:37:37-07:00'
               ModifiedOn: '2021-12-01T00:00:59-08:00'
             - BudgetId: 5760019
@@ -8957,7 +8959,7 @@ components:
               CategoryId: 6
               SubCategoryId: 0
               Frequency: Month
-              Description:
+              Description: ''
               AddedOn: '2019-07-11T05:37:37-07:00'
               ModifiedOn: '2021-12-01T00:00:59-08:00'
             - BudgetId: 5760020
@@ -8968,7 +8970,7 @@ components:
               CategoryId: 5
               SubCategoryId: 0
               Frequency: Month
-              Description:
+              Description: ''
               AddedOn: '2019-07-11T05:37:37-07:00'
               ModifiedOn: '2021-12-01T00:00:59-08:00'
         partnerID: 8885504
@@ -9132,7 +9134,7 @@ components:
               GoalName: Buy a car
               GoalStatus: Off Schedule
               TargetAmt: 3000
-              TargetDate: 2021-12-17-00:00
+              TargetDate: '2021-12-17T00:00:00Z'
               AddedOn: '2021-11-16T06:42:01-08:00'
               AccountList:
                 Account:
@@ -9142,7 +9144,7 @@ components:
               GoalName: Buy a cars
               GoalStatus: Off Schedule
               TargetAmt: 3001
-              TargetDate: 2021-12-19-00:00
+              TargetDate: '2021-12-19T00:00:00Z'
               AddedOn: '2021-11-16T07:13:20-08:00'
               AccountList:
                 Account:
@@ -9304,13 +9306,7 @@ components:
             Severity: Info
             StatusDesc: Success
           CEUserID: 1857898
-          SessInfo:
-          Roles:
-          ResetPasswordRequired:
-          SecurityQuesSetUpRequired:
-          PasswordExpired:
-          LastSuccessfullLogin:
-          MFAQuestions:
+          SessInfo: ''
         TaxDocumentInqRs:
           Status:
             StatusCode: 0
@@ -9321,55 +9317,33 @@ components:
           FILoginAcctTaxDocList:
             FILoginAcctTaxDocDetail:
             - FILoginAcctId: 5291042
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5290978
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5290980
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5289749
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5287207
-              TaxDocumentID:
               FIConsent: enabled
               AcctTaxDocDetail:
               - AcctId: 5287210
-                TaxDocumentID:
             - FILoginAcctId: 5289928
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5284936
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5290345
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5290636
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
             - FILoginAcctId: 5289790
-              TaxDocumentID:
               FIConsent: enabled
               AcctTaxDocDetail:
               - AcctId: 5289796
-                TaxDocumentID:
               - AcctId: 5289797
                 TaxDocumentID: YWxsZGF0YV8yMDE4XzUyODk3OTdfaW52ZXN0Mi5wZGY=
             - FILoginAcctId: 5291247
-              TaxDocumentID:
               FIConsent: NA
-              AcctTaxDocDetail:
         partnerID: 8885504
         version: version1
     
@@ -15585,7 +15559,6 @@ components:
                   FirstVestDt: '2008-12-10T12:00:00Z'
                   ExpirationDt: '2017-12-10T12:00:00Z'
                   SharesGranted: 59300
-                  NxtVestDt:
                   VestPeriods: 3
                   VestPeriodsPerYr: 1
                   SharesVested: 59300
@@ -15602,7 +15575,6 @@ components:
                   FirstVestDt: '2007-12-12T12:00:00Z'
                   ExpirationDt: '2016-12-12T12:00:00Z'
                   SharesGranted: 71100
-                  NxtVestDt:
                   VestPeriods: 3
                   VestPeriodsPerYr: 1
                   SharesVested: 71100
@@ -15619,7 +15591,6 @@ components:
                   FirstVestDt: '2006-12-12T12:00:00Z'
                   ExpirationDt: '2015-12-12T12:00:00Z'
                   SharesGranted: 55042
-                  NxtVestDt:
                   VestPeriods: 3
                   VestPeriodsPerYr: 1
                   SharesVested: 55042
@@ -15634,7 +15605,6 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2014-02-11T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 13958
                   NxtVestDt: '2014-02-11T12:00:00Z'
                   VestPeriods: 1
@@ -15651,7 +15621,6 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2013-02-04T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 22340
                   NxtVestDt: '2013-02-04T12:00:00Z'
                   VestPeriods: 1
@@ -15668,9 +15637,7 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2011-01-09T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 15
-                  NxtVestDt:
                   VestPeriods: 1
                   VestPeriodsPerYr: 1
                   SharesVested: 15
@@ -15685,9 +15652,7 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2010-10-06T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 16
-                  NxtVestDt:
                   VestPeriods: 1
                   VestPeriodsPerYr: 1
                   SharesVested: 16
@@ -15702,9 +15667,7 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2011-02-04T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 10011
-                  NxtVestDt:
                   VestPeriods: 1
                   VestPeriodsPerYr: 1
                   SharesVested: 10011
@@ -15719,7 +15682,6 @@ components:
                     Amt: 0
                     CurCode: USD
                   FirstVestDt: '2014-02-11T12:00:00Z'
-                  ExpirationDt:
                   SharesGranted: 9305
                   NxtVestDt: '2014-02-11T12:00:00Z'
                   VestPeriods: 1
@@ -16228,15 +16190,8 @@ components:
             Severity: Info
             StatusDesc: Success
           CEUserID: 450172
-          SessInfo:
-          Roles:
-          ResetPasswordRequired:
-          SecurityQuesSetUpRequired:
-          PasswordExpired:
-          LastSuccessfullLogin:
-          MFAQuestions:
+          SessInfo: ''
         AddHostAcctsRs:
-          Status:
           AddFILoginHostAcctRs:
           - FILoginAcctId: 708595
             FIHostAcctIds:
@@ -16623,7 +16578,7 @@ components:
             StatusCode: 0
             Severity: Info
             StatusDesc: Success
-          AddUpdateFILoginHostAcctRs:
+          AddFILoginHostAcctRs:
           - HostAcctStatusID: 7000
             FILoginAcctId: 5496570
             FIHostAcctIds:
@@ -17444,15 +17399,19 @@ components:
     hostAccountsStatusResponse:
       value:
         RqUID: RqUID0
-        SignonRs:
-          Status:
-            StatusCode: '0'
+        Status:
+            StatusCode: 0
             Severity: Info
             StatusDesc: Success
-          CEUserID: '475521'
+        SignonRs:
+          Status:
+            StatusCode: 0
+            Severity: Info
+            StatusDesc: Success
+          CEUserID: 475521
         HostAcctStsInqRs:
           Status:
-            StatusCode: '0'
+            StatusCode: 0
             Severity: Info
             StatusDesc: Success
           HostAcctStatusID: '84594505'
@@ -17725,7 +17684,7 @@ components:
 
     updateHostAccountsResponse:
       value:
-        RqUID:
+        RqUID: ''
         Status:
           StatusCode: 0
           Severity: Info
@@ -17736,8 +17695,8 @@ components:
             Severity: Info
             StatusDesc: Success
           CEUserID: 450172
-        partnerID:
-        version:
+        partnerID: 66664000
+        version: version1
 
     pfmcategorizeTransactionRequest:
       value:
@@ -17788,7 +17747,7 @@ components:
           TransCategoryList:
             TransStatus:
             - TransID: 6728644
-              Status:
+              status:
                 StatusCode: 0
                 Severity: Info
                 StatusDesc: Success
