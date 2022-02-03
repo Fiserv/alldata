@@ -28,103 +28,126 @@
 # the delivery of this work
 ################################################################################
 header:
-  productionDescription: > 
-                    Built to deliver innovation through simple, fast integrations, the Commerce Hub is the most powerful omnichannel platform. With developer-friendly, flexible communication standards, unified APIs, and pre-certified integrations the Commerce Hub reduces development time and accelerates speed to market. </br></br>
-
-                    A true single entry point and intelligent orchestration layer means you now have access to the latest, most popular commerce experiences through your existing infrastructure. With less ongoing maintenance and fewer operational costs, you can focus on creating new ways for consumers to discover and interact with you.
-
+  productionDescription: Fiserv has been in the data aggregation business for more than 20 years. This means some of the largest and most innovative organizations use AllData® Aggregation to maximize the power of financial data aggregation. Access consumer-permissioned data covering dozens of vertical markets and account types including bank accounts, liability accounts including credit cards, investment and retirement accounts, as well as insurance and billers.
+  whoIsItFor: Anyone looking to easily integrate financial data aggregation API's with new or existing applications, regardless of the underlying technology platform.
 featuredFeatures:
-  - title: Apple Pay
+  - title: Account Verification
     description: >
-      One of the most popular mobile payment and digital wallets. Customers can make payments 
-      in-store, mobile or online. To leverage, customers use an Apple devices - iPhone, Apple Watch, 
-      iPad, Mac, etc.
-    tags: ["tag1", "tag2"]
-    bullets: ["Faster acceptance than credit or debit", "Biometric security", "Global offering and acceptance"]
+      AllData Aggregation makes setting up ACH payments easier for senders. 
+      Users provide their credentials, and AllData Aggregation retrieves their accounts and routing numbers.
+    tags: []
+    bullets: []
     #links: ["docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"]
     relatedDocs:
       - relatedDoc: 
-        title: Getting Started 
-        description: Commerce Hub allows developers to quickly enable secure and convenient Apple Pay payments in their app or website.
-        link: "/docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"
+        title: Common Use Cases
+        description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
       - relatedDoc: 
-        title: Apple Pay on the Web 
-        description: Commerce Hub's RESTful API integration allows the merchant to create a custom UI integration with Apple Pay. The merchant will host the payment processing on their server and has full control over the look and feel. 
-        link: "/docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay-Web-REST.md"
+        title: APIs and Add Account Widget 
+        description: >
+          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
       - relatedDoc: 
-        title: Apple Pay In-App
-        description: Commerce Hub's RESTful API integration allows the merchant to create a custom App integration with Apple Pay. The merchant will present the payment processing form on their App and submit the transaction to Commerce Hub.
-        link: "/docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
-        title: Charges 
-        description: Charges can be initiated in two ways; either as Sale or Pre-Auth and is defined with the captureFlag sent in the request.
+        title: Sign On 
+        description: >
+          This API signs on to the AllData service, authenticates the user, and generates a session token. The session token is used in subsequent calls and to launch the Add Accounts widget, and it expires after 18 minutes of idle time.
         type: "post"        
-        path: "/payments/v1/charges"
+        path: "/WealthManagementWeb/ws/UserMgmt/signon"
       - relatedAPI: 
-        title: Refunds
-        description: If the customer returns product or requests to cancel the transaction after the batch has been settled, the merchant will need to release the original authorization by issuing a refund request to the original transactionId or orderId. 
+        title: Get Account Details
+        description: >
+          This API fetches detail information about the account(s) associated with the account ID(s) passed to it. If no ID is passed, it returns information for all of the user's accounts.
         type: "post"        
-        path: "/payments/v1/charges/{transactionId}/refund"
+        path: "/WealthManagementWeb/ws/AccountDataInq/getAccountDetails"
       - relatedAPI: 
-        title: Tokenization
-        description: Remove sensitive customer data from your environment and reduce PCI compliance scope.Transaction data is protected by a randomly-generated identifier known as a "token".
+        title: Get Bank Account Transactions
+        description: This API fetches an account's transactions for a given date range.
         type: "post"        
-        path: "/payments-vas/v1/tokens"
-  - title: Omni Channel
+        path: "/WealthManagementWeb/ws/AccountDataInq/getBankingTrans"
+  - title: Money Movement
     description: >
-      Leverage your existing infrastructure and UI to accept payments online, in-store or on mobile 
-      devices.
-    tags: ["tag1", "tag2"]
-    bullets: ["Modern technology stack", "Automated backoffice", "Fast testing, certification and implementation"]
+      Through AllData Aggregation, accessing financial data needed for credit decisions happens quickly, eliminating the traditional paper chase. 
+      AllData Aggregation also streamlines the process for the borrower.
+    tags: []
+    bullets: []
     #links: ["docs/Resources/API-Documents/Use-Our-APIs.md"]
     relatedDocs:
       - relatedDoc: 
-        title: Getting Started 
-        description: Commerce Hub allows developers to quickly enable secure and convenient Apple Pay payments in their app or website.
-        link: "/docs/Getting-Started/Getting-Started-UCOM.md"
+        title: Common Use Cases
+        description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
+      - relatedDoc: 
+        title: APIs and Add Account Widget 
+        description: >
+          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
+      - relatedDoc: 
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
-        title: Charges 
-        description: Charges can be initiated in two ways; either as Sale or Pre-Auth and is defined with the captureFlag sent in the request.
+        title: Sign On 
+        description: >
+          This API signs on to the AllData service, authenticates the user, and generates a session token. The session token is used in subsequent calls and to launch the Add Accounts widget, and it expires after 18 minutes of idle time.
         type: "post"        
-        path: "/payments/v1/charges"
+        path: "/WealthManagementWeb/ws/UserMgmt/signon"
       - relatedAPI: 
-        title: Refunds
-        description: If the customer returns product or requests to cancel the transaction after the batch has been settled, the merchant will need to release the original authorization by issuing a refund request to the original transactionId or orderId. 
+        title: Get Account Details
+        description: >
+          This API fetches detail information about the account(s) associated with the account ID(s) passed to it. If no ID is passed, it returns information for all of the user's accounts.
         type: "post"        
-        path: "/payments/v1/charges/{transactionId}/refund"
+        path: "/WealthManagementWeb/ws/AccountDataInq/getAccountDetails"
       - relatedAPI: 
-        title: Tokenization
-        description: Remove sensitive customer data from your environment and reduce PCI compliance scope.Transaction data is protected by a randomly-generated identifier known as a "token".
+        title: Get Bank Account Transactions
+        description: This API fetches an account's transactions for a given date range.
         type: "post"        
-        path: "/payments-vas/v1/tokens"
-  - title: Point of Sale
-    description: Point-of-Sale (POS) is the point at which a product is paid for. In-person transactions are conducted by a terminal or software. Online transactions are conducted by a software on their online store or mobile app.
-    tags: ["tag1", "tag2"]
-    bullets: ["Modern technology stack", "Automated backoffice", "Fast testing, certification and implementation"]
+        path: "/WealthManagementWeb/ws/AccountDataInq/getBankingTrans"
+  - title: Lending and Account Opening
+    description: AllData Aggregation lets businesses provide their consumers with a comprehensive view of their finances, enables advisors to provide deeper insight and better analysis, and empowers fintechs to develop innovative products and services.
+    tags: []
+    bullets: []
     relatedDocs:
       - relatedDoc: 
-        title: Getting Started 
-        description: Point-of-Sale (POS) is the point at which a product is paid for. In-person transactions are conducted by a terminal or software. Online transactions are conducted by a software on their online store or mobile app.
-        link: "/docs/Getting-Started/Getting-Started-InPerson.md"
+        title: Common Use Cases
+        description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
       - relatedDoc: 
-        title: EMV 
-        description: Fiserv offers the industry's most complete, comprehensive and integrated EMV solution.
-        link: "/docs/In-Person/Encrypted-Payments/EMV.md"
+        title: APIs and Add Account Widget 
+        description: >
+          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
+      - relatedDoc: 
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
-        title: Charges 
-        description: Charges can be initiated in two ways; either as Sale or Pre-Auth and is defined with the captureFlag sent in the request.
+        title: Sign On 
+        description: >
+          This API signs on to the AllData service, authenticates the user, and generates a session token. The session token is used in subsequent calls and to launch the Add Accounts widget, and it expires after 18 minutes of idle time.
         type: "post"        
-        path: "/payments/v1/charges"
+        path: "/WealthManagementWeb/ws/UserMgmt/signon"
       - relatedAPI: 
-        title: Refunds
-        description: If the customer returns product or requests to cancel the transaction after the batch has been settled, the merchant will need to release the original authorization by issuing a refund request to the original transactionId or orderId. 
+        title: Get Account Details
+        description: >
+          This API fetches detail information about the account(s) associated with the account ID(s) passed to it. If no ID is passed, it returns information for all of the user's accounts.
         type: "post"        
-        path: "/payments/v1/charges/{transactionId}/refund"
+        path: "/WealthManagementWeb/ws/AccountDataInq/getAccountDetails"
       - relatedAPI: 
-        title: Tokenization
-        description: Remove sensitive customer data from your environment and reduce PCI compliance scope.Transaction data is protected by a randomly-generated identifier known as a "token".
+        title: Get Bank Account Transactions
+        description: This API fetches an account's transactions for a given date range.
         type: "post"        
-        path: "/payments-vas/v1/tokens"
+        path: "/WealthManagementWeb/ws/AccountDataInq/getBankingTrans"
