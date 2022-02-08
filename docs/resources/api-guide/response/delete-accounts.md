@@ -4,9 +4,9 @@
 | --- | --- |
 | RqUID | Unique Request Identifier. The Client Site sends this element with the request. |
 | Status | The status of the request. |
-| HarvestID | The identification assigned to the Harvest request.<br>This element will be present only of the request that was carried out successfully |
-| FILoginAcctId | FI Login identifier.<br>This element will be present only of the request that was carried out successfully. |
-| FIUserLoginAcctInfo | In response to an add account, record is inserted. This aggregate contains that information.<br>When the HarvestAddRq is sent with the “AddNewAccts” aggregate, the “ClassifiedStatus” of this aggregate will be “Pending”. <br>When the HarvestAddRq is sent with the “AddMoreAccts” aggregate, the “ClassifiedStatus” of this aggregate will reflect the value stored in the data store.<br>This element will be present only of the request that was carried out successfully. |
+| HarvestID | The identification assigned to the Harvest request. This element will be present only of the request that was carried out successfully |
+| FILoginAcctId | FI Login identifier. This element will be present only of the request that was carried out successfully. |
+| FIUserLoginAcctInfo | In response to an add account, record is inserted. This aggregate contains that information. When the HarvestAddRq is sent with the “AddNewAccts” aggregate, the “ClassifiedStatus” of this aggregate will be “Pending”.  When the HarvestAddRq is sent with the “AddMoreAccts” aggregate, the “ClassifiedStatus” of this aggregate will reflect the value stored in the data store. This element will be present only of the request that was carried out successfully. |
 
 #### Possible Status Code
 
