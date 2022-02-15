@@ -23,3 +23,7 @@ is this below?
 p5 Are the br tests above spaced differently
 
 p6 from these paragraph lines?
+
+p7 here are lines without blank lines between 
+p8 here are lines without blank lines between 
+p9 here are lines without blank lines between 
