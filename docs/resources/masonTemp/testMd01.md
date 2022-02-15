@@ -11,11 +11,11 @@ Plain texty text
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test 2sp br  is this below?| valE4 |
 
-plain textola p1
+p1 plain textola p1
 
-plåæïÉò text p2
+p2 *italic text*    **bold text**       ***italic bold text***
 
-p3 testing br <br> is this below?
+p3 testing html br <br> is this below?
 
 p4 testing 2-space br here  
 is this below?
