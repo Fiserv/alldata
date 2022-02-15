@@ -1,20 +1,20 @@
-# H1 ALT Code Testing
+# Heading1
 Plain texty text
 ## head2
 PLain text?
+
 ### head3
-ppllaaiinn tteexxtt
+
+ppllaaiinn tteexxtt with blank lines
+
 #### head4
-waka waka
+waka *waka*
 ##### head5
-wookiee wookiee
+**wookiee** ***wookiee***
 ###### head6
-how far can it go?
-####### head7
-no way
-######## head8
-never ever
-######### head9
+
+And H6 is as low as it goes
+
 
 | colA  | colB   | colC   | colD            | colE                |
 |-------|--------|--------|-----------------|---------------------|
@@ -39,3 +39,26 @@ p6 from these paragraph lines?
 p7 here are lines without blank lines between 
 p8 here are lines without blank lines between 
 p9 here are lines without blank lines between 
+
+How to yada-blah
+1. Get your yada on
+  - Get "ya"
+  - Get "da"
+2. Get your blah on
+- not indented
+- not indented
+3. Yodel a. e. who
+  1. oneblah
+  2. twoblah
+4. Brocka brocka
+5. Sis boom baka
+
+back to plane teckst
+textomatic
+
+Quetzalcoatl
+textzalcoatl
+
+parapgrahitude
+
+neoparagraphitude
