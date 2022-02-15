@@ -9,8 +9,7 @@ Plain texty text
 | valA2 | valB2  | valC2  | valD2           | valE2               |
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
-|       |        |        | test 2sp br  
-is this below?| valE4 |
+|       |        |        | test 2sp br  is this below?| valE4 |
 
 plain textola p1
 
