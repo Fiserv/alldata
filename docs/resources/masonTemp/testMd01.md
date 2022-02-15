@@ -1,15 +1,27 @@
 # H1 ALT Code Testing
-# Head1 by ALT-35
 Plain texty text
 ## head2
-## h2 by Alt
+PLain text?
+### head3
+ppllaaiinn tteexxtt
+#### head4
+waka waka
+##### head5
+wookiee wookiee
+###### head6
+how far can it go?
+####### head7
+no way
+######## head8
+never ever
+######### head9
 
 | colA  | colB   | colC   | colD            | colE                |
 |-------|--------|--------|-----------------|---------------------|
 | valA2 | valB2  | valC2  | valD2           | valE2               |
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
-|       |        |        | test 2sp br  is this below?| valE4 |
+|       |        |        | test html br <br> is this below?| valE4 |
 
 p1 plain textola p1
 
