@@ -48,17 +48,17 @@
     "bug": {
       "label": "bug,AllDataAggregation",
       "template": "bug.md",
-      "assignees": "kai.zhu@fiserv.com"
+      "assignees": "kaizhu-fiserv"
     },  
     "feedback": {
       "label": "feedback,AllDataAggregation",
       "template": "feedback.md",
-      "assignees": "kai.zhu@fiserv.com"
+      "assignees": "MasonFiserv"
     },
     "enhancement": {
       "label": "enhancement,AllDataAggregation",
       "template": "feature.md",
-      "assignees": "kai.zhu@fiserv.com"
+      "assignees": "kaizhu-fiserv"
     }
   }]
 }
