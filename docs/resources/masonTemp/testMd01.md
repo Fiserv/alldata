@@ -25,7 +25,7 @@ And H6 is as low as it goes
 
 | one-column table |
 |------------------|
-| - bullet1 |
+|   - bullet1 |
 | * bullet2 |
 
 
