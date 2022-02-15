@@ -13,9 +13,14 @@ Plain texty text
 urn | valE4 |
 
 plain textola p1
+
 plåæïÉò text p2
-p3 testing br <br> is this below? </br>
+
+p3 testing br <br> is this below?
+
 p4 testing 2-space br here  
 is this below?
+
 p5 Are the br tests above spaced differently
+
 p6 from these paragraph lines?
