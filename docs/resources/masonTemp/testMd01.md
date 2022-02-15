@@ -9,6 +9,8 @@ Plain texty text
 | valA2 | valB2  | valC2  | valD2           | valE2               |
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
+|       |        |        | test hard ret
+urn | valE4 |
 
 plain textola p1
 plåæïÉò text p2
