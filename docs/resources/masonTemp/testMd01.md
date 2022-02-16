@@ -1,19 +1,4 @@
-# Heading1
-Plain texty text
-## head2
-PLain text?
 
-### head3
-
-ppllaaiinn tteexxtt with blank lines
-
-#### head4
-waka *waka*
-##### head5
-**wookiee** ***wookiee***
-###### head6
-
-And H6 is as low as it goes
 
 
 | colA  | colB   | colC   | colD            | colE                |
@@ -29,10 +14,14 @@ And H6 is as low as it goes
 | * bullet2 |
 
 
-
 bullets:
 - bullet1
 - bullet2
   - bullet2a?
   - bullet2b?
+
+╔═════════════════════════════════════════════════════════════════════╗
+║    Oooh Aaaahhh                the wonders of the ALT CODE          ║
+║             «≡» ▄▀▄▀▄▀▄▀ that's amazing! ▀▄▀▄▀▄▀▄ «≡»               ║
+╚═════════════════════════════════════════════════════════════════════╝
 
