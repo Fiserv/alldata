@@ -9,8 +9,8 @@
 |       |        |        | test html br <br> is this below?| valE4 |
 
 
-╔════════════════════════════╗  
-║ Oooh Aaaahhh the wonders of the ALT CODE ║  
-║ ▄▀▄▀▄▀▄▀ that is amazing! ▀▄▀▄▀▄▀▄ ≡ ║  
-╚════════════════════════════╝  
+╔══════════════════════════════╗  
+║ Oooh Aaahh the wonders of the ALT CODE ║  
+║ ▄▀▄▀▄▀▄▀ that is amazing! ▀▄▀▄▀▄▀▄ ║  
+╚══════════════════════════════╝  
 
