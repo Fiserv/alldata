@@ -20,8 +20,8 @@ bullets:
   - bullet2a?
   - bullet2b?
 
-╔════════════════════════════════════╗  
-║ Oooh Aaaahhh —the wonders of the ALT CODE ║  
-║ «≡» ▄▀▄▀▄▀▄▀ that's amazing! ▀▄▀▄▀▄▀▄ «≡» ║  
-╚════════════════════════════════════╝  
+╔═════════════════════════════════╗  
+║ Oooh Aaaahhh the wonders of the ALT CODE ║  
+║ ▄▀▄▀▄▀▄▀ that is amazing! ▀▄▀▄▀▄▀▄ «≡» ║  
+╚═════════════════════════════════╝  
 
