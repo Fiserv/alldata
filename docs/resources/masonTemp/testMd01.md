@@ -5,7 +5,7 @@
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test html br <br> is this below?| valE4 |
-| and if i add a lot of nonsense here i presume it will just even out the columns and make A and E wider than the others because myeah shee it has more stuff in A and E obvs    |        |        |                 | the quick brown fox jumped over the lazy dog and picked a peck of prickly pears for bears and tears for fears but not swears for years because hey that does not rhyme whatsoever and anyway i'm just curious about wrapping in a table cell so sue me why don't ya |
+|   - bull? |   - bull?tab |    - bull?4sp |      - bull?5sp |       - bull?6sp |
 
 12345678901234567890123456789012345678901234567890  
 ╔═════╗  
@@ -14,9 +14,8 @@
 ╚═════╝  
 
 :eyes:  
+:nose:  
 :tongue:
 
-🆎 🎱 ↘️ 🚫 🔑 👉 💡 💰 
 
-↑↑ that stuff looks a little lame ↑↑
 
