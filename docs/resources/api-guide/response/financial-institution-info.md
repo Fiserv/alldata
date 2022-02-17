@@ -4,8 +4,8 @@
 | --- | --- |
 | Status | The status of the request. |
 | RqUID | Unique Request Identifier. The Client Site sends this element with the request. |
-| FIInfoDataList | List of FI along with their requisite information.<br>This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
-| FIIdList | List of FI id’s.<br>This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
+| FIInfoDataList | List of FI along with their requisite information. This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
+| FIIdList | List of FI id’s. This aggregate will be present, only if the request was carried out successfully and this option was desired in the request. |
 
 #### Possible Status Code
 
