@@ -6,7 +6,7 @@
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test html br <br> is this below?| valE4 |
-|   - bull? |   - bull?tab |    - bull?4sp |      - bull?5sp |       - bull?6sp |
+| too bad we can't use html breaks<br> • and do this <br> • with alt codes <br>   ○ which are handy       |        |        |                 |                     |
 |       |        |        | test alt-10 line break ◙ is this below? really doubt it |    |
 
 12345678901234567890123456789012345678901234567890  
