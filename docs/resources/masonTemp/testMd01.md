@@ -6,8 +6,12 @@
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test html br <br> is this below?| valE4 |
-| too bad we can't use html breaks<br> • and do this <br> • with alt codes <br> ○ still can't do indents <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • do html nbsp's work?        |        |        |                 |                     |
+| too bad we can't use html breaks<br> • and do this <br> • with alt codes <br> ○ still can't do indents <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • html nbsp's work | | | | |
 |       |        |        | test alt-10 line break ◙ is this below? really doubt it |    |
+| | | | | |
+| How bad would it | look to fake the | nesting of items | across multiple | rows? |
+|                  | • It might look | this bad to do | that | | 
+|                  |                 | • And maybe this | is even much | worse | 
 
 12345678901234567890123456789012345678901234567890  
 ╔═════╗  
