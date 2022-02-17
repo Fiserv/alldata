@@ -16,11 +16,12 @@
 |                  | • It might look | this bad to do | that | | 
 |                  |                 | • And maybe this | is even much | worse | 
 
-12345678901234567890123456789012345678901234567890  
-╔═════╗  
-║ 3 5 7 9║  
-║2 4 6 8 ║  
-╚═════╝  
+| colA               | colB                  |
+|--------------------|-----------------------|
+| If we could just use html br and nbsp | we could do well enough |
+| | |
+| Star Wars | Characters<br> • Humans (?)<br> &nbsp; &nbsp; &nbsp; &nbsp; • Luke<br> &nbsp; &nbsp; &nbsp; &nbsp; • Leia<br> &nbsp; &nbsp; &nbsp; &nbsp; • Lando<br> • Wookiee<br> &nbsp; &nbsp; &nbsp; &nbsp; • Chewbacca<br> &nbsp; &nbsp; &nbsp; &nbsp; • Chewie's unseen wife & son |
+
 
 :eyes:  
 :nose:  
