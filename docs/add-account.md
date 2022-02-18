@@ -17,6 +17,7 @@ You will be assigned a unique partner ID and a home ID (or multiple home IDs, de
 
 For all use cases outlined below, you must create a user profile using the CreateUser API. The user profile consists of the user ID, password, and several optional fields such as name and address. CreateUser returns a value called CEUserID which is the unique identifier for the end user.
 
+<!--
 ### Partner flow for Add Account widget
 
 Before launching the Add Account widget, you must call the signOn API to generate a single sign-on (SSO) token. After generating the token, launch the AllData Add Account widget per the instructions in the AllData Next-Gen Widgets Integration Guide. When launched, the widget appears as below.
@@ -27,6 +28,7 @@ Before launching the Add Account widget, you must call the signOn API to generat
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/add-account-widget/add-account-widget-04.png">
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/add-account-widget/add-account-widget-05.png">
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/add-account-widget/add-account-widget-06.png">
+-->
 
 # Use Cases
 
