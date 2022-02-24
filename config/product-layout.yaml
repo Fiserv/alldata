@@ -38,17 +38,17 @@ featuredFeatures:
     tags: []
     bullets: []
     #links: ["docs/Online-Mobile-Digital/Wallets-AltPayments/Apple-Pay/Apple-Pay.md"]
-#    relatedDocs:
-#      - relatedDoc: 
-#        title: Common Use Cases
-#        description: >
-#          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
-#        link: "/docs/alldata-common-use-cases.md"
-#      - relatedDoc: 
-#        title: APIs and Add Account Widget 
-#        description: >
-#          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
-#        link: "/docs/add-account.md"
+    relatedDocs:
+      - relatedDoc: 
+        title: Common Use Cases
+        description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
+      - relatedDoc: 
+        title: APIs and Add Account Widget 
+        description: >
+         This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
 #      - relatedDoc: 
 #        title: Widget Integration Guide
 #        description: >
@@ -79,17 +79,17 @@ featuredFeatures:
     tags: []
     bullets: []
     #links: ["docs/Resources/API-Documents/Use-Our-APIs.md"]
-#    relatedDocs:
-#      - relatedDoc: 
-#        title: Common Use Cases
-#        description: >
-#          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
-#        link: "/docs/alldata-common-use-cases.md"
-#      - relatedDoc: 
-#        title: APIs and Add Account Widget 
-#        description: >
-#          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
-#        link: "/docs/add-account.md"
+    relatedDocs:
+      - relatedDoc: 
+        title: Common Use Cases
+        description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
+      - relatedDoc: 
+        title: APIs and Add Account Widget 
+        description: >
+          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
 #      - relatedDoc: 
 #        title: Widget Integration Guide
 #        description: >
@@ -117,17 +117,17 @@ featuredFeatures:
     description: AllData Aggregation lets businesses provide their consumers with a comprehensive view of their finances, enables advisors to provide deeper insight and better analysis, and empowers fintechs to develop innovative products and services.
     tags: []
     bullets: []
-#    relatedDocs:
-#      - relatedDoc: 
-#        title: Common Use Cases
-#        description: >
-#          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
-#        link: "/docs/alldata-common-use-cases.md"
-#      - relatedDoc: 
-#        title: APIs and Add Account Widget 
-#        description: >
-#          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
-#        link: "/docs/add-account.md"
+    relatedDocs:
+      - relatedDoc: 
+        title: Common Use Cases
+       description: >
+          This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
+        link: "/docs/alldata-common-use-cases.md"
+      - relatedDoc: 
+        title: APIs and Add Account Widget 
+        description: >
+          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
+        link: "/docs/add-account.md"
 #      - relatedDoc: 
 #        title: Widget Integration Guide
 #        description: >
