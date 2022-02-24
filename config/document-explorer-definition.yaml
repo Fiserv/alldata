@@ -33,7 +33,7 @@
   - title: Add Account
     link: docs/add-account.md
 - sections:
-  - title: AllData WS API
+  - title: AllData Web Services and API Specs
     link: docs/alldata-ws-api.md
 #- sections:
 #  - title: AllData Next-Gen
