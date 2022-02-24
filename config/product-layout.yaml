@@ -120,7 +120,7 @@ featuredFeatures:
     relatedDocs:
       - relatedDoc: 
         title: Common Use Cases
-       description: >
+        description: >
           This document covers common use cases within the AllData Aggregation product, including a number of API solutions.
         link: "/docs/alldata-common-use-cases.md"
       - relatedDoc: 
