@@ -38,8 +38,6 @@
       link: docs/ws-api/overview.md
     - title: Integrations
       link: docs/ws-api/integrations.md
-    - title: Web Services & APIs
-      link: docs/ws-api/webservices-apis.md
     - title: Appendices
       link: docs/ws-api/appendices.md
 #- sections:
