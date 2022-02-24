@@ -35,15 +35,6 @@
 - sections:
   - title: AllData WS API
     link: docs/alldata-ws-api.md
-    sections:
-    - title: Overview
-      link: docs/ws-api/overview.md
-    - title: Integrations
-      link: docs/ws-api/integrations.md
-    - title: Web Services & APIs
-      link: docs/ws-api/webservices-apis.md
-    - title: Appendices
-      link: docs/ws-api/appendices.md
 #- sections:
 #  - title: AllData Next-Gen
 #    link: docs/alldata-next-gen.md
