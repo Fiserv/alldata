@@ -28,8 +28,6 @@
 # the delivery of this work
 ################################################################################
 - sections:
-  - title: Coming soon ...
-- sections:
   - title: Add Account
     link: docs/add-account.md
 - sections:
