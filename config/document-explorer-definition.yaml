@@ -28,13 +28,13 @@
 # the delivery of this work
 ################################################################################
 - sections:
-  - title: Add Account
+  - title: Add Account Widget
     link: docs/add-account.md
 - sections:
   - title: AllData Web Services and API Specs
     link: docs/alldata-ws-api.md
 #- sections:
-#  - title: AllData Next-Gen
+#  - title: AllData Next-Gen Widget Guide
 #    link: docs/alldata-next-gen.md
 #    sections:
 #    - title: Overview
@@ -46,5 +46,5 @@
 #    - title: Appendices
 #      link: docs/alldata-next-gen/appendices.md
 - sections:
-  - title: AllData Common Use Cases API Solution
+  - title: AllData Common Use Cases and API Solutions
     link: docs/alldata-common-use-cases.md
