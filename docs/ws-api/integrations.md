@@ -77,19 +77,19 @@ Partners use the following steps to add new accounts without multi-factor authen
 
 1. **initiateAddAccounts**
 
-This step initiates the process of adding external accounts. This request triggers a harvesting request using HarvestAddRq with FI login parameters (username/password) or FILoginAcctId. AllData connects to the FI website and harvests account information. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#initiateaddaccounts) for the details of the API.
+This step initiates the process of adding external accounts. This request triggers a harvesting request using HarvestAddRq with FI login parameters (username/password) or FILoginAcctId. AllData connects to the FI website and harvests account information. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/initiateAddAccounts) for the details of the API.
 
 2. **getAddAccountStatus**
 
-Invoke this API after the initiateAddAccounts request has started. It returns the status of InitiateAddAccounts. Invoke this API at a periodic interval to check the status. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#getaddaccountstatus) for the details of the API.
+Invoke this API after the initiateAddAccounts request has started. It returns the status of InitiateAddAccounts. Invoke this API at a periodic interval to check the status. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getAddAccountStatus) for the details of the API.
 
 3. **getNewAccounts**
 
-Invoke this API after the initiateAddAccounts request has completed. It returns the list of financial accounts found on the FI website. Currently these accounts are not created in the AllData system. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#getnewaccounts) for the details of the API.
+Invoke this API after the initiateAddAccounts request has completed. It returns the list of financial accounts found on the FI website. Currently these accounts are not created in the AllData system. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getNewAccounts) for the details of the API.
 
 4. **createAccounts**
 
-Invoke this API to create the accounts in AllData system. Fiserv classifies the harvested accounts based on certain account classification rules. The user can either override this classification or provide the classification if not already set. After successfully adding accounts the partner must call update account APIs to run on-demand harvesting to retrieve account data. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#createaccounts) for API details. The following figure depicts the typical non-MFA Add Account workflow.
+Invoke this API to create the accounts in AllData system. Fiserv classifies the harvested accounts based on certain account classification rules. The user can either override this classification or provide the classification if not already set. After successfully adding accounts the partner must call update account APIs to run on-demand harvesting to retrieve account data. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/createAccounts) for API details. The following figure depicts the typical non-MFA Add Account workflow.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-05.png" alt="Figure 5"/>
 
@@ -209,25 +209,25 @@ The transaction data pull APIs can be used to retrieve transactions for each acc
 
 ### Banking transactions
 
-The Banking transactions can be extracted from the AllData system for a certain time period using the getBankingTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getbankingtrans) for the details of the web service.
+The Banking transactions can be extracted from the AllData system for a certain time period using the getBankingTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getBankingTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-17.png" alt="Figure 17"/>
 
 ### Credit Card transactions
 
-The Credit Card transactions can be extracted from the AllData system for a certain time period using the getCreditCardTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getcreditcardtrans) for the details of the web service.
+The Credit Card transactions can be extracted from the AllData system for a certain time period using the getCreditCardTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getCreditCardTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-18.png" alt="Figure 18"/>
 
 ### Investment transactions
 
-The Investment transactions can be extracted from the AllData system for a certain time period using the getInvestmentTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getinvestmenttrans) for the details of the web service.
+The Investment transactions can be extracted from the AllData system for a certain time period using the getInvestmentTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getInvestmentTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-19.png" alt="Figure 19"/>
 
 ### Other Account transactions
 
-The asset/liability/biller account transactions can be extracted from the AllData system for a certain time period using the getOtherAccountTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getotheraccounttrans) for the details of the web service.
+The asset/liability/biller account transactions can be extracted from the AllData system for a certain time period using the getOtherAccountTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getOtherAccountTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-20.png" alt="Figure 20"/>
 
