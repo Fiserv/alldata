@@ -31,15 +31,8 @@
   - title: Add Account
     link: docs/add-account.md
 - sections:
-  - title: AllData WS API
+  - title: AllData Web Services and API Specs
     link: docs/alldata-ws-api.md
-    sections:
-    - title: Overview
-      link: docs/ws-api/overview.md
-    - title: Integrations
-      link: docs/ws-api/integrations.md
-    - title: Appendices
-      link: docs/ws-api/appendices.md
 #- sections:
 #  - title: AllData Next-Gen
 #    link: docs/alldata-next-gen.md
