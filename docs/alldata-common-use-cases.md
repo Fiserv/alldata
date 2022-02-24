@@ -12,7 +12,7 @@ Each partner will have a partner ID and at least one home ID created in the AllD
 
 For all use cases outlined below, the partner must create a user profile using the [CreateUser API](../api/?type=post&path=/WealthManagementWeb/ws/UserMgmt/createUser). The user profile consists of the user ID, password, and several optional fields including name, address, etc.
 
-Partners must follow the bootstrapping process to synchronize the Fiserv AllData connections directory on their end. This one-time process uses the [GetFinancialInstInfo API](../api/?type=post&path=/WealthManagementWeb/ws/SeedDataInq/getFinancialInstInfo). Partners can also periodically refresh to get the latest changes made by financial institutions. See the [AllData Web Services API Specifications](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/ws-api/webservices-apis.md) document for additional details.
+Partners must follow the bootstrapping process to synchronize the Fiserv AllData connections directory on their end. This one-time process uses the [GetFinancialInstInfo API](../api/?type=post&path=/WealthManagementWeb/ws/SeedDataInq/getFinancialInstInfo). Partners can also periodically refresh to get the latest changes made by financial institutions. See the [AllData Web Services API Specifications](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-ws-api.md) document for additional details.
 
 # Use Cases
 
