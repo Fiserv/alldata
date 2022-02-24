@@ -1,33 +1,3 @@
-# AllData Account Aggregation
-
-Account aggregation lets users view all their online financial accounts such as checking, savings, investment, retirement, insurance, and credit cards from a range of FIs on a single web page.
-
-## Data Harvesting Techniques
-
-Aggregation uses a combination of techniques to gather the various account data:
-
-- **Web service connectivity:** A direct connection to the FI using a web service
-- **File download:** AllData downloads files from FI websites for account data.
-- **User credential-based harvesting:** AllData harvests FI websites for client account balances and transactions.
-
-### Web service connectivity
-
-Data collection uses a direct connection to the FI through web services. Due to the overhead in providing a dedicated service for aggregators, many small to mid-size institutions do not provide this service.
-
-### File download
-
-FIs make their user data available in downloadable QIF, OFX, CSV, and TXT files upon user authentication at login. AllData uses this information to fetch the user account and transaction data.
-
-### User credential-based harvesting
-
-This technique involves collecting customer account data from FI web pages with a sophisticated web crawling engine that uses customer login credentials. This approach has high success rates and can handle multi-factor authentication (MFA) scenarios using the AllData API. A dedicated connectivity engineering team supports the underlying infrastructure to ensure data availability and validity.
-
-## High-Level Architecture
-
-This diagram shows the high-level architecture and data flow between a partner, AllData, and institutions.
-
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-01.png" alt="Figure 1"/>
-
 # AllData Service Integration
 
 This section describes the different partner integration options with the AllData system.
@@ -38,27 +8,7 @@ In this model, RESTful web services APIs handle the complete flow from user regi
 
 ## UI Widgets and API Integration
 
-In this model, the AllData service is integrated through individual widgets embedded or overlaid in the partner web/native/mobile application. A widget is a web resource composed of web pages and accessed as any HTTP URL. Users authenticate with AllData to establish valid SSO sessions before accessing widgets. Partners can configure the widgets&#39; functionality and look and feel using CSS.
-
-## UI Portal Integration (PFM)
-
-In this model, the AllData PFM UI is used for account administration, and partners use data pull daily to retrieve the latest account information available from the Fiserv platform for all users.
-
-The following table lists the different integration types and the API sets they typically use.
-
-|API set|AllData API integration|UI portal integration|UI widget / API integration|
-|----|----|----|----|
-|User management|✔|✔|✔|
-|External FI seed data|✔|||
-|Host account management|✔|✔|✔|
-|Account management|✔|||
-|Account harvesting|✔|||
-|Account data pull API|✔||✔|
-|Advisor management|✔|||
-|Client management|✔|||
-|Home setup|✔|||
-|Transaction categorization|✔|||
-
+Please see the [Next-Gen Widgets Integration Guide](?path=/docs/alldata-next-gen.md) available on Developer Studio. 
 
 # Full API Web Service Integration
 
@@ -71,8 +21,6 @@ In this model, partners do not use the AllData UI for account setupandmanagement
 - **Account data management:** APIs to allow clients to retrieve user account data from AllData
 - **Client management:** APIs to manage activities related to client-advisor relationships
 - **Transaction categorization:** APIs to support transaction categorization
-- **Advisor management:** APIs to allow working with wealth management advisors (applies only to AllData Advisor platform)
-- **Miscellaneous:** Other APIs, such as for PCI compliance
 
 ## User Management
 
@@ -94,7 +42,7 @@ The User Management module uses the following web services:
 
 As part of the initial integration with AllData, partners must fetch a list of institutions Fiserv supports and store it in their systems using the web services. After this initial load, subsequent synchronizations fetch only newly added and updated institution data.
 
-**Note:** The AllData FI list has over 12,500 entries. Given the size of the list, we recommend that partners batch getFIDetails calls, with a limit of 500 FIs returned per call. This process should be executed server to server, taking into consideration that the fetch times may be longer and should not abort with a short timeout.
+**Note:** The AllData FI list has thousands of entries. Given the size of the list, we recommend that partners batch getFIDetails calls, with a limit of 500 FIs returned per call. This process should be executed server to server, taking into consideration that the fetch times may be longer and should not abort with a short timeout.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-03.png" alt="Figure 3"/>
 
@@ -129,19 +77,19 @@ Partners use the following steps to add new accounts without multi-factor authen
 
 1. **initiateAddAccounts**
 
-This step initiates the process of adding external accounts. This request triggers a harvesting request using HarvestAddRq with FI login parameters (username/password) or FILoginAcctId. AllData connects to the FI website and harvests account information. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#initiateaddaccounts) for the details of the API.
+This step initiates the process of adding external accounts. This request triggers a harvesting request using HarvestAddRq with FI login parameters (username/password) or FILoginAcctId. AllData connects to the FI website and harvests account information. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/initiateAddAccounts) for the details of the API.
 
 2. **getAddAccountStatus**
 
-Invoke this API after the initiateAddAccounts request has started. It returns the status of InitiateAddAccounts. Invoke this API at a periodic interval to check the status. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#getaddaccountstatus) for the details of the API.
+Invoke this API after the initiateAddAccounts request has started. It returns the status of InitiateAddAccounts. Invoke this API at a periodic interval to check the status. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getAddAccountStatus) for the details of the API.
 
 3. **getNewAccounts**
 
-Invoke this API after the initiateAddAccounts request has completed. It returns the list of financial accounts found on the FI website. Currently these accounts are not created in the AllData system. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#getnewaccounts) for the details of the API.
+Invoke this API after the initiateAddAccounts request has completed. It returns the list of financial accounts found on the FI website. Currently these accounts are not created in the AllData system. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getNewAccounts) for the details of the API.
 
 4. **createAccounts**
 
-Invoke this API to create the accounts in AllData system. Fiserv classifies the harvested accounts based on certain account classification rules. The user can either override this classification or provide the classification if not already set. After successfully adding accounts the partner must call update account APIs to run on-demand harvesting to retrieve account data. Refer to [Account Management Web Services](?path=/docs/ws-api/webservices-apis.md#createaccounts) for API details. The following figure depicts the typical non-MFA Add Account workflow.
+Invoke this API to create the accounts in AllData system. Fiserv classifies the harvested accounts based on certain account classification rules. The user can either override this classification or provide the classification if not already set. After successfully adding accounts the partner must call update account APIs to run on-demand harvesting to retrieve account data. Refer to [Account Management Web Services](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/createAccounts) for API details. The following figure depicts the typical non-MFA Add Account workflow.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-05.png" alt="Figure 5"/>
 
@@ -149,7 +97,7 @@ Invoke this API to create the accounts in AllData system. Fiserv classifies the 
 
 AllData system supports multi-factor authentication (MFA) as part of the Add Account workflow which some FIs may require. AllData supports these with special handling of such accounts. When the first-time login credentials fail with MFA error (303 error code), AllData APIs fetch the MFA details (question or image) and present it to the partner. The partner provides the answer to the question on behalf of the user and the response is saved in the AllData system to access the user accounts in the future.
 
-Below are the possible MFA scenarios. See the AllData MFA Sample Responses document for more detailed information.
+Below are the possible MFA scenarios.
 
 - One text question, one text answer
 - One text question, multiple text answers
@@ -211,43 +159,6 @@ The following diagram depicts the OAuth Add Account workflow.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-12.png" alt="Figure 12"/>
 
-### Add Account workflow (PCI compliant FI)
-
-If the FI is PCI compliant, partners must implement the following in addition to one of the Add Account workflows above.
-
-1. **FIInfoRqRs**
-
-The FIInfo is enhanced with a new element (HasCardData) to help the partner determine whether the FI is PCI compliant. A value of &quot;Y&quot; in this HasCardData element indicates PCI compliance.
-
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-13.png" alt="Figure 13"/>
-
-2. **GetWMAccessKey**
-
-Partners must call a **GetWMAccessKey** web service to generate the WMAccessKey. Refer to the [Miscellaneous chapter](?path=/docs/ws-api/webservices-apis.md#getwmaccesskey) for the details of this web service.
-
-  - Partners should not send card information to AllData web services system.
-  - Partners must send card info to Fiserv PCI system and get token to use in place of card number.
-  - The Fiserv PCI system requires the WMAccessKey for access.
-  - The WMAccessKey is valid for 15 minutes.
-
-3. **CardToken**
-
-Partners call a URL with the WMAccessKey generated in the previous step along with the &quot;CardInfo&quot; to generate the CardToken. See the AllData PCI Integration document for details.
-
-4. **HarvestAddRq:**
-
-Call HarvestAddRq with FI login parameters providing username/password of the FI along with the CardToken generated in step 3 in the \&lt;CryptVal\&gt; node.
-
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-14.png" alt="Figure 14"/>
-
-5. **HarvestAddFetchRq:**
-
-Call HarvestAddFetchRq if the HarvestAddStsInqRq returned a &quot;completed&quot; status passing in a harvest ID.
-
-6. **HarvestAddCreateRq:**
-
-Call HarvestAddCreateRq and provide the accounts to create on the AllData side.
-
 ### Delete Account workflow
 
 To delete an account from AllData, partners invoke the Delete Account (FIDeleteRq) API on the AllData web services system when the account is deleted from the partner system.
@@ -264,7 +175,7 @@ Account Management uses the following web services APIs:
 - **createAccounts:** Partners call this API with a list of accounts to be added to AllData for harvesting.
 - **deleteAccounts:** Partners use this API to remove accounts from AllData for an FI connection, and the connection itself. Deleting the accounts removes all the harvested data from AllData. Deleting the FI connection (FILoginAcctId) removes all the accounts harvested within the FI, along with user credentials.
 - **updateAccountCredentials:** If the user credentials for a stored connection change outside of AllData, partners call this API to update the stored credentials within AllData for an FI connection.
-- **maintainAccount:** Partners use this API call to change account classifications, account nicknames, etc.
+- **maintainAccount:** Partners use this API call to change account classifications, account nicknames, and so on.
 
 ## Harvest Account Data
 
@@ -298,25 +209,25 @@ The transaction data pull APIs can be used to retrieve transactions for each acc
 
 ### Banking transactions
 
-The Banking transactions can be extracted from the AllData system for a certain time period using the getBankingTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getbankingtrans) for the details of the web service.
+The Banking transactions can be extracted from the AllData system for a certain time period using the getBankingTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getBankingTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-17.png" alt="Figure 17"/>
 
 ### Credit Card transactions
 
-The Credit Card transactions can be extracted from the AllData system for a certain time period using the getCreditCardTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getcreditcardtrans) for the details of the web service.
+The Credit Card transactions can be extracted from the AllData system for a certain time period using the getCreditCardTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getCreditCardTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-18.png" alt="Figure 18"/>
 
 ### Investment transactions
 
-The Investment transactions can be extracted from the AllData system for a certain time period using the getInvestmentTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getinvestmenttrans) for the details of the web service.
+The Investment transactions can be extracted from the AllData system for a certain time period using the getInvestmentTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getInvestmentTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-19.png" alt="Figure 19"/>
 
 ### Other Account transactions
 
-The asset/liability/biller account transactions can be extracted from the AllData system for a certain time period using the getOtherAccountTrans WS API. See [Account Data Pull APIs](?path=/docs/ws-api/webservices-apis.md#getotheraccounttrans) for the details of the web service.
+The asset/liability/biller account transactions can be extracted from the AllData system for a certain time period using the getOtherAccountTrans WS API. See [Account Data Pull APIs](../api/?type=post&path=/WealthManagementWeb/ws/AccountDataInq/getOtherAccountTrans) for the details of the web service.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-20.png" alt="Figure 20"/>
 
@@ -332,53 +243,18 @@ Data pulls involve the following web services APIs:
 - **getOtherAccountTrans:** This API returns transaction details for liability accounts like billers, mortgages, loans, insurance, and other liability account types (except credit cards).
 - **getInvestmentPos:** This API returns the investment positions within an investment account.
 
-# UI Widgets and API Integration
 
-In this model, the AllData Aggregation service is integrated as individual widgets embedded or overlaid in the partner web application or mobile application. See the AllData Widget Integration Guide for complete partner widget documentation.
+# Web Services Setup and Usage
 
-An AllData widget is a web resource composed of web pages and accessed as any HTTP URL. Partners must use the user credentials registered with AllData to invoke the sign-on API and get a valid session token before accessing any widgets.
+## Web Services Setup
 
-Using the session token this way allows users to seamlessly access AllData widgets from partner applications without entering additional identifiers, passwords, or other credentials.
+The following are the prerequisites for web services API integration with Fiserv.
 
-Most API partners choose to integrate the **AllData Add Accounts widget** into their applications. It enables adding financial institutions using their FI-issued credentials.
+1. Environment setup in AllData system
+2. Fiserv provides partner with admin user credentials
+3. Server URL to submit web services API requests
+4. Session handover URL (for single sign-on (SSO))
 
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-21.png" alt="Figure 21"/>
+## URLs
 
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-22.png" alt="Figure 22"/>
-
-## User Registration and Sign-On
-
-User registration and sign-on involves the following APIs.
-
-- **createUser:** Partners use this to create customer profiles within an AllData home.
-- **signon:** This API allows partners to use AllData customer credentials to get an SSO token. This token is required to launch the Add Accounts Widget flow.
-
-See [User Management Web Services](?path=/docs/ws-api/webservices-apis.md#user-management-web-services) for more details on user registration and sign-on APIs.
-
-# UI Portal (AllData PFM) Integration
-
-In this model, a partner uses a hosted AllData PFM UI for account administration and daily data updates.
-
-The createUser WS API request includes performing AllData PFM user registration, and the AllData PFM UI is used for account administration to add, edit, and delete accounts in the user&#39;s login.
-
-The user passes seamlessly from the partner&#39;s secure web application to the AllData PFM secure web portal without entering an additional identifier, password, or other credentials.
-
-_AllData PFM:_
-
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-23.png" alt="Figure 23"/>
-
-_AllData PFM – Account Administration:_
-
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-24.png" alt="Figure 24"/>
-
-
-
-----
-
-© 2019-2021 Fiserv, Inc. or its affiliates. All rights reserved. This work is confidential, and its use is strictly limited. Use is permitted only in accordance with the terms of the agreement under which it was furnished. Any other use, duplication, or dissemination without the prior written consent of Fiserv, Inc. or its affiliates is strictly prohibited. The information contained herein is subject to change without notice. Except as specified by the agreement under which the materials are furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from the use of this information. No warranties, either express or implied, are granted or extended by this document.
-
-[http://www.fiserv.com](http://www.fiserv.com/)
-
-Fiserv is a registered trademark of Fiserv, Inc.
-
-Other brands and their products are trademarks or registered trademarks of their respective holders and should be noted as such.
+Please note that the server URLs differ between UAT and production environments. The URLs are provided as part of the setup.

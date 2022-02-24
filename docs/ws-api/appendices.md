@@ -1,6 +1,6 @@
 # Appendix A: API Error Codes
 
-The following table lists all valid response status codes for the status aggregate defined earlier, their severities, their default text provided in the StatusDesc element, conditions that may trigger them, and, in some cases, information to help API partners resolve issues.
+The following table lists all valid response status codes for the status aggregate defined earlier, their severities, their default text provided in the StatusDesc element, conditions that may trigger them, and, in some cases, information to help API partners resolve issue.
 
 |Code|Severity|StatusDesc default text|Condition|Partner resolution action|
 |---|---|---|---|---|
@@ -158,29 +158,3 @@ Response:
 - On Failure: Null stream is passed to the partner.
 
 **Note:** The image will be deleted from the AllData system for that image ID once invoked using the image-retrieving URL.
-
-# Appendix D: Zillow (Zestimate) – Terms of Use
-
-To use Zillow (&quot;Zestimate&quot;) FI to obtain the property value, Fiserv and Zillow have agreed to brand Zillow as the information provider wherever the Zillow FI and Zestimate information appear. Clients that use the Zillow FI information through Fiserv should do the Zillow branding in their UI when displaying the Zillow FI information.
-
-The below information should appear in the UI when displaying the Zillow (Zestimate) information.
-
-- Zillow logo:
-[http://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo\_150x40.gif](http://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo_150x40.gif)
-- Zillow &quot;Terms of Use&quot; link: [http://www.zillow.com/corp/Terms.htm](http://www.zillow.com/corp/Terms.htm)
-- &quot;What&#39;s a Zestimate&quot; link: [http://www.zillow.com/zestimate/](http://www.zillow.com/zestimate/)
-
-Sample:
-<img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-appendix-c1.png" alt="Figure 1"/>
-
-
-
----
-
-© 2019-2021 Fiserv, Inc. or its affiliates. All rights reserved. This work is confidential, and its use is strictly limited. Use is permitted only in accordance with the terms of the agreement under which it was furnished. Any other use, duplication, or dissemination without the prior written consent of Fiserv, Inc. or its affiliates is strictly prohibited. The information contained herein is subject to change without notice. Except as specified by the agreement under which the materials are furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from the use of this information. No warranties, either express or implied, are granted or extended by this document.
-
-[http://www.fiserv.com](http://www.fiserv.com/)
-
-Fiserv is a registered trademark of Fiserv, Inc.
-
-Other brands and their products are trademarks or registered trademarks of their respective holders and should be noted as such.

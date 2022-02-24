@@ -7,8 +7,7 @@ This document describes the Web services API usage of the Fiserv AllData applica
 ### Table of Contents:
 1. [Overview](?path=/docs/ws-api/overview.md)
 2. [Integrations](?path=/docs/ws-api/integrations.md)
-3. [Web Services & APIs](?path=/docs/ws-api/webservices-apis.md)
-4. [Appendices](?path=/docs/ws-api/appendices.md)
+3. [Appendices](?path=/docs/ws-api/appendices.md)
 
 
 [PDF Version](https://raw.githubusercontent.com/Fiserv/alldata/develop/docs/documentation/pdfs/AllData%20WS%20API%20Specs%204.1.pdf)
