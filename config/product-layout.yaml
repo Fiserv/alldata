@@ -49,11 +49,11 @@ featuredFeatures:
         description: >
          This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
         link: "/docs/add-account.md"
-#      - relatedDoc: 
-#        title: Widget Integration Guide
-#        description: >
-#          This document covers ways to speed implementation by leveraging AllData widgets.
-#        link: "/docs/alldata-next-gen.md"
+      - relatedDoc: 
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
         title: Sign On 
@@ -90,11 +90,11 @@ featuredFeatures:
         description: >
           This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
         link: "/docs/add-account.md"
-#      - relatedDoc: 
-#        title: Widget Integration Guide
-#        description: >
-#          This document covers ways to speed implementation by leveraging AllData widgets.
-#        link: "/docs/alldata-next-gen.md"
+      - relatedDoc: 
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
         title: Sign On 
@@ -128,11 +128,11 @@ featuredFeatures:
         description: >
           This document addresses how to use AllData APIs and the Add Account widget for multiple use cases.
         link: "/docs/add-account.md"
-#      - relatedDoc: 
-#        title: Widget Integration Guide
-#        description: >
-#          This document covers ways to speed implementation by leveraging AllData widgets.
-#        link: "/docs/alldata-next-gen.md"
+      - relatedDoc: 
+        title: Widget Integration Guide
+        description: >
+          This document covers ways to speed implementation by leveraging AllData widgets.
+        link: "/docs/alldata-next-gen.md"
     relatedAPIs:
       - relatedAPI: 
         title: Sign On 
