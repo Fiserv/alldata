@@ -30,7 +30,7 @@ Please see the [Next-Gen Widgets Integration Guide](?path=/docs/alldata-next-gen
 
 ## Full API Web Service Integration
 
-In this model, partners do not use the AllData UI for account setupandmanagement. Instead, partners develop custom user interfaces that communicate with AllData using web service APIs. The following is a list of the different categories of APIs available in the AllData system, each with a brief description.
+In this model, partners do not use the AllData UI for account setup and management. Instead, partners develop custom user interfaces that communicate with AllData using web service APIs. The following is a list of the different categories of APIs available in the AllData system, each with a brief description.
 
 - **User management:** APIs that support activities to manage users
 - **External FI seed data:** APIs for partners to fetch information about FI data sources
