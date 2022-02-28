@@ -842,8 +842,8 @@ Harvesting alerts are listed below by error code. The alert titles and descripti
 
 **User intervention required** – There are two options to resolve the 201 alert:
 
-- Clicking **Remove Account** resolves the alert by initiating the process to delete the account from the user&#39;s profile. IfthisaccountistheonlyaccountassociatedwiththecredentialsattheFIforthe user, then theentireFI isdeleted from the user&#39;s profile.
-- Clicking **Match Accounts** resolves the alert by initiating the process to retrieve additional accounts using the credentials for the FI. A progress indicator appears ontheoverlayscreen while the process retrieves accounts.
+- Clicking **Remove Account** resolves the alert by initiating the process to delete the account from the user&#39;s profile. If this account is the only account associated with the credentials at the FI for the user, then the entire FI is deleted from the user&#39;s profile.
+- Clicking **Match Accounts** resolves the alert by initiating the process to retrieve additional accounts using the credentials for the FI. A progress indicator appears on the overlay screen while the process retrieves accounts.
 
 The retrieved accounts appear for the user to choose from:
 
