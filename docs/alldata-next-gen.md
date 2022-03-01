@@ -379,7 +379,7 @@ The following are some frequently asked questions on how the Add Accounts widget
    - If **return\_url** is not set, the Add Accounts widget shows a message that no new accounts were found.
 
 4. What error conditions are possible?
-   
+
    - The Add Accounts widget handles any harvesting errors interactively unless the user closes the widget prematurely. In such a case, there may be harvesting errors that will be made available through the data pull APIs. If the user chooses same FI and provides same user ID, the Add Accounts widget resumes previous attempt and presents the existing error to the user.
 
 ## Alert Resolution Widget
@@ -480,25 +480,25 @@ There are multiple outcomes of an Error Resolution widget invocation:
 The following are some of the frequently asked questions about how the Add Accounts widget works.
 
 1. What information is sent back on **return\_url**?
-   
+
    - The Alert Resolution widget invokes **return\_url** after its processing is complete with the **action** parameter. If the alert resolution results in adding more accounts, the newly added account IDs are sent as a list of comma-separated values with **AcctId** parameter along with the **FILoginAcctId**.
 
 2. When is harvesting triggered in the Alert Resolution flow?
-   
+
    - The following error codes trigger a harvesting update when resolved: 300, 301, 302, 303, 304, 307, and 201 (if the user chooses to match up the accounts retrieved from FI). This harvested data is made available through data pull APIs. Please refer to the AllData XML/Web Services Specifications Guide provided for more details.
 
    - On the similar lines to that of Add Accounts flow, it is recommended that you keep polling the harvest status using _getAccountHarvestStatus_ / AccountHarvestStsInqRq API until the harvesting is complete before invoking the data pull APIs. The **FILoginAcctId** of the newly added login account is sent back as a parameter to the **return\_url**. The _getAccountHarvestStatus_ / AccountHarvestStsInqRq API uses this **FILoginAcctId** to pull information about the ongoing harvest run.
 
 3. When does the Alert Resolution widget invoke the Add More Accounts flow?
-   
+
    - If the user had stopped the Add Accounts flow with FI login-level harvesting errors, there will be no child accounts present for that parent FI login account. If the user tries to resolve such a harvesting error, the harvesting update gets triggered as if the user is trying to add more accounts from that FI. The newly added accounts information will be sent back on the **return\_url** as discussed in question 2.
 
 4. How do we know if the error was resolved successfully?
-   
+
    - When the user submits the information such as new credentials, to resolve the error, the Alert Resolution widget notes that and triggers backend harvesting. The success of that attempt cannot be known until harvesting completes. We recommend that you keep polling the status for harvest completion and check the information using data pull APIs.
 
 5. Could there be multiple errors with the same account?
-   
+
    - It is possible that there are multiple errors or even errors at multiple levels: FI level, FI login account level, and account level. Resolving errors at high levels in the hierarchy (such as by our scripting team) may uncover other errors. After an alert resolution action is taken, you should use data pull APIs to check for further errors.
 
 ## Return Scenarios
