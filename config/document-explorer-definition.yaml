@@ -34,7 +34,7 @@
   - title: AllData Web Services and API Specs
     link: docs/alldata-ws-api.md
 - sections:
-  - title: AllData Next-Gen Widget Guide
+  - title: AllData Next-Gen Widget Integration Guide
     link: docs/alldata-next-gen.md
 - sections:
   - title: AllData Common Use Cases and API Solutions
