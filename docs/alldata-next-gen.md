@@ -317,7 +317,7 @@ The following table provides the possible functionalities configuration which pa
 |IncludeClassifiedAccounts|Includes the all the added accounts (True). Displays only the accounts with classification errors (False) on the Account Classification page|True, False|True|
 |addAccount.flow.display. process.step.graphic|Includes the Add flow process steps in top right corner of the widget|True, False|True|
 |EnableFIRequest|Displays “Request a new institutions support” button in case the search results do not return any FI|True, False|False|
-|invocation_mode|Enables or disables the widget’s “close” (×) button: (1) Pop-up mode: Enables close button, (2) Embedded mode: Disables close button, (3) Native app integration: Button is disabled by default|embedded, popup||
+|invocation_mode|Enables or disables the widget’s “close” (**×**) button: (1) Pop-up mode: Enables close button, (2) Embedded mode: Disables close button, (3) Native app integration: Button is disabled by default|embedded, popup||
 
 
 ### Widget Invocation
@@ -366,11 +366,11 @@ If the Account Classification and Confirmation screens are disabled, the widget 
 The following are some frequently asked questions on how the Add Accounts widget works.
 
 1. What information is sent back on **return_url**?
-\
+ -- 
 Add Accounts widget invokes **return\_url** after its processing is complete and sends the newly added login account ID at the FI ( **FILoginAcctId** ) as well as account IDs for all the accounts added in this widget session. These accounts are listed in comma-separated values with param **AcctId**.
 
 2. What happens if the user selects an FI that is already registered and gives the same credentials?
-\
+ -- 
 The Add Accounts widget recognizes that this set of credentials for the chosen FI is already stored and initiates the Add More Accounts process. A harvesting attempt is made to find more accounts at the FI that can be added for aggregation. Any newfound accounts will be added using a similarly configured process as the original request, such as taking into account specific screens enabled using home-level configuration parameters. If the **return\_url** parameter exists, it will be invoked with the corresponding **FILoginAcctId** and a comma-separated list of all accounts.
 
 3. What happens if the user chooses an FI that is already registered, provides same user credentials, and there are no new accounts found?
@@ -379,7 +379,7 @@ The Add Accounts widget recognizes that this set of credentials for the chosen F
    - If **return\_url** is not set, the Add Accounts widget shows a message that no new accounts were found.
 
 4. What error conditions are possible?
-\
+ -- 
 The Add Accounts widget handles any harvesting errors interactively unless the user closes the widget prematurely. In such a case, there may be harvesting errors that will be made available through the data pull APIs. If the user chooses same FI and provides same user ID, the Add Accounts widget resumes previous attempt and presents the existing error to the user.
 
 ## Alert Resolution Widget
@@ -428,13 +428,13 @@ AllData widgets use resource bundles to persist most of the text that is display
 Alert Resolution widget screens have two basic formats: Either no user action is required, or the user can choose an action. 
 
 1. **No user action required** 
-\
+ -- 
 Partners can customize the following elements:
    - Error message text based on error code
    - Body content
 
 2. **The user can choose an action**
-\
+ -- 
 Partners can customize the following elements:
    - Error message text based on error code
    - Subheading text
@@ -639,7 +639,7 @@ Both iOS and Android platform broadcast touch events for a WebView, so that the 
 
 ##### Handling session timeouts in Aggregation
 
-Aggregation will call a function on the parent app when the session times out. That is depicted in the diagram above.
+Aggregation will call a function on the parent app when the session times out. 
 
 #### Sample Pseudocode for Handling Session Management
 
