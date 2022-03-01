@@ -9,18 +9,5 @@ versioning/**
 # Declaring one particular markdown file to ignore
 api-nomenclature.md
 
-# Igore these markdown files under Documentation section
-docs/add-account.md
-docs/alldata-ws-api.md
-docs/ws-api/overview.md
-docs/ws-api/integrations.md
-docs/ws-api/webservices-apis.md
-docs/ws-api/appendices.md
-docs/alldata-next-gen.md
-docs/alldata-next-gen/overview-integration-approach.md
-docs/alldata-next-gen/widgets.md
-docs/alldata-next-gen/implementation-approaches.md
-docs/alldata-next-gen/appendices.md
-docs/alldata-common-use-cases.md
 
 
