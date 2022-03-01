@@ -375,7 +375,7 @@ The following are some frequently asked questions on how the Add Accounts widget
 
 3. What happens if the user chooses an FI that is already registered, provides same user credentials, and there are no new accounts found?
 
-   - If the **return\_url** parameter exists, it is invoked with existing **FILoginAcctId** and existing **AcctIds**.
+   - If the **return\_url** parameter exists, it is invoked with existing **FILoginAcctId** and existing **AcctId**s.
    - If **return\_url** is not set, the Add Accounts widget shows a message that no new accounts were found.
 
 4. What error conditions are possible?
