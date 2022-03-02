@@ -15,7 +15,7 @@ For all use cases outlined below, you must create a user profile using the Creat
 
 ### Partner flow for Add Account widget
 
-Before launching the Add Account widget, you must call the signOn API to generate a single sign-on (SSO) token. After generating the token, launch the AllData Add Account widget per the instructions in the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md). 
+Before launching the Add Account widget, you must call the signOn API to generate a single sign-on (SSO) token. After generating the token, launch the AllData Add Account widget per the instructions in the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md). 
 
 # Use Cases
 
@@ -39,7 +39,7 @@ This use case is necessary to verify the bank account ownership of your end user
 
 1. Invoke the createUser API.
 2. Invoke the signOn API and get a session token.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API.
 6. Invoke the getAccountsSummary API. (optional)
@@ -53,7 +53,7 @@ Balance verification is useful for lenders, ACH payment processors, e-commerce p
 
 1. Invoke the createUser API.
 2. Invoke the signOn API and get a session token.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API. – This call returns full account owner name, various account balance types, routing number, and account numbers (both partly masked and fully unmasked, if available).
 
@@ -69,7 +69,7 @@ You can use AllData to retrieve an end user’s full account number(s) and routi
 
 1. Invoke the createUser API.
 2. Invoke the signOn API and get a session token.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API. – This call returns full account owner name, various account balance types, routing number, and account numbers (both partly masked and fully unmasked, if available).
 
@@ -97,7 +97,7 @@ Where available, AllData can obtain transaction history for the following accoun
 
 1. Invoke the createUser API.
 2. Invoke the signOn API.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API.
 6. Invoke the getAccountsSummary API. (optional)
@@ -126,7 +126,7 @@ You can use AllData to verify your customer assets. Assets are grouped into the 
 
 1. Invoke the createUser API.
 2. Invoke the signOn API.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API. – This call returns full account owner name, various account balance types, routing number, and account numbers (both partly masked and fully unmasked, if available).
 
@@ -147,7 +147,7 @@ You can use AllData to verify your customer liabilities. Liabilities are grouped
 
 1. Invoke the createUser API.
 2. Invoke the signOn API.
-3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](https://developer.fiserv.com/product/AllDataAggregation/docs/?path=docs/alldata-next-gen.md) instructions.
+3. Launch the Add Account widget per the [AllData Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) instructions.
 4. Invoke the getAccountUpdateSummary API. – This is only required if you configure the widget to hide both the account classification page and account confirmation page.
 5. Invoke the getAccountDetails API. – This call returns full account owner name, various account balance types, routing number, and account numbers (both partly masked and fully unmasked, if available).
 
