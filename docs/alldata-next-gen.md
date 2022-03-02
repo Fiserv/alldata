@@ -271,6 +271,8 @@ Partners can define the financial institutions that are available for users to a
 
 Partners can configure the FIs that appear as popular institutions represented by their logos in the initial Add Accounts screen. Additionally, partners may choose whether to display twelve popular FI logos or ten logos plus an **Add Offline Accounts** button and a **Zillow** button on the initial screen of the widget. Clicking an institution logo in the popular institutions list takes the user to the corresponding credential submission screen.
 
+The popular institutions list is configurable but will display a default list if not configured by the partner.
+
 ### Add Account Screens CSS Definition
 
 ##### Primary CSS Classes
