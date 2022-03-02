@@ -245,7 +245,7 @@ The label of every button available in the Add Account widget is configurable. T
 
 ### Offline Account Link
 
-On the initial screen of the Add Accounts widget, there is an option in the popular institutions called **+Add Offline Accounts**. The URL to which this button points is configurable. The property may be passed to the Fiserv application via a pre-configured property or via a parameter in SSO (refer to the [Integration Approaches section](#implementation-approaches) for more information).
+On the initial screen of the Add Accounts widget, there is an option in the popular institutions called **+Add Offline Accounts**. The URL to which this button points is configurable. The property may be passed to the Fiserv application via a pre-configured property or via a parameter in SSO (refer to the [Integration Approaches section](#integration-approach) for more information).
 
 If the property is not set, the **+Add Offline Accounts link** will direct to the native offline account functionality. If the property is set to a partner-specified URL, the link will open the URL within the widget frame.
 
