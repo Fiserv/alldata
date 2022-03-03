@@ -6,13 +6,22 @@
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test html br <br> is this below?| valE4 |
-|   - bull? |   - bull?tab |    - bull?4sp |      - bull?5sp |       - bull?6sp |
+| too bad we can't use html breaks<br> • and do this <br> • with alt codes <br> ○ still can't do indents <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • html nbsp's work | | | | |
+|       |        |        | test alt-10 line break ◙ is this below? really doubt it |    |
+| | | | | |
 
-12345678901234567890123456789012345678901234567890  
-╔═════╗  
-║ 3 5 7 9║  
-║2 4 6 8 ║  
-╚═════╝  
+| colA  | colB   | colC   | colD            | colE                |
+|-------|--------|--------|-----------------|---------------------|
+| How bad would it | look to fake the | nesting of items | across multiple | rows? |
+|                  | • It might look | this bad to do | that | | 
+|                  |                 | • And maybe this | is even much | worse | 
+
+| colA               | colB                  |
+|--------------------|-----------------------|
+| If we could just use html br and nbsp | we could do well enough |
+| | |
+| Star Wars | Characters<br> • Humans (?)<br> &nbsp; &nbsp; &nbsp; &nbsp; • Luke<br> &nbsp; &nbsp; &nbsp; &nbsp; • Leia<br> &nbsp; &nbsp; &nbsp; &nbsp; • Lando<br> • Wookiee<br> &nbsp; &nbsp; &nbsp; &nbsp; • Chewbacca<br> &nbsp; &nbsp; &nbsp; &nbsp; • Chewie's unseen wife & son |
+
 
 :eyes:  
 :nose:  
