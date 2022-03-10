@@ -1,8 +1,8 @@
-# AllData® Web Services API Specifications
+# AllData Web Services API Specifications
 
 ## Overview
 
-This document describes the web services API usage of the Fiserv AllData application. A RESTful API web service handles communication between the partner application and Fiserv, using HTTP protocol over SSL/TLS as the communication medium.
+This document describes the web services API usage of the Fiserv AllData® application. A RESTful API web service handles communication between the partner application and Fiserv, using HTTP protocol over SSL/TLS as the communication medium.
 
 To extract data from Fiserv, the partner application sends a request with certain partner-identifying parameters and user authentication tokens. Upon receipt, the Fiserv server performs the requested task and responds with the results.
 
