@@ -26,7 +26,7 @@ In this model, RESTful web services APIs handle the complete flow from user regi
 
 ### UI Widgets and API Integration
 
-Please see the [Next-Gen Widgets Integration Guide](?path=/docs/alldata-next-gen.md) available on Developer Studio. 
+Please see the [Next-Gen Widgets Integration Guide](?path=docs/alldata-next-gen.md) available on Developer Studio. 
 
 ## Full API Web Service Integration
 
@@ -129,7 +129,7 @@ The following are the changes the partner will implement for image-based MFA.
 
 <img style="display:block;margin:0 auto;" src="https://raw.githubusercontent.com/Fiserv/alldata/develop/assets/images/alldata-ws-api-specs-4.1/alldata-ws-api-specs-4.1-06.png" alt="Figure 6"/>
 
-2. The partner calls a URL with the image ID generated in the previous step. The base64-encoded image is transmitted to the client browser using the HTTPS connection. See [Appendix C: MFA Image-Retrieving URL](?path=/docs/ws-api/appendices.md#appendix-c-mfa-image-retrieving-url) for the URL details. After decoding the payload, handle downloaded images in the Portable Network Graphics (.png) format.
+2. The partner calls a URL with the image ID generated in the previous step. The base64-encoded image is transmitted to the client browser using the HTTPS connection. See [Appendix C: MFA Image-Retrieving URL](#appendix-c-mfa-image-retrieving-url) for the URL details. After decoding the payload, handle downloaded images in the Portable Network Graphics (.png) format.
 
 **Note:** AllData provides an additional option to the partner to get the base64-encoded image in the HarvestAddStsInqRs or HarvestStsInqRs in lieu of image ID. Partners must contact the AllData team to turn on the property to send the actual image as part of the API request.
 
@@ -318,7 +318,7 @@ The following table lists all valid response status codes for the status aggrega
 |4300|Error|Account Already Exists|There was an attempt to add an account that already exists.|Do not send an AddNewAccounts request for a user with the same set of credentials in an FI. In case of an error with initial attempt with that set of credentials, refer to the [Harvester Error Codes](#appendix-b-harvester-error-codes) section of this document for information and resolution suggestions.|
 |4310|Error|Harvesting Error|There was a harvesting error during the &quot;account add&quot; or &quot;add more accounts&quot; operation.|Research the returned UpdateErrorCode in the [Harvester Error Codes](#appendix-b-harvester-error-codes) section of this document for information and resolution suggestions.|
 |4320|Error|FI Login Credentials Required|An &quot;add more account&quot; operation was attempted for a low-trust account without providing the login credentials.||
-|4322|Error|Avoid gathering and sending User Credentials in OAuth FI|User credentials sent in the request for adding accounts in an OAuth-enabled FI.|Partner should refer to [Add Account workflow (OAuth)](?path=/docs/ws-api/integrations.md#add-account-workflow-oauth) and follow the instructions when initiating add under an OAuth-enabled FI.|
+|4322|Error|Avoid gathering and sending User Credentials in OAuth FI|User credentials sent in the request for adding accounts in an OAuth-enabled FI.|Partner should refer to [Add Account workflow (OAuth)](#add-account-workflow-oauth) and follow the instructions when initiating add under an OAuth-enabled FI.|
 |4330|Error|Invalid HarvestID|The harvest ID / run ID provided in the request is invalid.||
 |4332|Error|Invalid OAuth Request ID|The OAuth request ID sent in the request is invalid.||
 |4333|Error|Invalid Partner Application ID|The partner application ID is invalid.||
