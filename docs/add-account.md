@@ -1,4 +1,4 @@
-# How to Use AllData APIs and Add Account Widget for Various Use Cases
+# How to Use AllData® APIs and Add Account Widget for Various Use Cases
 
 # Introduction
 
@@ -8,7 +8,7 @@ The purpose of this document is to advise Fiserv partners that plan to use the A
 
 Before utilizing any of the following use cases, you must have a profile in the Fiserv system. The professional services team at Fiserv creates your administrative account and whitelists your IP address(es).
 
-You will be assigned a unique partner ID and a home ID (or multiple home IDs, depending on your needs). You may provision multiple customers (users) under a home ID. A user may have more than one financial institution (“FI”) or any other accounts and connection types offered by AllData® under their profile.
+You will be assigned a unique partner ID and a home ID (or multiple home IDs, depending on your needs). You may provision multiple customers (users) under a home ID. A user may have more than one financial institution (“FI”) or any other accounts and connection types offered by AllData under their profile.
 
 For all use cases outlined below, you must create a user profile using the CreateUser API. The user profile consists of the user ID, password, and several optional fields such as name and address. CreateUser returns a value called CEUserID which is the unique identifier for the end user. 
 
