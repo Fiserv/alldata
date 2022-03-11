@@ -1,4 +1,4 @@
-# AllData Next-Gen Widget Integration Guide
+# AllData® Next-Gen Widget Integration Guide
 
 ## Executive Summary
 
@@ -10,7 +10,7 @@ Fiserv provides three integration options to leverage our industry leading finan
 - Brandable UI that uses the Fiserv user interface for ease of deployment and integration
 - Configurable widgets providing specific functionality that can be embedded within the partner&#39;s UI
 
-Fiserv widgets provide compelling value propositions to financial institutions (FIs) wanting to leverage AllData® product and services, including:
+Fiserv widgets provide compelling value propositions to financial institutions (FIs) wanting to leverage AllData product and services, including:
 
 - Tight integration of data and functionality within a partner&#39;s UI
 - Reduced implementation, integration, and maintenance costs associated with developing a front end for aggregation-specific functionality

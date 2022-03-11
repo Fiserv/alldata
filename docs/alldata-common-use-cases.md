@@ -1,8 +1,8 @@
-# Common Data Aggregation Use Cases and AllData API Solutions
+# Common Data Aggregation Use Cases and AllData® API Solutions
 
 # Introduction
 
-The purpose of this document is to provide guidance to Fiserv partners on the order in which they should call the AllData® APIs as well as the APIs to call for specific use cases and solutions. This document is meant for API partners that do not use Fiserv widgets.
+The purpose of this document is to provide guidance to Fiserv partners on the order in which they should call the AllData APIs as well as the APIs to call for specific use cases and solutions. This document is meant for API partners that do not use Fiserv widgets.
 
 ## Overview
 
