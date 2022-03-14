@@ -1,4 +1,4 @@
-# Common Data Aggregation Use Cases and AllData API Solutions
+# Common Data Aggregation Use Cases and AllData® API Solutions
 
 # Introduction
 
@@ -29,7 +29,7 @@ This use case is necessary for a partner to verify the bank account ownership of
 - [initiateAddAccounts](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/initiateAddAccounts)
 - [getAddAccountStatus](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getAddAccountStatus) (1..n)
 - [getNewAccounts](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getNewAccounts)
-    * **Note:** This series of APIs only validates that the user can log in and has ownership of the account. If the partner requires routing and account numbers, see &quot;Add payment account&quot; below.
+    * **Note:** This series of APIs only validates that the user can log in and has ownership of the account. If the partner requires routing and account numbers, see “Add payment account” below.
 
 ### Balance verification
 

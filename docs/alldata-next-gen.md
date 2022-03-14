@@ -71,7 +71,7 @@ Optional parameters to pass to the widget&#39;s URL through POST parameters are:
 - **error\_url:** Partner preferred URL to which user will be redirected if an error occurs during widget invocation
 - **offline\_account\_url:** Partner preferred URL to direct the user to add offline accounts within the partner&#39;s screens and functionality
 - **css\_url:** Partner preferred URL to retrieve cascading style sheet – This URL will override the **css\_url** set up at the home level. This URL is appended at the end of CE CSS URLs so that the partner can define only the styles they want to override.
-- **invocation\_mode:** Partners preferring to embed the widget within their application using iframe or to launch the widget as a popup can use this parameter. Possible values are &quot;embedded&quot; and &quot;popup.&quot;
+- **invocation\_mode:** Partners preferring to embed the widget within their application using iframe or to launch the widget as a popup can use this parameter. Possible values are “embedded” and “popup”.
 - **partner\_app\_id:** Required for FIs using OAuth model – This ID is shared by partners during implementation. It is unique to each application the partner integrates with the AllData widget. It is used to access user account information from OAuth-implemented institutions.
 
 **Signon Request/Response**
@@ -86,15 +86,15 @@ Optional parameters to pass to the widget&#39;s URL through POST parameters are:
 
 &lt;Domain URL&gt;PFM\_UI/widgets/base/addaccounts/addAccountsWidget.iface
 
-…with the mandatory POST parameter &quot;sessionToken=&lt;sessionToken&gt;&quot; and any optional parameters required for the scenario
+…with the mandatory POST parameter “sessionToken=&lt;sessionToken&gt;” and any optional parameters required for the scenario
 
 ### Reverse Keep Alive URL
 
-Partners may occasionally need to extend AllData sessions even after the AllData widget is closed. To extend an AllData session, open a &quot;keep-alive&quot; URL from the partner application modeled after the following.
+Partners may occasionally need to extend AllData sessions even after the AllData widget is closed. To extend an AllData session, open a “keep-alive” URL from the partner application modeled after the following.
 
 &lt;Domain URL&gt;keepAlive/keepAlive.iface
 
-…with the mandatory POST parameter &quot;sessionToken=&lt;sessionToken&gt;&quot;
+…with the mandatory POST parameter “sessionToken=&lt;sessionToken&gt;”
 
 ### Logout URL
 
@@ -102,7 +102,7 @@ The AllData session times out after 15 minutes of user inactivity. A partner wan
 
 &lt;Domain URL&gt;logout
 
-…with the mandatory POST parameter &quot;sessionToken=\&lt;sessionToken\&gt;&quot;
+…with the mandatory POST parameter “sessionToken=\&lt;sessionToken\&gt;”
 
 Widget invocation may return response codes in certain situations. The following table lists the possible codes and their causes.
 
@@ -116,7 +116,7 @@ Widget invocation may return response codes in certain situations. The following
 
 ## Add Accounts Widget
 
-This section describes the workflow and functionality of the Add Accounts widget. The Add Accounts workflow starts with the user selecting the financial institution holding the account(s) and sharing login credentials to allow the system to add the account(s) and aggregate data from the institution. AllData provides two approaches to launching the Add Accounts widget in a partner application: The default method is the user searching for an institution or selecting one from a list of popular FIs. The alternate approach is called &quot;[deep linking](#deep-linking).&quot;
+This section describes the workflow and functionality of the Add Accounts widget. The Add Accounts workflow starts with the user selecting the financial institution holding the account(s) and sharing login credentials to allow the system to add the account(s) and aggregate data from the institution. AllData provides two approaches to launching the Add Accounts widget in a partner application: The default method is the user searching for an institution or selecting one from a list of popular FIs. The alternate approach is called “[deep linking](#deep-linking).”
 
 ### Add Accounts Workflow
 
@@ -130,7 +130,7 @@ When the Add Accounts widget is launched, the FI search screen appears first. Th
 
 Partners have the option to configure the popular financial institutions of their choice to display when launching the Add Account widget. The popular financial institution logos are displayed in the FI search screen, and the user can choose a logo to add one or more accounts under the selected institution. Partners have a choice of ten or twelve institutions to show under the popular list, based on whether they choose to display the Add Offline Accounts and Zillow logos.
 
-The FI search algorithm uses &quot;word searching&quot; instead of &quot;letter searching.&quot; The search string returns matches starting at the beginning of each of the words in the FI name, instead of any part of the FI name.
+The FI search algorithm uses “word searching” instead of “letter searching.” The search string returns matches starting at the beginning of each of the words in the FI name, instead of any part of the FI name.
 
 When the user enters three letters, an auto-complete dropdown appears below the search field. The number of matches to the user-entered text appears below the search field. The auto-complete functionality initially loads the first ten matches, with the institutions&#39; respective logos. A **Show More** button appears at the bottom of the widget to optionally display more matching institutions from the result set.
 
@@ -142,7 +142,7 @@ When FI request their users to do additional setup to allow aggregating from the
 
 Same instructions will be provided on the top of credentials submission screen of that FI. Users can choose **Show More** to view the complete instructions.
 
-After the user provides credentials, an &quot;in-progress&quot; screen displays while the harvesting process attempts to access the FI and retrieve the accounts. The user must wait for the harvesting process to return a result before continuing the process.
+After the user provides credentials, an “in-progress” screen displays while the harvesting process attempts to access the FI and retrieve the accounts. The user must wait for the harvesting process to return a result before continuing the process.
 
 After successfully harvesting data, the widget shows the Account Classification screen if it is configured. Otherwise it shows the Account Confirmation screen if it is configured. If both screens are turned off, the widget calls the **return\_url** to return control back to the partner application. This invocation of **return\_url** contains two parameters ( **FILoginAcctId** and **AcctId** ) which signify the newly added accounts. The **FILoginAcctId** contains one ID referring to the parent login ID record that the user submitted the credentials for. The **AcctId** contains a comma-separated list of accounts that are accessible with these login credentials and are referred to as children accounts.
 
@@ -253,15 +253,15 @@ The native Add Offline Account screen lets users select an account type from a p
 
 ### Zillow (Zestimate®)
 
-Zillow is the leading real estate marketplace dedicated to empowering consumers with data, inspiration, and knowledge around the place they call home. The &quot;Zestimate&quot; home valuation model is Zillow&#39;s estimate of a home&#39;s market value. The Zestimate incorporates public and user-submitted data, and considers home facts, location, and market conditions.
+Zillow is the leading real estate marketplace dedicated to empowering consumers with data, inspiration, and knowledge around the place they call home. The “Zestimate” home valuation model is Zillow&#39;s estimate of a home&#39;s market value. The Zestimate incorporates public and user-submitted data, and considers home facts, location, and market conditions.
 
 Fiserv has built the capability to aggregate Zestimate property values from Zillow with property information shared by users. To obtain the property value, Fiserv and Zillow have agreed to brand Zillow as the information provider wherever the Zillow FI and Zestimate information appear. Partners who wish to enable Zillow as an option in the Add Accounts widget should do the Zillow branding in their UI when displaying the Zillow FI information.
 
 Include the following in the partner UI when displaying the Zillow (Zestimate) information.
 
 - Zillow logo: [http://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo\_150x40.gif](http://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo_150x40.gif)
-- Zillow &quot;Terms of Use&quot; link: [http://www.zillow.com/corp/Terms.htm](http://www.zillow.com/corp/Terms.htm)
-- &quot;What&#39;s a Zestimate&quot; link: [http://www.zillow.com/zestimate/](http://www.zillow.com/zestimate/)
+- Zillow “Terms of Use” link: [http://www.zillow.com/corp/Terms.htm](http://www.zillow.com/corp/Terms.htm)
+- “What&#39;s a Zestimate” link: [http://www.zillow.com/zestimate/](http://www.zillow.com/zestimate/)
 
 ### FI List
 
@@ -342,7 +342,7 @@ Access the Add Account widget in the partner integration environment with the fo
 
 &lt;Domain URL&gt;PFM_UI/widgets/base/addaccounts/addAccountsWidget.iface
 
-…with the mandatory POST parameter &quot;sessionToken=&lt;sessionToken&gt;&quot; and any optional parameters required for the scenario
+…with the mandatory POST parameter “sessionToken=&lt;sessionToken&gt;” and any optional parameters required for the scenario
 
 The partner integration team provides the production URL.
 
@@ -457,10 +457,10 @@ Alert Resolution widget URL for partner integration environment is:
 
 &lt;Domain URL&gt;PFM\_UI/widgets/base/addaccounts/alerts/resolveAlertWidget.iface
 
-…with the mandatory POST parameter &quot;sessionToken=&lt;sessionToken&gt;&quot; and any optional parameters for the scenario
+…with the mandatory POST parameter “sessionToken=&lt;sessionToken&gt;” and any optional parameters for the scenario
 
 - **Parameters required for invocation:** For Error Resolution widget apart from **sessionToken** , the other required parameters are **login\_acct\_id** and/or **acct\_id**. When both these parameters are sent, the widget first looks at account level errors and if there are none, it uses the **login\_acct\_id** to check for errors present at that level. Invoking this widget also requires the **return\_url** parameter. It is recommended that you send the **keepalive\_url** and **error\_url**.
-- **Parameters on return:** The Error Resolution widget will invoke **return\_url** with action parameter that will indicate whether the user merely cancelled out of the widget or did take some action to mitigate the error. The possible values are &quot;Cancel,&quot; &quot;Deleted,&quot; and &quot;Submit.&quot; If the error resolution results in adding accounts to the **login\_acct\_id** , the newly added **acct\_id** s are returned as list of comma-separated values along with the **login\_acct\_id**.
+- **Parameters on return:** The Error Resolution widget will invoke **return\_url** with action parameter that will indicate whether the user merely cancelled out of the widget or did take some action to mitigate the error. The possible values are “Cancel,” “Deleted,” and “Submit.” If the error resolution results in adding accounts to the **login\_acct\_id** , the newly added **acct\_id** s are returned as list of comma-separated values along with the **login\_acct\_id**.
 - **Error conditions:** In case there are processing errors, the Error Resolution widget invokes **error\_url** sent on the request. If **error\_url** is absent, the Error Resolution widget displays a message for the user. The following are the possible error conditions.
 
   - **Missing Required Parameters:** The invocation request does not have the required parameters present. (Error code 500)
@@ -471,11 +471,11 @@ Alert Resolution widget URL for partner integration environment is:
 
 There are multiple outcomes of an Error Resolution widget invocation:
 
-1. The user chose to cancel out of widget or there was no user action possible for the error condition. In this case, the **action** parameter will have value &quot;Cancel&quot; and no further action is required from the partner. If the error persists beyond stated resolution time, you may have to contact Fiserv customer service.
+1. The user chose to cancel out of widget or there was no user action possible for the error condition. In this case, the **action** parameter will have value “Cancel” and no further action is required from the partner. If the error persists beyond stated resolution time, you may have to contact Fiserv customer service.
 
-2. The user chose to act on the error by deleting the account. In this case, the **action** parameter will have value &quot;Deleted.&quot; The partner is expected to use data pull APIs to sync up the accounts for that user.
+2. The user chose to act on the error by deleting the account. In this case, the **action** parameter will have value “Deleted.” The partner is expected to use data pull APIs to sync up the accounts for that user.
 
-3. The user chose to provide additional information to resolve the error. In this case the **action** parameter will have value &quot;Submit.&quot; The partner is expected to poll for completion of harvesting by checking the harvest status using _getAccountHarvestStatus_ / AccountHarvestStsInqRq API and then using data pull APIs to find out if the error resolution was successful.
+3. The user chose to provide additional information to resolve the error. In this case the **action** parameter will have value “Submit.” The partner is expected to poll for completion of harvesting by checking the harvest status using _getAccountHarvestStatus_ / AccountHarvestStsInqRq API and then using data pull APIs to find out if the error resolution was successful.
 
 ### Frequently Asked Questions
 
@@ -585,7 +585,7 @@ In deep linking the following response codes are applicable to different scenari
 
 AllData widgets have a responsive design for optimal display in web browsers on desktop, tablet, and mobile devices. The widgets can also be integrated into a partner&#39;s native app. With the responsive design the widgets adjust seamlessly to mobile device screens.
 
-When integrating widgets in a native app, the parameter **host\_app\_type** is required to identify the type of native app implementation, passing a value of either &quot;ios&quot; or &quot;android.&quot;
+When integrating widgets in a native app, the parameter **host\_app\_type** is required to identify the type of native app implementation, passing a value of either “ios” or “android.”
 
 When identified as a native app integration, the **Cancel** and **Close** buttons in the widget will be removed and partners must manage the navigation back to their source application from the AllData widget when the user wants to close or cancel the widget.
 
@@ -711,7 +711,7 @@ To change the settings within the Safari browser on a desktop or laptop computer
 
 1. Go to the **Safari** menu and select **Preferences**.
 
-2. Go to the **Privacy** tab and uncheck the &quot;Prevent cross-site tracking&quot; and &quot;Block all cookies&quot; options.
+2. Go to the **Privacy** tab and uncheck the “Prevent cross-site tracking” and “Block all cookies” options.
 
 ##### iPad and iPhone instructions
 
@@ -834,7 +834,7 @@ Harvesting alerts are listed below by error code. The alert titles and descripti
 > The name or number for this account may have changed or this account may no longer be available.
 > 
 > Login to the _institution name_ website and check for the following:
-> 1. If the name or number for this account has changed, click the &quot;Match Accounts&quot; button to select the correct account from a list of available accounts.
+> 1. If the name or number for this account has changed, click the “Match Accounts” button to select the correct account from a list of available accounts.
 > 2. If this is a closed or inactive account, remove it from your profile.
 > 3. If the name or number for this account has not changed and this is not a closed or inactive account, contact customer support.
 
@@ -937,7 +937,7 @@ If the match process does not find any new accounts, the following message appea
 > **This institution requires additional action on an intermediate page (such as an updated agreement or additional 30questions) in order to complete the login.**
 > 
 > 1. Login to the _institution name_ website and follow any additional instructions.
-> 2. Click on the &quot;Update Accounts&quot; button to update all accounts at this institution.
+> 2. Click on the “Update Accounts” button to update all accounts at this institution.
 > 3. If your accounts still do not update, contact customer support.
 
 **User intervention required:** Clicking **Update Accounts** closes the overlay screen and initiates an account update.

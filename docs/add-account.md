@@ -1,4 +1,4 @@
-# How to Use AllData APIs and Add Account Widget for Various Use Cases
+# How to Use AllData® APIs and Add Account Widget for Various Use Cases
 
 # Introduction
 
