@@ -28,8 +28,8 @@
 # the delivery of this work
 ################################################################################
 header:
-  productionDescription: Fiserv has been in the data aggregation business for more than 20 years. This means some of the largest and most innovative organizations use AllData® Aggregation to maximize the power of financial data aggregation. Access consumer-permissioned data covering dozens of vertical markets and account types including bank accounts, liability accounts including credit cards, investment and retirement accounts, as well as insurance and billers.
-  whoIsItFor: Anyone looking to easily integrate financial data aggregation API's with new or existing applications, regardless of the underlying technology platform.
+  productionDescription: Fiserv has been in the data aggregation business for more than 20 years. This means some of the largest and most innovative organizations use AllData Aggregation to maximize the power of financial data aggregation. Access consumer-permissioned data covering dozens of vertical markets and account types including bank accounts, liability accounts including credit cards, investment and retirement accounts, as well as insurance and billers.
+  whoIsItFor: Anyone looking to easily integrate financial data aggregation APIs with new or existing applications, regardless of the underlying technology platform.
 featuredFeatures:
   - title: Account Verification
     description: >

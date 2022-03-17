@@ -1,4 +1,4 @@
-# Common Data Aggregation Use Cases and AllData API Solutions
+# Common Data Aggregation Use Cases and AllData® API Solutions
 
 # Introduction
 
@@ -6,7 +6,7 @@ The purpose of this document is to provide guidance to Fiserv partners on the or
 
 ## Overview
 
-In all instances noted below, the partner must first be created in the AllData system. Fiserv&#39;s professional services team creates the partner&#39;s administrative account and whitelists the partner&#39;s IP address.
+In all instances noted below, the partner must first be created in the AllData system. The Fiserv team creates the partner&#39;s administrative account and whitelists the partner&#39;s IP address.
 
 Each partner will have a partner ID and at least one home ID created in the AllData system. Some partners may choose to use multiple home IDs depending on different use cases. A partner can provision multiple customers (users) under its home ID. A user may have more than one financial institution account under his or her profile.
 
@@ -29,7 +29,7 @@ This use case is necessary for a partner to verify the bank account ownership of
 - [initiateAddAccounts](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/initiateAddAccounts)
 - [getAddAccountStatus](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getAddAccountStatus) (1..n)
 - [getNewAccounts](../api/?type=post&path=/WealthManagementWeb/ws/AccountMgmt/getNewAccounts)
-    * **Note:** This series of APIs only validates that the user can log in and has ownership of the account. If the partner requires routing and account numbers, see &quot;Add payment account&quot; below.
+    * **Note:** This series of APIs only validates that the user can log in and has ownership of the account. If the partner requires routing and account numbers, see “Add payment account” below.
 
 ### Balance verification
 
