@@ -6,7 +6,7 @@
 |       | •bull1 |        | ♥♦♣♠◘◙♪♫☼►◄↕‼¶§ | ║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠ |
 |       |        | ○bull2 | ▬↨↑↓→←∟↔▲▼xéîûá | Ñªº¿⌐¬½¼¡«»│┤╡╢╖╕╣  |
 |       |        |        | test html br <br> is this below?| valE4 |
-| too bad we can't use html breaks<br> • and do this <br> • with alt codes <br> ○ still can't do indents <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • html nbsp's work | | | | |
+| too bad we can't use html breaks<p> • and do this </p> • with alt codes <br> ○ still can't do indents <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • html nbsp's work | | | | |
 |       |        |        | test alt-10 line break ◙ is this below? really doubt it |    |
 | | | | | |
 
