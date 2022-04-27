@@ -10,7 +10,7 @@
       {
         "version": "1.0.0",
         "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
+        "releaseNotesPath": "/release-notes/2022/april.md",
         "apiSpecFileNames": ["openapi"]
       }
   ],
