@@ -39,3 +39,6 @@
 - sections:
   - title: AllData Common Use Cases and API Solutions
     link: docs/alldata-common-use-cases.md
+- sections:
+  - title: Create an AllData API Sandbox
+    link: docs/AllData_sandbox_create.md
