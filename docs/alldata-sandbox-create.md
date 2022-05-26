@@ -1,10 +1,7 @@
 # AllData® API Sandbox Creation
-
-The Fiserv AllData Aggregation sandbox lets you experiment with AllData Aggregation APIs in your own customizable test environment.
+ 
+The Fiserv AllData Aggregation Sandbox is a free and fully-featured platform for application development that lets you experiment with our APIs in your own test environment.
 
 **[Click here](https://sandboxautomation-ui-dev.apps.fog.onefiserv.net/)** to create your free account.
 
-To purchase AllData APIs, please contact us:
-- 800-NEED-PHONE-NUMBER
-- email address with mailto link
-- ...or link to some existing contact info page?
+If you would like to learn more about using AllData Aggregation to grow your business, email us at [dataverify@fiserv.com](mailto:dataverify@fiserv.com?subject=AllData%20Aggregation%20APIs), and a solutions expert will contact you.
