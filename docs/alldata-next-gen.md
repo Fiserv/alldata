@@ -1,3 +1,7 @@
+---
+tags: [account aggregation, account aggregation service, account aggregation software, account balances, ACH account verification, ACH transaction, aggregate data, aggregated data, aggregation service, AllData, asset verification, bank account aggregation, bank account verification, bank verification, data aggregation, data aggregation tools, data aggregator, employment verification, finance technology, financial aggregator, identity verification, income verification, instant bank verification, personal finance management, proof of assets, verify account, verify bank account, verify employment, verify income]
+---
+
 # AllData® Next-Gen Widget Integration Guide
 
 ## Executive Summary
